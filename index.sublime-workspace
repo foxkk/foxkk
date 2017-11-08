@@ -1,0 +1,241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wor",
+				"word-wrap"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"ms",
+				"op-ms\t-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';"
+			],
+			[
+				"pr",
+				"prompt〔function〕"
+			],
+			[
+				"min",
+				"min-width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 144.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 737.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/projects/github/foxkk/images",
+		"/F/projects/github/foxkk/scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/foxkk/Desktop/index.html",
+		"/D/foxkk/scripts/foxkk.js",
+		"/F/projects/github/foxkk/index.html",
+		"/D/foxkk/index.html",
+		"/D/foxkk/sftp-config.json",
+		"/D/foxkk/phpstorm2017_settings.jar",
+		"/E/download/ionic-master/demos/src/item/pages/page-one/page-one.ts",
+		"/E/download/ionic-master/demos/src/item/pages/page-one/page-one.html",
+		"/E/download/ionic-master/scripts/demos/index.html",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/D/foxkk/default.html",
+		"/E/download/ionic-master/demos/src/datetime/pages/page-one/page-one.html",
+		"/D/foxkk/styles/foxkk.css",
+		"/E/download/ionic-master/src/components/card/test/advanced/app/main.ts",
+		"/E/download/ionic-master/src/components/card/test/advanced/app/app.component.ts",
+		"/D/foxkk/styles/sftp-config.json",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/C/Users/foxkk/Desktop/PHP岗位.txt",
+		"/C/Users/foxkk/Desktop/PHP简历.txt",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/foxkk/Desktop/index.css",
+		"/C/Users/foxkk/Desktop/Thunder.lnk",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/cssrem/cssrem.sublime-settings",
+		"/C/Users/foxkk/AppData/Roaming/Sublime Text 3/Packages/User/cssrem.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 77.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 584.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
