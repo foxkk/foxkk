@@ -12,6 +12,5 @@
  * +----------------------------------------------------------------------
  **/
 $(document).ready(function(){
-
+   alert($('.resume').outerHTML);
 });
-window.alert('hucheng');
