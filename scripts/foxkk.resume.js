@@ -15,7 +15,7 @@ $(document).ready(function(){
    alert($('.resume').height());
 });
 window.foxkk = {
-    alert : function(){
-        console.log('hucheng');
+    init : function(){
+        console.error('hucheng');
     }
 }.alert();
