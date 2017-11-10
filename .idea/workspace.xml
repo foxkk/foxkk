@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/foxkk.resume.js" afterPath="$PROJECT_DIR$/scripts/foxkk.resume.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.reset.css" afterPath="$PROJECT_DIR$/styles/foxkk.reset.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foxkk.resume.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="foxkk.resume.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/foxkk.resume.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foxkk.reset.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="foxkk.reset.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="672">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -101,9 +101,9 @@
       <list>
         <option value="$PROJECT_DIR$/default.php" />
         <option value="$PROJECT_DIR$/styles/foxkk.resume.css" />
-        <option value="$PROJECT_DIR$/styles/foxkk.reset.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/foxkk.resume.js" />
+        <option value="$PROJECT_DIR$/styles/foxkk.reset.css" />
       </list>
     </option>
   </component>
@@ -202,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510214012346</updated>
       <workItem from="1510214013462" duration="4760000" />
-      <workItem from="1510285280750" duration="6039000" />
+      <workItem from="1510285280750" duration="6162000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -222,7 +222,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10799000" />
+    <option name="totallyTimeSpent" value="10922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="3858" height="2140" extended-state="6" />
@@ -361,14 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -399,7 +391,15 @@
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
