@@ -12,5 +12,5 @@
  * +----------------------------------------------------------------------
  **/
 $(document).ready(function(){
-   alert($('.resume').outerHTML);
+   alert($('.resume').height());
 });
