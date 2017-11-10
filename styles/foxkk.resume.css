@@ -11,3 +11,8 @@
  * | @[copyright] : foxkk@copyright
  * +----------------------------------------------------------------------
  **/
+.resume{
+    width:100px;
+    height:50px;
+    border:1px solid orangered;
+}
