@@ -12,5 +12,6 @@
  * +----------------------------------------------------------------------
  **/
 $(document).ready(function(){
-    alert('hucheng');
+
 });
+window.alert('hucheng');
