@@ -18,4 +18,4 @@ window.foxkk = {
     init : function(){
         console.error('hucheng');
     }
-}.alert();
+}.init();
