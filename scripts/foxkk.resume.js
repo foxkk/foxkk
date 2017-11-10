@@ -74,10 +74,8 @@ window.foxkk = {
         return this;
     },
     'initContainer' : function(element){
-        var width = this.device_width >= this.max_width ? this.max_width : this.device_width;
         var height = this.device_height;
         kk(element).css({
-            'width':width+'px',
             'height' : height+'px',
         });
         return this;
