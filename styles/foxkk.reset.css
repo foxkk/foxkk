@@ -11,7 +11,7 @@
  * | @[copyright] : foxkk@copyright
  * +----------------------------------------------------------------------
  **/
-*{
+*,body{
     margin:0px;
     padding:0px;
     background: #000;
