@@ -11,11 +11,13 @@
  * | @[copyright] : foxkk@copyright
  * +----------------------------------------------------------------------
  **/
+console.time('总运行时间:');
 $(document).ready(function(){
-   alert($('.resume').height());
+   console.log($('.resume').height());
 });
 window.foxkk = {
     init : function(){
         console.error('hucheng');
     }
 }.init();
+console.timeEnd('总运行时间:');
