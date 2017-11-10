@@ -24,6 +24,19 @@ window.foxkk = {
         alert('height : '+ this.device_height + '  -- width : ' +this.device_width);
         return this;
     },
+    'initRem' : function(window,document){
+        var element = document.documentElement;
+        var dpr = window.devicePixelRatio || 1;
+        if (document.body) {
+            document.body.style.fontSize = (12 * dpr) + 'px'
+        } else {
+            document.addEventListener('DOMContentLoaded', setBodyFontSize)
+        }
+        var rem = element.clientWidth / 10
+        element.style.fontSize = rem + 'px'
+
+        return this;
+    },
     'initResume' : function(){
         console.log('-------------------- 求职简历 ----------------------------------');
         console.log('------------------ 姓名 : 胡呈 ---------------------------------');
@@ -32,5 +45,6 @@ window.foxkk = {
         console.log('------------------ 邮箱 : hucheng95@126.com --------------------');
         return this;
     }
-}.initResume().init();
+};
+foxkk.initResume().init();
 console.timeEnd('总运行时间:');
