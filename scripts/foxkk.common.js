@@ -19,7 +19,7 @@ window.foxkk = {
     'max_width':960,
     'max_height' :1024,
     'min_width' : 320,
-    'min_height' : 640,
+    'min_height' : 480,
     'device_width' : 0,
     'device_height' : 0,
     'init' : function(){
