@@ -32,17 +32,27 @@
     width:80%;
     height:38.2%;
     line-height:inherit;
+    border:1px solid green;
     overflow: hidden;
 }
-.resume > .top > a {
+.resume > .top > span {
     position: relative;
-    top:50%;
+    display: inline-block;
+    top:40%;
     font-size:2rem;
     color:rgb(189,214,57);
     -webkit-animation: neon1 5s ease-in-out infinite alternate;
     -moz-animation: neon1 5s ease-in-out infinite alternate;
     animation: neon1 5s ease-in-out infinite alternate;
-   /* text-shadow: 0.055559rem 0.055559rem rgb(240,135,29),0.1666667rem 0.1666667rem rgb(72,192,234),9px 9px 2px rgb(255,255,255);*/
+   /*text-shadow: 0.055559rem 0.055559rem rgb(240,135,29),0.1666667rem 0.1666667rem rgb(72,192,234),9px 9px 2px rgb(255,255,255);*/
+}
+.resume > .top > span:nth-child(1){
+    position: relative;
+    top:38%;
+    display: block;
+}
+.resume > .top > span:nth-child(6){
+    display: block;
 }
 /*
     orange  color:rgb(240,135,29);
