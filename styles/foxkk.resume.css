@@ -39,9 +39,10 @@
     top:50%;
     font-size:2rem;
     color:rgb(189,214,57);
-    -webkit-animation: first 5s linear 1s 1;
-    animation: first 5s linear 1s 1;
-    text-shadow: 0.055559rem 0.055559rem rgb(240,135,29),0.1666667rem 0.1666667rem rgb(72,192,234),9px 9px 2px rgb(255,255,255);
+    -webkit-animation: neon1 5s ease-in-out infinite alternate;
+    -moz-animation: neon1 5s ease-in-out infinite alternate;
+    animation: neon1 5s ease-in-out infinite alternate;
+   /* text-shadow: 0.055559rem 0.055559rem rgb(240,135,29),0.1666667rem 0.1666667rem rgb(72,192,234),9px 9px 2px rgb(255,255,255);*/
 }
 /*
     orange  color:rgb(240,135,29);
@@ -50,25 +51,35 @@
     white :  color:rgb(255,255,255);
 
 */
-@keyframes first {
-    0%{
+@-webkit-keyframes neon1 {
+    from {
+        -webkit-transform: scale(1.0);
         color:rgb(240,135,29);
-        transform: translate(1024px,-5px) scale(1.2) rotate(45deg);
     }
-    25%{
+    to {
+        -webkit-transform: scale(1.2);
         color:rgb(72,192,234);
     }
-    50%{
-        color:rgb(189,214,57);
+}
+@-moz-keyframes neon1 {
+    from {
+        -moz-transform: scale(1.0);
+        color:rgb(240,135,29);
     }
-    75%{
-        color:rgb(255,255,255);
+    to {
+        -moz-transform: scale(1.2);
+        color:rgb(72,192,234);
     }
-    100%{
-        color:rgb(189,214,57);
-        transform: translate(0px,-5px) scale(1.2) rotate(45deg);
+}
+@keyframes neon1 {
+    from {
+        transform: scale(1.0);
+        color:rgb(240,135,29);
     }
-
+    to {
+        transform: scale(1.2);
+        color:rgb(72,192,234);
+    }
 }
 .resume > .top > a:nth-child(2):hover{
     -webkit-transform: translate(1024px,-5px) scale(1.2) rotate(45deg);
