@@ -48,8 +48,7 @@ window.foxkk = {
         var height = this.device_height <= this.min_height ? this.min_height: this.device_height;
         k(element).css({
             'height' : height+'px',
-            'line-height':'100%',
-            'font-size' : '1.5rem'
+            'line-height':height+'px',
         });
         return this;
     },
@@ -60,6 +59,7 @@ window.foxkk = {
         k(window).resize(function(){
             foxkk.initContainer(element);
             foxkk.initRem();
+            foxkk.initContainer(element);
         });
     }
 };

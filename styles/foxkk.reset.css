@@ -12,8 +12,8 @@
  * +----------------------------------------------------------------------
  **/
 /*font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;*/
-* {  margin:0px; padding:0px; border:0; color:rgb(255,255,255); font-size:48px; text-align: center; }
+* {  margin:0; padding:0; color:rgb(255,255,255); }
 html {  font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;  }
 body { height:100%; background:rgb(27,3,3); }
 img { display:block; border:0; }
-a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; color:rgb(255,255,255); height:auto; }
+a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; color:rgb(255,255,255); }
