@@ -43,7 +43,7 @@
     overflow: hidden;
     line-height:5rem;
     border-radius: 50%;
-    border:0.5rem solid black;
+    border:0.5rem solid white;
     text-align: center;
     -webkit-animation: resume 6.18s linear 0.5s 1 normal forwards;
     -moz-animation: resume 6.18s linear 0.5s 1 normal forwards;
@@ -215,6 +215,7 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     border:1px solid rgb(72,192,234);
+    border:0.05rem solid rgb(72,192,234);
 }
 .resume > .content > .title {
     font-size:1.17rem;
