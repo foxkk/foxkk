@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.resume.css" afterPath="$PROJECT_DIR$/styles/foxkk.resume.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +62,8 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1290">
-                  <caret line="231" column="14" lean-forward="true" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
+                <state relative-caret-position="995">
+                  <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
                   <folding>
                     <element signature="e#871#1314#0" expanded="false" />
                     <element signature="e#1315#2828#0" expanded="false" />
@@ -73,8 +72,7 @@
                     <element signature="e#5871#5937#0" expanded="false" />
                     <element signature="e#5965#6116#0" expanded="false" />
                     <element signature="e#6164#6216#0" expanded="false" />
-                    <element signature="e#6264#6470#0" expanded="false" />
-                    <element signature="e#6499#6576#0" expanded="false" />
+                    <element signature="e#6560#6637#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -296,7 +294,7 @@
       <workItem from="1510712263858" duration="8881000" />
       <workItem from="1510731993951" duration="14508000" />
       <workItem from="1510791070736" duration="15735000" />
-      <workItem from="1510831038494" duration="7985000" />
+      <workItem from="1510831038494" duration="8240000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -316,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101953000" />
+    <option name="totallyTimeSpent" value="102208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="132" width="2854" height="1915" extended-state="0" />
@@ -434,8 +432,7 @@
             <element signature="e#5871#5937#0" expanded="false" />
             <element signature="e#5965#6116#0" expanded="false" />
             <element signature="e#6164#6216#0" expanded="false" />
-            <element signature="e#6264#6470#0" expanded="false" />
-            <element signature="e#6499#6576#0" expanded="false" />
+            <element signature="e#6560#6637#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -689,10 +686,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="231" column="14" lean-forward="true" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
+        <state relative-caret-position="995">
+          <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
           <folding>
             <element signature="e#871#1314#0" expanded="false" />
             <element signature="e#1315#2828#0" expanded="false" />
@@ -701,17 +706,8 @@
             <element signature="e#5871#5937#0" expanded="false" />
             <element signature="e#5965#6116#0" expanded="false" />
             <element signature="e#6164#6216#0" expanded="false" />
-            <element signature="e#6264#6470#0" expanded="false" />
-            <element signature="e#6499#6576#0" expanded="false" />
+            <element signature="e#6560#6637#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>

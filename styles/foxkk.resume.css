@@ -208,6 +208,8 @@
     height:1.2rem;
     line-height:1.2rem;
     color:rgb(72,192,234);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     border:0.05rem solid rgb(72,192,234);
 }
