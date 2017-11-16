@@ -25,6 +25,9 @@
     border:1px solid white;
     margin:0 auto;
     position: relative;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
 }
 .resume > .content
 {
@@ -233,7 +236,7 @@
     line-height:2rem;
     font-weight:bolder;
     overflow: hidden;
-    border:0.5rem solid red;
+    border:0.05rem solid rgb(203,75,108);
 }
 .base_info > .header > p
 {
