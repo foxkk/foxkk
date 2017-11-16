@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.resume.css" afterPath="$PROJECT_DIR$/styles/foxkk.resume.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +27,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6898913">
+    <splitter split-orientation="horizontal" split-proportion="0.5831655">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="882">
-                  <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+                <state relative-caret-position="1008">
+                  <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -62,13 +63,29 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+                <state relative-caret-position="1290">
+                  <caret line="231" column="14" lean-forward="true" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
                   <folding>
-                    <element signature="e#1276#2789#0" expanded="false" />
-                    <element signature="e#2790#4300#0" expanded="false" />
-                    <element signature="e#4301#5806#0" expanded="false" />
+                    <element signature="e#871#1314#0" expanded="false" />
+                    <element signature="e#1315#2828#0" expanded="false" />
+                    <element signature="e#2829#4339#0" expanded="false" />
+                    <element signature="e#4340#5845#0" expanded="false" />
+                    <element signature="e#5871#5937#0" expanded="false" />
+                    <element signature="e#5965#6116#0" expanded="false" />
+                    <element signature="e#6164#6216#0" expanded="false" />
+                    <element signature="e#6264#6470#0" expanded="false" />
+                    <element signature="e#6499#6576#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xxx.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/xxx.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="492">
+                  <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="42" selection-end-column="10" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -113,8 +130,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1008">
-                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state relative-caret-position="1092">
+                  <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -166,8 +183,8 @@
         <option value="$PROJECT_DIR$/swiper/xxx.html" />
         <option value="$PROJECT_DIR$/scripts/foxkk.common.js" />
         <option value="$PROJECT_DIR$/styles/foxkk.reset.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/foxkk.resume.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/foxkk.resume.css" />
       </list>
     </option>
@@ -279,7 +296,7 @@
       <workItem from="1510712263858" duration="8881000" />
       <workItem from="1510731993951" duration="14508000" />
       <workItem from="1510791070736" duration="15735000" />
-      <workItem from="1510831038494" duration="5713000" />
+      <workItem from="1510831038494" duration="7985000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -299,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99681000" />
+    <option name="totallyTimeSpent" value="101953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="132" width="2854" height="1915" extended-state="0" />
@@ -410,9 +427,15 @@
         <state relative-caret-position="714">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#1276#2789#0" expanded="false" />
-            <element signature="e#2790#4300#0" expanded="false" />
-            <element signature="e#4301#5806#0" expanded="false" />
+            <element signature="e#871#1314#0" expanded="false" />
+            <element signature="e#1315#2828#0" expanded="false" />
+            <element signature="e#2829#4339#0" expanded="false" />
+            <element signature="e#4340#5845#0" expanded="false" />
+            <element signature="e#5871#5937#0" expanded="false" />
+            <element signature="e#5965#6116#0" expanded="false" />
+            <element signature="e#6164#6216#0" expanded="false" />
+            <element signature="e#6264#6470#0" expanded="false" />
+            <element signature="e#6499#6576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
@@ -657,14 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -673,15 +681,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xxx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="42" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="1290">
+          <caret line="231" column="14" lean-forward="true" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
           <folding>
-            <element signature="e#1276#2789#0" expanded="false" />
-            <element signature="e#2790#4300#0" expanded="false" />
-            <element signature="e#4301#5806#0" expanded="false" />
+            <element signature="e#871#1314#0" expanded="false" />
+            <element signature="e#1315#2828#0" expanded="false" />
+            <element signature="e#2829#4339#0" expanded="false" />
+            <element signature="e#4340#5845#0" expanded="false" />
+            <element signature="e#5871#5937#0" expanded="false" />
+            <element signature="e#5965#6116#0" expanded="false" />
+            <element signature="e#6164#6216#0" expanded="false" />
+            <element signature="e#6264#6470#0" expanded="false" />
+            <element signature="e#6499#6576#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
