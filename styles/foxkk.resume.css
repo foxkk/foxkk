@@ -234,6 +234,9 @@
     font-weight:bolder;
     overflow: hidden;
     border:0.05rem solid rgb(203,75,108);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 .base_info > .header > p
 {
