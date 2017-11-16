@@ -45,9 +45,9 @@
     border-radius: 50%;
     border:0.5rem solid white;
     text-align: center;
-    -webkit-animation: resume 6.18s linear 0.5s infinite;
-    -moz-animation: resume 6.18s linear 0.5s infinite;
-    animation: resume 6.18s linear 0.5s infinite;
+    -webkit-animation: resume 6.18s linear 0.5s infinite alternate;
+    -moz-animation: resume 6.18s linear 0.5s infinite alternate;
+    animation: resume 6.18s linear 0.5s infinite alternate;
 }
 @-webkit-keyframes resume
 {
