@@ -59,19 +59,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1151">
-                  <caret line="217" column="38" lean-forward="true" selection-start-line="217" selection-start-column="38" selection-end-line="217" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#1425#2938#0" expanded="false" />
-                    <element signature="e#2939#4449#0" expanded="false" />
-                    <element signature="e#4450#5955#0" expanded="false" />
-                    <element signature="e#5981#6047#0" expanded="false" />
-                    <element signature="e#6075#6226#0" expanded="false" />
-                    <element signature="e#6709#6786#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="200">
+                  <caret line="70" column="52" lean-forward="true" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -99,7 +92,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="foxkk.reset.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="foxkk.reset.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="588">
@@ -153,6 +146,7 @@
       <find>foxk</find>
       <find>/a</find>
       <find>0rem</find>
+      <find>0.05</find>
     </findStrings>
     <replaceStrings>
       <replace>kk</replace>
@@ -160,6 +154,7 @@
       <replace>foxkk</replace>
       <replace>span</replace>
       <replace>0.1rem</replace>
+      <replace>0.09</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -292,7 +287,7 @@
       <workItem from="1510712263858" duration="8881000" />
       <workItem from="1510731993951" duration="14508000" />
       <workItem from="1510791070736" duration="15735000" />
-      <workItem from="1510831038494" duration="13774000" />
+      <workItem from="1510831038494" duration="14045000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -312,7 +307,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107742000" />
+    <option name="totallyTimeSpent" value="108013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="132" width="2854" height="1915" extended-state="0" />
@@ -422,14 +417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#1425#2938#0" expanded="false" />
-            <element signature="e#2939#4449#0" expanded="false" />
-            <element signature="e#4450#5955#0" expanded="false" />
-            <element signature="e#5981#6047#0" expanded="false" />
-            <element signature="e#6075#6226#0" expanded="false" />
-            <element signature="e#6709#6786#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -647,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -692,16 +672,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1151">
-          <caret line="217" column="38" lean-forward="true" selection-start-line="217" selection-start-column="38" selection-end-line="217" selection-end-column="38" />
-          <folding>
-            <element signature="e#1425#2938#0" expanded="false" />
-            <element signature="e#2939#4449#0" expanded="false" />
-            <element signature="e#4450#5955#0" expanded="false" />
-            <element signature="e#5981#6047#0" expanded="false" />
-            <element signature="e#6075#6226#0" expanded="false" />
-            <element signature="e#6709#6786#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="70" column="52" lean-forward="true" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>

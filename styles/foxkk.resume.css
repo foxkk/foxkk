@@ -27,7 +27,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     webkit-box-sizing: border-box;
-    border:0.05rem solid rgb(203,75,108);
+    border:0.09rem solid rgb(203,75,108);
 }
 .resume > .content
 {
@@ -214,7 +214,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border:0.05rem solid rgb(72,192,234);
+    border:0.09rem solid rgb(72,192,234);
     +border:1px solid rgb(72,192,234);
 }
 .resume > .content > .title {
@@ -235,7 +235,7 @@
     height:5rem;
     line-height:2rem;
     font-weight:bolder;
-    border:0.05rem solid rgb(203,75,108);
+    border:0.09rem solid rgb(203,75,108);
 }
 .base_info > .header > p
 {
@@ -252,5 +252,5 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border:0.05rem solid white;
+    border:0.09rem solid white;
 }
