@@ -22,12 +22,12 @@
 .container > div
 {
     width:98%;
-    border:1px solid white;
     margin:0 auto;
     position: relative;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     webkit-box-sizing: border-box;
+    border:0.05rem solid rgb(203,75,108);
 }
 .resume > .content
 {
@@ -235,7 +235,7 @@
     height:5rem;
     line-height:2rem;
     font-weight:bolder;
-    border:0.05rem solid yellow;
+    border:0.05rem solid rgb(203,75,108);
 }
 .base_info > .header > p
 {
