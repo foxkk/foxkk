@@ -233,7 +233,7 @@
     line-height:2rem;
     font-weight:bolder;
     overflow: hidden;
-    border:0.05rem solid white;
+    border:0.05rem solid white !important;
 }
 .base_info > .header > p
 {
