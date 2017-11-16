@@ -11,21 +11,24 @@
  * | @[copyright] : foxkk@copyright
  * +----------------------------------------------------------------------
  **/
-.container {
+.container
+{
     position:relative;
     margin:0 auto;
     max-width:960px;
     min-width:320px;
     border:1px solid white;
 }
-.resume {
+.resume
+{
     display: block;
     width:100%;
     height:1000px;
     line-height:1000px;
     border:1px solid blue;
 }
-.resume > .content {
+.resume > .content
+{
     width:10rem;
     height:10rem;
     margin:0 auto;
@@ -38,7 +41,8 @@
     -moz-animation: resume 2s linear 0.5s 1 normal forwards;
     animation: resume 5s linear 0.5s 1 normal forwards;
 }
-@-webkit-keyframes resume {
+@-webkit-keyframes resume
+{
     0%{
         -webkit-box-shadow:
                 0.1rem 0.1rem 0px rgb(211,73,50),
@@ -82,7 +86,8 @@
                 1rem -1rem 0px rgb(189,214,57);
     }
 }
-@-moz-keyframes resume {
+@-moz-keyframes resume
+{
     0%{
         -webkit-box-shadow:
                 0.1rem 0.1rem 0px rgb(211,73,50),
@@ -126,7 +131,8 @@
                 1rem -1rem 0px rgb(189,214,57);
     }
 }
-@keyframes resume {
+@keyframes resume
+{
     0%{
         -webkit-box-shadow:
                 0.1rem 0.1rem 0px rgb(211,73,50),
@@ -176,16 +182,26 @@
     width:100%;
     background:rgb(35,33,29);
 }
-.resume > .content > .name {
-
+.resume > .content > .name
+{
     font-size:2rem;
     font-weight:bolder;
     color:rgb(72,192,234);/*rgb(237,233,62)*/
     line-height:7rem;
     border-bottom:2px dashed white;
 }
+.resume > .content > .name > span:nth-child(1)
+{
+    font-size:1.2rem;
+    color:rgb(240,135,29);
+}
+.resume > .content > .name > span:nth-child(2)
+{
+    font-size:0.5rem;
+    color:rgb(245,246,198);
+}
 .resume > .content > .title {
-    font-size:1rem;
+    font-size:1.17rem;
     line-height:1.8rem;
     color:rgb(189,214,57);
 }

@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/exmaple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xxx.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/foxkk.common.js" afterPath="$PROJECT_DIR$/scripts/foxkk.common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/foxkk.resume.js" afterPath="$PROJECT_DIR$/scripts/foxkk.resume.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.reset.css" afterPath="$PROJECT_DIR$/styles/foxkk.reset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.resume.css" afterPath="$PROJECT_DIR$/styles/foxkk.resume.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,9 +27,19 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63314563">
+    <splitter split-orientation="horizontal" split-proportion="0.44905356">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="882">
+                  <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="foxkk.common.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/foxkk.common.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -59,9 +63,22 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="786">
-                  <caret line="176" column="29" lean-forward="true" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+                <state relative-caret-position="1269">
+                  <caret line="205" column="26" lean-forward="true" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="42">
+                    <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="30" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -93,8 +110,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+                <state relative-caret-position="882">
+                  <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
                   <folding />
                 </state>
               </provider>
@@ -144,10 +161,10 @@
         <option value="$PROJECT_DIR$/scripts/foxkk.object.js" />
         <option value="$PROJECT_DIR$/styles/exmaple.css" />
         <option value="$PROJECT_DIR$/swiper/xxx.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/foxkk.common.js" />
         <option value="$PROJECT_DIR$/scripts/foxkk.resume.js" />
         <option value="$PROJECT_DIR$/styles/foxkk.reset.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/foxkk.resume.css" />
       </list>
     </option>
@@ -259,7 +276,7 @@
       <workItem from="1510712263858" duration="8881000" />
       <workItem from="1510731993951" duration="14508000" />
       <workItem from="1510791070736" duration="15735000" />
-      <workItem from="1510831038494" duration="518000" />
+      <workItem from="1510831038494" duration="1509000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -279,7 +296,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94486000" />
+    <option name="totallyTimeSpent" value="95477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="132" width="2854" height="1915" extended-state="0" />
@@ -591,16 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="42">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/exmaple.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4578">
@@ -640,18 +647,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="882">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="176" column="29" lean-forward="true" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+        <state relative-caret-position="1269">
+          <caret line="205" column="26" lean-forward="true" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
           <folding />
         </state>
       </provider>
