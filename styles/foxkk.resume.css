@@ -197,8 +197,14 @@
 }
 .resume > .content > .name > span:nth-child(2)
 {
+    display: inline-block;
     font-size:0.5rem;
-    color:rgb(245,246,198);
+    width:1.2rem;
+    height:1.2rem;
+    line-height:1.2rem;
+    color:rgb(72,192,234);
+    border-radius: 50%;
+    border:0.05rem solid rgb(72,192,234);
 }
 .resume > .content > .title {
     font-size:1.17rem;

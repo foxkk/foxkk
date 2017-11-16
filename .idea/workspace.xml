@@ -34,7 +34,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="882">
-                  <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+                  <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -63,8 +63,8 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1269">
-                  <caret line="205" column="26" lean-forward="true" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
+                <state relative-caret-position="1185">
+                  <caret line="206" column="41" lean-forward="false" selection-start-line="206" selection-start-column="41" selection-end-line="206" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -110,8 +110,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="882">
-                  <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+                <state relative-caret-position="840">
+                  <caret line="20" column="72" lean-forward="true" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
                   <folding />
                 </state>
               </provider>
@@ -276,7 +276,7 @@
       <workItem from="1510712263858" duration="8881000" />
       <workItem from="1510731993951" duration="14508000" />
       <workItem from="1510791070736" duration="15735000" />
-      <workItem from="1510831038494" duration="1509000" />
+      <workItem from="1510831038494" duration="2344000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -296,7 +296,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95477000" />
+    <option name="totallyTimeSpent" value="96312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="132" width="2854" height="1915" extended-state="0" />
@@ -661,15 +661,15 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
-          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="205" column="26" lean-forward="true" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
+        <state relative-caret-position="1185">
+          <caret line="206" column="41" lean-forward="false" selection-start-line="206" selection-start-column="41" selection-end-line="206" selection-end-column="41" />
           <folding />
         </state>
       </provider>
