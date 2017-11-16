@@ -236,7 +236,7 @@
     line-height:2rem;
     font-weight:bolder;
     overflow: hidden;
-    border:0.05rem solid rgb(203,75,108);
+    border:0.05rem solid yellow;
 }
 .base_info > .header > p
 {

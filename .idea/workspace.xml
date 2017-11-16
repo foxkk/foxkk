@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/scripts/foxkk.resume.js" line="16" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="" />
+    <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.resume.css" afterPath="$PROJECT_DIR$/styles/foxkk.resume.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +62,8 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="787">
-                  <caret line="242" column="26" lean-forward="true" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
+                <state relative-caret-position="577">
+                  <caret line="237" column="21" lean-forward="true" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
                   <folding>
                     <element signature="e#762#947#0" expanded="false" />
                     <element signature="e#967#1410#0" expanded="false" />
@@ -294,7 +296,7 @@
       <workItem from="1510712263858" duration="8881000" />
       <workItem from="1510731993951" duration="14508000" />
       <workItem from="1510791070736" duration="15735000" />
-      <workItem from="1510831038494" duration="11480000" />
+      <workItem from="1510831038494" duration="11621000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -314,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105448000" />
+    <option name="totallyTimeSpent" value="105589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="132" width="2854" height="1915" extended-state="0" />
@@ -698,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="242" column="26" lean-forward="true" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
+        <state relative-caret-position="577">
+          <caret line="237" column="21" lean-forward="true" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
           <folding>
             <element signature="e#762#947#0" expanded="false" />
             <element signature="e#967#1410#0" expanded="false" />
