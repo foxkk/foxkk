@@ -237,7 +237,7 @@
 }
 .base_info > .header > p
 {
-    display: inline-block;
+    display: block;
     width:2rem;
     height:2rem;
     line-height:1.8rem;
