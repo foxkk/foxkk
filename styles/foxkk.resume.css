@@ -215,7 +215,7 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     border-radius: 50%;
-    border:0.05rem solid rgb(72,192,234);
+    border:2px solid rgb(72,192,234);
 }
 .resume > .content > .title {
     font-size:1.17rem;
