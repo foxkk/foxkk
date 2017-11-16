@@ -211,6 +211,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    border-radius: 50%;
     border:0.05rem solid rgb(72,192,234);
 }
 .resume > .content > .title {
@@ -231,13 +232,12 @@
     height:2rem;
     line-height:2rem;
     font-weight:bolder;
-    border-bottom:0.05rem solid rgb(203,75,108);
     overflow: hidden;
-
+    border:0.05rem solid rgb(203,75,108);
 }
 .base_info > .header > p
 {
-    display: block;
+    display: inline-block;
     width:2rem;
     height:2rem;
     line-height:1.8rem;
@@ -249,7 +249,6 @@
     transform: rotate(-45deg);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
     border-radius: 50%;
     border:0.05rem dashed white;
 }
