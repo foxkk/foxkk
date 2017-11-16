@@ -233,10 +233,7 @@
     line-height:2rem;
     font-weight:bolder;
     overflow: hidden;
-    border:0.05rem solid rgb(203,75,108);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    border:0.05rem solid white;
 }
 .base_info > .header > p
 {
@@ -253,5 +250,5 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border:0.05rem dashed white;
+    border:0.05rem solid white;
 }
