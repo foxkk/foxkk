@@ -4,7 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/scripts/foxkk.resume.js" line="16" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="" />
+    <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.reset.css" afterPath="$PROJECT_DIR$/styles/foxkk.reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.resume.css" afterPath="$PROJECT_DIR$/styles/foxkk.resume.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,21 +34,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.44737732">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="foxkk.common.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/foxkk.common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="26" />
+                <state relative-caret-position="1149">
+                  <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="foxkk.common.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/foxkk.common.js">
+          <file leaf-file-name="foxkk.object.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/foxkk.object.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2520">
-                  <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+                <state relative-caret-position="706">
+                  <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -50,8 +57,8 @@
           <file leaf-file-name="foxkk.resume.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/foxkk.resume.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -60,23 +67,27 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1092">
-                  <caret line="243" column="1" lean-forward="true" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
+                <state relative-caret-position="1044">
+                  <caret line="269" column="42" lean-forward="true" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
                   <folding>
                     <element signature="e#629#744#0" expanded="false" />
-                    <element signature="e#762#963#0" expanded="false" />
-                    <element signature="e#983#1429#0" expanded="false" />
-                    <element signature="e#1430#3168#0" expanded="false" />
-                    <element signature="e#3169#4910#0" expanded="false" />
-                    <element signature="e#4911#6644#0" expanded="false" />
-                    <marker date="1510884733125" expanded="false" signature="6670:6736" ph="{...}" />
-                    <marker date="1510884733125" expanded="false" signature="6764:6915" ph="{...}" />
-                    <marker date="1510884733125" expanded="false" signature="6963:7015" ph="{...}" />
-                    <marker date="1510884733125" expanded="false" signature="7063:7369" ph="{...}" />
-                    <marker date="1510884733125" expanded="false" signature="7398:7496" ph="{...}" />
-                    <marker date="1510884733125" expanded="false" signature="7508:7585" ph="{...}" />
-                    <marker date="1510884733125" expanded="false" signature="7607:7754" ph="{...}" />
-                    <marker date="1510884733125" expanded="false" signature="7780:8164" ph="{...}" />
+                    <element signature="e#762#967#0" expanded="false" />
+                    <element signature="e#987#1433#0" expanded="false" />
+                    <element signature="e#1434#3172#0" expanded="false" />
+                    <element signature="e#3173#4914#0" expanded="false" />
+                    <element signature="e#3207#3489#0" expanded="false" />
+                    <element signature="e#3497#3783#0" expanded="false" />
+                    <element signature="e#4915#6648#0" expanded="false" />
+                    <element signature="e#6674#6740#0" expanded="false" />
+                    <element signature="e#6768#6919#0" expanded="false" />
+                    <element signature="e#6967#7019#0" expanded="false" />
+                    <element signature="e#7067#7373#0" expanded="false" />
+                    <element signature="e#7402#7500#0" expanded="false" />
+                    <element signature="e#7528#7714#0" expanded="false" />
+                    <element signature="e#7726#7776#0" expanded="false" />
+                    <element signature="e#7853#8078#0" expanded="false" />
+                    <element signature="e#8110#8202#0" expanded="false" />
+                    <element signature="e#8243#8574#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -85,18 +96,8 @@
           <file leaf-file-name="foxkk.reset.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="588">
-                  <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="exmaple.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/styles/exmaple.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4578">
-                  <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+                <state relative-caret-position="714">
+                  <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -109,9 +110,12 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-                  <folding />
+                <state relative-caret-position="456">
+                  <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#1524#1530#0" expanded="true" />
+                    <element signature="e#1534#1540#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -138,6 +142,8 @@
       <find>0rem</find>
       <find>0.05</find>
       <find>rem 0.3rem</find>
+      <find>0.04rem</find>
+      <find>-45d</find>
     </findStrings>
     <replaceStrings>
       <replace>kk</replace>
@@ -147,6 +153,8 @@
       <replace>0.1rem</replace>
       <replace>0.09</replace>
       <replace>rem 0.2rem</replace>
+      <replace>0px</replace>
+      <replace>45d</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -165,9 +173,9 @@
         <option value="$PROJECT_DIR$/styles/exmaple.css" />
         <option value="$PROJECT_DIR$/swiper/xxx.html" />
         <option value="$PROJECT_DIR$/scripts/foxkk.common.js" />
-        <option value="$PROJECT_DIR$/styles/foxkk.reset.css" />
         <option value="$PROJECT_DIR$/scripts/foxkk.resume.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/foxkk.reset.css" />
         <option value="$PROJECT_DIR$/styles/foxkk.resume.css" />
       </list>
     </option>
@@ -181,10 +189,10 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="190" />
-    <option name="width" value="3329" />
-    <option name="height" value="1915" />
+    <option name="x" value="30" />
+    <option name="y" value="179" />
+    <option name="width" value="3361" />
+    <option name="height" value="1900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -204,14 +212,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="foxkk" type="b2602c69:ProjectViewProjectNode" />
               <item name="foxkk" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="foxkk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foxkk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="foxkk" type="b2602c69:ProjectViewProjectNode" />
@@ -227,6 +238,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,6 +251,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projects\github\foxkk\images" />
       <recent name="F:\projects\github\foxkk" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -280,7 +294,8 @@
       <workItem from="1510731993951" duration="14508000" />
       <workItem from="1510791070736" duration="15735000" />
       <workItem from="1510831038494" duration="15020000" />
-      <workItem from="1510882995263" duration="1938000" />
+      <workItem from="1510882995263" duration="7013000" />
+      <workItem from="1510911718719" duration="3864000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -300,17 +315,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110926000" />
+    <option name="totallyTimeSpent" value="119865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="190" width="3329" height="1915" extended-state="0" />
+    <frame x="30" y="179" width="3361" height="1900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08880666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08885496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03206997" sideWeight="0.5171138" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.032352943" sideWeight="0.5181679" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03206997" sideWeight="0.48288622" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.032352943" sideWeight="0.48183206" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -342,21 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/jquery-1.11.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2562">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
@@ -379,7 +379,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#1524#1530#0" expanded="true" />
+            <element signature="e#1534#1540#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -412,19 +415,23 @@
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#629#744#0" expanded="false" />
-            <element signature="e#762#963#0" expanded="false" />
-            <element signature="e#983#1429#0" expanded="false" />
-            <element signature="e#1430#3168#0" expanded="false" />
-            <element signature="e#3169#4910#0" expanded="false" />
-            <element signature="e#4911#6644#0" expanded="false" />
-            <marker date="1510884733125" expanded="false" signature="6670:6736" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="6764:6915" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="6963:7015" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7063:7369" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7398:7496" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7508:7585" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7607:7754" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7780:8164" ph="{...}" />
+            <element signature="e#762#967#0" expanded="false" />
+            <element signature="e#987#1433#0" expanded="false" />
+            <element signature="e#1434#3172#0" expanded="false" />
+            <element signature="e#3173#4914#0" expanded="false" />
+            <element signature="e#3207#3489#0" expanded="false" />
+            <element signature="e#3497#3783#0" expanded="false" />
+            <element signature="e#4915#6648#0" expanded="false" />
+            <element signature="e#6674#6740#0" expanded="false" />
+            <element signature="e#6768#6919#0" expanded="false" />
+            <element signature="e#6967#7019#0" expanded="false" />
+            <element signature="e#7067#7373#0" expanded="false" />
+            <element signature="e#7402#7500#0" expanded="false" />
+            <element signature="e#7528#7714#0" expanded="false" />
+            <element signature="e#7726#7776#0" expanded="false" />
+            <element signature="e#7853#8078#0" expanded="false" />
+            <element signature="e#8110#8202#0" expanded="false" />
+            <element signature="e#8243#8574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,50 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/foxkk.object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/exmaple.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4578">
-          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/foxkk.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/foxkk.resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xxx.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="42" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,39 +639,95 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="84">
             <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/exmaple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/foxkk.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1149">
+          <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/foxkk.object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="714">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#1524#1530#0" expanded="true" />
+            <element signature="e#1534#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/foxkk.resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="243" column="1" lean-forward="true" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
+        <state relative-caret-position="1044">
+          <caret line="269" column="42" lean-forward="true" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
           <folding>
             <element signature="e#629#744#0" expanded="false" />
-            <element signature="e#762#963#0" expanded="false" />
-            <element signature="e#983#1429#0" expanded="false" />
-            <element signature="e#1430#3168#0" expanded="false" />
-            <element signature="e#3169#4910#0" expanded="false" />
-            <element signature="e#4911#6644#0" expanded="false" />
-            <marker date="1510884733125" expanded="false" signature="6670:6736" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="6764:6915" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="6963:7015" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7063:7369" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7398:7496" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7508:7585" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7607:7754" ph="{...}" />
-            <marker date="1510884733125" expanded="false" signature="7780:8164" ph="{...}" />
+            <element signature="e#762#967#0" expanded="false" />
+            <element signature="e#987#1433#0" expanded="false" />
+            <element signature="e#1434#3172#0" expanded="false" />
+            <element signature="e#3173#4914#0" expanded="false" />
+            <element signature="e#3207#3489#0" expanded="false" />
+            <element signature="e#3497#3783#0" expanded="false" />
+            <element signature="e#4915#6648#0" expanded="false" />
+            <element signature="e#6674#6740#0" expanded="false" />
+            <element signature="e#6768#6919#0" expanded="false" />
+            <element signature="e#6967#7019#0" expanded="false" />
+            <element signature="e#7067#7373#0" expanded="false" />
+            <element signature="e#7402#7500#0" expanded="false" />
+            <element signature="e#7528#7714#0" expanded="false" />
+            <element signature="e#7726#7776#0" expanded="false" />
+            <element signature="e#7853#8078#0" expanded="false" />
+            <element signature="e#8110#8202#0" expanded="false" />
+            <element signature="e#8243#8574#0" expanded="false" />
           </folding>
         </state>
       </provider>
