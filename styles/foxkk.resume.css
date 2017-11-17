@@ -46,50 +46,6 @@
     -moz-animation: resume 6.18s linear 0.5s infinite alternate;
     animation: resume 6.18s linear 0.5s infinite alternate;
 }
-@-webkit-keyframes resume {
-    0%{
-        -webkit-box-shadow:
-                0.1rem 0.1rem 0.2rem 0.2rem rgb(211,73,50),
-                -0.1rem -0.1rem 0.2rem 0.2rem rgb(240,135,29),
-                -0.1rem 0.1rem 0.2rem 0.2rem rgb(72,192,234),
-                0.1rem -0.1rem 0.2rem 0.2rem rgb(189,214,57);
-    }
-    20%{
-        -webkit-box-shadow:
-                0.2rem 0.2rem 0.2rem 0.2rem rgb(211,73,50),
-                -0.2rem -0.2rem 0.2rem 0.2rem rgb(240,135,29),
-                -0.2rem 0.2rem 0.2rem 0.2rem rgb(72,192,234),
-                0.2rem -0.2rem 0.2rem 0.2rem rgb(189,214,57);
-    }
-    40%{
-        -webkit-box-shadow:
-                0.4rem 0.4rem 0.2rem 0.2rem rgb(211,73,50),
-                -0.4rem -0.4rem 0.2rem 0.2rem rgb(240,135,29),
-                -0.4rem 0.4rem 0.2rem 0.2rem rgb(72,192,234),
-                0.4rem -0.4rem 0.2rem 0.2rem rgb(189,214,57);
-    }
-    60%{
-        -webkit-box-shadow:
-                0.6rem 0.6rem 0.2rem 0.2rem rgb(211,73,50),
-                -0.6rem -0.6rem 0.2rem 0.2rem rgb(240,135,29),
-                -0.6rem 0.6rem 0.2rem 0.2rem rgb(72,192,234),
-                0.6rem -0.6rem 0.2rem 0.2rem rgb(189,214,57);
-    }
-    80%{
-        -webkit-box-shadow:
-                0.8rem 0.8rem 0.2rem 0.2rem rgb(211,73,50),
-                -0.8rem -0.8rem 0.2rem 0.2rem rgb(240,135,29),
-                -0.8rem 0.8rem 0.2rem 0.2rem rgb(72,192,234),
-                0.8rem -0.8rem 0.2rem 0.2rem rgb(189,214,57);
-    }
-    100%{
-        -webkit-box-shadow:
-                1rem 1rem 0.2rem 0.2rem rgb(211,73,50),
-                -1rem -1rem 0.2rem 0.2rem rgb(240,135,29),
-                -1rem 1rem 0.2rem 0.2rem rgb(72,192,234),
-                1rem -1rem 0.2rem 0.2rem rgb(189,214,57);
-    }
-}
 @-moz-keyframes resume {
     0%{
         -webkit-box-shadow:
@@ -100,38 +56,82 @@
     }
     20%{
         -webkit-box-shadow:
-                0.2rem 0.2rem 0.15rem 0.2rem rgb(211,73,50),
-                -0.2rem -0.2rem 0.15rem 0.2rem rgb(240,135,29),
-                -0.2rem 0.2rem 0.15rem 0.2rem rgb(72,192,234),
-                0.2rem -0.2rem 0.15rem 0.2rem rgb(189,214,57);
+                0.2rem 0.2rem 0.16rem 0.2rem rgb(211,73,50),
+                -0.2rem -0.2rem 0.16rem 0.2rem rgb(240,135,29),
+                -0.2rem 0.2rem 0.16rem 0.2rem rgb(72,192,234),
+                0.2rem -0.2rem 0.16rem 0.2rem rgb(189,214,57);
     }
     40%{
         -webkit-box-shadow:
-                0.4rem 0.4rem 0.2rem 0.2rem rgb(211,73,50),
-                -0.4rem -0.4rem 0.2rem 0.2rem rgb(240,135,29),
-                -0.4rem 0.4rem 0.2rem 0.2rem rgb(72,192,234),
-                0.4rem -0.4rem 0.2rem 0.2rem rgb(189,214,57);
+                0.4rem 0.4rem 0.12rem 0.2rem rgb(211,73,50),
+                -0.4rem -0.4rem 0.12rem 0.2rem rgb(240,135,29),
+                -0.4rem 0.4rem 0.12rem 0.2rem rgb(72,192,234),
+                0.4rem -0.4rem 0.12rem 0.2rem rgb(189,214,57);
     }
     60%{
         -webkit-box-shadow:
-                0.6rem 0.6rem 0.2rem 0.2rem rgb(211,73,50),
-                -0.6rem -0.6rem 0.2rem 0.2rem rgb(240,135,29),
-                -0.6rem 0.6rem 0.2rem 0.2rem rgb(72,192,234),
-                0.6rem -0.6rem 0.2rem 0.2rem rgb(189,214,57);
+                0.6rem 0.6rem 0.09rem 0.2rem rgb(211,73,50),
+                -0.6rem -0.6rem 0.09rem 0.2rem rgb(240,135,29),
+                -0.6rem 0.6rem 0.09rem 0.2rem rgb(72,192,234),
+                0.6rem -0.6rem 0.09rem 0.2rem rgb(189,214,57);
     }
     80%{
         -webkit-box-shadow:
-                0.8rem 0.8rem 0.05rem 0.2rem rgb(211,73,50),
-                -0.8rem -0.8rem 0.05rem 0.2rem rgb(240,135,29),
-                -0.8rem 0.8rem 0.05rem 0.2rem rgb(72,192,234),
-                0.8rem -0.8rem 0.05rem 0.2rem rgb(189,214,57);
+                0.8rem 0.8rem 0px 0.2rem rgb(211,73,50),
+                -0.8rem -0.8rem 0px 0.2rem rgb(240,135,29),
+                -0.8rem 0.8rem 0px 0.2rem rgb(72,192,234),
+                0.8rem -0.8rem 0px 0.2rem rgb(189,214,57);
     }
     100%{
         -webkit-box-shadow:
-                1rem 1rem 0rem 0.2rem rgb(211,73,50),
-                -1rem -1rem 0rem 0.2rem rgb(240,135,29),
-                -1rem 1rem 0rem 0.2rem rgb(72,192,234),
-                1rem -1rem 0rem 0.2rem rgb(189,214,57);
+                1rem 1rem 0px 0.2rem rgb(211,73,50),
+                -1rem -1rem 0px 0.2rem rgb(240,135,29),
+                -1rem 1rem 0px 0.2rem rgb(72,192,234),
+                1rem -1rem 0px 0.2rem rgb(189,214,57);
+    }
+}
+@-webkit-keyframes resume {
+    0%{
+        -webkit-box-shadow:
+                0.1rem 0.1rem 0.2rem 0.2rem rgb(211,73,50),
+                -0.1rem -0.1rem 0.2rem 0.2rem rgb(240,135,29),
+                -0.1rem 0.1rem 0.2rem 0.2rem rgb(72,192,234),
+                0.1rem -0.1rem 0.2rem 0.2rem rgb(189,214,57);
+    }
+    20%{
+        -webkit-box-shadow:
+                0.2rem 0.2rem 0.16rem 0.2rem rgb(211,73,50),
+                -0.2rem -0.2rem 0.16rem 0.2rem rgb(240,135,29),
+                -0.2rem 0.2rem 0.16rem 0.2rem rgb(72,192,234),
+                0.2rem -0.2rem 0.16rem 0.2rem rgb(189,214,57);
+    }
+    40%{
+        -webkit-box-shadow:
+                0.4rem 0.4rem 0.12rem 0.2rem rgb(211,73,50),
+                -0.4rem -0.4rem 0.12rem 0.2rem rgb(240,135,29),
+                -0.4rem 0.4rem 0.12rem 0.2rem rgb(72,192,234),
+                0.4rem -0.4rem 0.12rem 0.2rem rgb(189,214,57);
+    }
+    60%{
+        -webkit-box-shadow:
+                0.6rem 0.6rem 0.09rem 0.2rem rgb(211,73,50),
+                -0.6rem -0.6rem 0.09rem 0.2rem rgb(240,135,29),
+                -0.6rem 0.6rem 0.09rem 0.2rem rgb(72,192,234),
+                0.6rem -0.6rem 0.09rem 0.2rem rgb(189,214,57);
+    }
+    80%{
+        -webkit-box-shadow:
+                0.8rem 0.8rem 0px 0.2rem rgb(211,73,50),
+                -0.8rem -0.8rem 0px 0.2rem rgb(240,135,29),
+                -0.8rem 0.8rem 0px 0.2rem rgb(72,192,234),
+                0.8rem -0.8rem 0px 0.2rem rgb(189,214,57);
+    }
+    100%{
+        -webkit-box-shadow:
+                1rem 1rem 0px 0.2rem rgb(211,73,50),
+                -1rem -1rem 0px 0.2rem rgb(240,135,29),
+                -1rem 1rem 0px 0.2rem rgb(72,192,234),
+                1rem -1rem 0px 0.2rem rgb(189,214,57);
     }
 }
 @keyframes resume {
@@ -158,24 +158,24 @@
     }
     60%{
         -webkit-box-shadow:
-                0.6rem 0.6rem 0.08rem 0.2rem rgb(211,73,50),
-                -0.6rem -0.6rem 0.08rem 0.2rem rgb(240,135,29),
-                -0.6rem 0.6rem 0.08rem 0.2rem rgb(72,192,234),
-                0.6rem -0.6rem 0.08rem 0.2rem rgb(189,214,57);
+                0.6rem 0.6rem 0.09rem 0.2rem rgb(211,73,50),
+                -0.6rem -0.6rem 0.09rem 0.2rem rgb(240,135,29),
+                -0.6rem 0.6rem 0.09rem 0.2rem rgb(72,192,234),
+                0.6rem -0.6rem 0.09rem 0.2rem rgb(189,214,57);
     }
     80%{
         -webkit-box-shadow:
-                0.8rem 0.8rem 0.04rem 0.2rem rgb(211,73,50),
-                -0.8rem -0.8rem 0.04rem 0.2rem rgb(240,135,29),
-                -0.8rem 0.8rem 0.04rem 0.2rem rgb(72,192,234),
-                0.8rem -0.8rem 0.04rem 0.2rem rgb(189,214,57);
+                0.8rem 0.8rem 0px 0.2rem rgb(211,73,50),
+                -0.8rem -0.8rem 0px 0.2rem rgb(240,135,29),
+                -0.8rem 0.8rem 0px 0.2rem rgb(72,192,234),
+                0.8rem -0.8rem 0px 0.2rem rgb(189,214,57);
     }
     100%{
         -webkit-box-shadow:
-                1rem 1rem 0rem 0.2rem rgb(211,73,50),
-                -1rem -1rem 0rem 0.2rem rgb(240,135,29),
-                -1rem 1rem 0rem 0.2rem rgb(72,192,234),
-                1rem -1rem 0rem 0.2rem rgb(189,214,57);
+                1rem 1rem 0px 0.2rem rgb(211,73,50),
+                -1rem -1rem 0px 0.2rem rgb(240,135,29),
+                -1rem 1rem 0px 0.2rem rgb(72,192,234),
+                1rem -1rem 0px 0.2rem rgb(189,214,57);
     }
 }
 .resume > .content > div {
