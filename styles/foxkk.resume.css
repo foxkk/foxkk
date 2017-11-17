@@ -40,7 +40,7 @@
     background:rgb(35,33,15);
     margin-bottom:0.5rem;
 }
-.resume > .content {
+.container > .resume > .content {
     position: absolute;
     top:0;
     left:0;
