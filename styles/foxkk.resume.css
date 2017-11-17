@@ -16,7 +16,7 @@
     margin:0 auto;
     max-width:960px;
     min-width:320px;
-    border:1px solid white;
+    border:1px solid rgb(4,0,0);
     overflow: hidden;
 }
 .container > div {
