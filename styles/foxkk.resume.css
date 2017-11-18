@@ -277,7 +277,8 @@
 }
 .row_list  li {
     width:100%;
-    min-hight:2rem;
+    min-height: 3rem;
+    line-height:3rem;
     background:rgb(35,33,29);
     border:0.09rem solid rgb(25,19,22);
     overflow: hidden;
@@ -285,7 +286,7 @@
 .row_list  li > span {
     display:inline-block;
     background:rgb(35,33,29);
-    line-height:2rem;
+    line-height:3rem;
 }
 .row_list  li > span:nth-child(1) {
     height:100%;
