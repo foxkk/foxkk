@@ -322,19 +322,24 @@
 }
 .education > .content {
     margin-top:0.5rem;
-    height:30rem;
 }
 .school {
     width:100%;
-    height:2rem;
     font-size:1.2rem;
     text-align:center;
+    margin-top:0.5rem;
     line-height:2rem;
+    background: rgb(35,33,29);
+    border: 0.09rem solid rgb(25,19,22);
+    overflow: hidden;
 }
 .school > .title {
     position: relative;
     width:100%;
-    height:2rem;
+    line-height:3rem;
+    height:3rem;
+    background: rgb(35,33,29);
+    border-bottom: 0.09rem solid rgb(25,19,22);
 }
 .school > .title > span {
     position:absolute;
@@ -345,18 +350,33 @@
     margin:auto;
     display:inline-block;
 }
+.school > .major {
+    height:2rem;
+    width:100%;
+    background: rgb(35,33,29);
+    border-bottom: 0.09rem solid rgb(25,19,22);
+    overflow: hidden;
+}
+.school > .major > span {
+    display: inline-block;
+    width:48%;
+}
 .school > .title > span:nth-child(1) {
     width:30%;
     z-index:99;
-    border-top:0.1rem dashed orange;
-    border-bottom:0.1rem dashed orange;
-    background:rgb(4,0,0);
+    background: rgb(35,33,29);
+    border-top:0.1rem solid orange;
+    border-bottom:0.1rem solid orange;
 }
 .school > .title > .line {
     width:60%;
     height:0.09rem;
     background:orangered;
     border:0;
+}
+.school > .main {
+    text-align: left;
+    padding:0.5rem;
 }
 .num_list li{
     position:relative;
