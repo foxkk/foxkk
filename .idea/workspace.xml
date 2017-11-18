@@ -62,8 +62,8 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1364">
-                  <caret line="409" column="13" lean-forward="true" selection-start-line="409" selection-start-column="13" selection-end-line="409" selection-end-column="13" />
+                <state relative-caret-position="872">
+                  <caret line="327" column="21" lean-forward="true" selection-start-line="327" selection-start-column="21" selection-end-line="327" selection-end-column="21" />
                   <folding>
                     <element signature="e#629#771#0" expanded="false" />
                     <element signature="e#789#993#0" expanded="false" />
@@ -101,21 +101,21 @@
                     <element signature="e#9791#9811#0" expanded="false" />
                     <element signature="e#9832#9897#0" expanded="false" />
                     <element signature="e#9920#9946#0" expanded="false" />
-                    <element signature="e#9955#10158#0" expanded="false" />
-                    <element signature="e#10176#10337#0" expanded="false" />
-                    <element signature="e#10362#10481#0" expanded="false" />
-                    <element signature="e#10499#10636#0" expanded="false" />
-                    <element signature="e#10661#10706#0" expanded="false" />
-                    <element signature="e#10744#10884#0" expanded="false" />
-                    <element signature="e#10910#10988#0" expanded="false" />
-                    <element signature="e#11005#11050#0" expanded="false" />
-                    <element signature="e#11063#11236#0" expanded="false" />
-                    <element signature="e#11256#11361#0" expanded="false" />
-                    <element signature="e#11396#11432#0" expanded="false" />
-                    <element signature="e#11469#11504#0" expanded="false" />
-                    <element signature="e#11541#11576#0" expanded="false" />
-                    <element signature="e#11613#11649#0" expanded="false" />
-                    <element signature="e#11802#11894#0" expanded="false" />
+                    <element signature="e#10153#10314#0" expanded="false" />
+                    <element signature="e#10339#10458#0" expanded="false" />
+                    <element signature="e#10476#10613#0" expanded="false" />
+                    <element signature="e#10638#10683#0" expanded="false" />
+                    <element signature="e#10721#10861#0" expanded="false" />
+                    <element signature="e#10887#10965#0" expanded="false" />
+                    <element signature="e#10982#11027#0" expanded="false" />
+                    <element signature="e#11040#11213#0" expanded="false" />
+                    <element signature="e#11233#11338#0" expanded="false" />
+                    <element signature="e#11372#11408#0" expanded="false" />
+                    <element signature="e#11444#11479#0" expanded="false" />
+                    <element signature="e#11515#11550#0" expanded="false" />
+                    <element signature="e#11586#11622#0" expanded="false" />
+                    <element signature="e#11645#11773#0" expanded="false" />
+                    <element signature="e#11775#11867#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -347,7 +347,7 @@
       <workItem from="1510882995263" duration="7013000" />
       <workItem from="1510911718719" duration="19506000" />
       <workItem from="1510963938925" duration="3021000" />
-      <workItem from="1510981064705" duration="17395000" />
+      <workItem from="1510981064705" duration="17770000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -367,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155923000" />
+    <option name="totallyTimeSpent" value="156298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="70" width="2932" height="1960" extended-state="0" />
@@ -495,21 +495,21 @@
             <element signature="e#9791#9811#0" expanded="false" />
             <element signature="e#9832#9897#0" expanded="false" />
             <element signature="e#9920#9946#0" expanded="false" />
-            <element signature="e#9955#10158#0" expanded="false" />
-            <element signature="e#10176#10337#0" expanded="false" />
-            <element signature="e#10362#10481#0" expanded="false" />
-            <element signature="e#10499#10636#0" expanded="false" />
-            <element signature="e#10661#10706#0" expanded="false" />
-            <element signature="e#10744#10884#0" expanded="false" />
-            <element signature="e#10910#10988#0" expanded="false" />
-            <element signature="e#11005#11050#0" expanded="false" />
-            <element signature="e#11063#11236#0" expanded="false" />
-            <element signature="e#11256#11361#0" expanded="false" />
-            <element signature="e#11396#11432#0" expanded="false" />
-            <element signature="e#11469#11504#0" expanded="false" />
-            <element signature="e#11541#11576#0" expanded="false" />
-            <element signature="e#11613#11649#0" expanded="false" />
-            <element signature="e#11802#11894#0" expanded="false" />
+            <element signature="e#10153#10314#0" expanded="false" />
+            <element signature="e#10339#10458#0" expanded="false" />
+            <element signature="e#10476#10613#0" expanded="false" />
+            <element signature="e#10638#10683#0" expanded="false" />
+            <element signature="e#10721#10861#0" expanded="false" />
+            <element signature="e#10887#10965#0" expanded="false" />
+            <element signature="e#10982#11027#0" expanded="false" />
+            <element signature="e#11040#11213#0" expanded="false" />
+            <element signature="e#11233#11338#0" expanded="false" />
+            <element signature="e#11372#11408#0" expanded="false" />
+            <element signature="e#11444#11479#0" expanded="false" />
+            <element signature="e#11515#11550#0" expanded="false" />
+            <element signature="e#11586#11622#0" expanded="false" />
+            <element signature="e#11645#11773#0" expanded="false" />
+            <element signature="e#11775#11867#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="409" column="13" lean-forward="true" selection-start-line="409" selection-start-column="13" selection-end-line="409" selection-end-column="13" />
+        <state relative-caret-position="872">
+          <caret line="327" column="21" lean-forward="true" selection-start-line="327" selection-start-column="21" selection-end-line="327" selection-end-column="21" />
           <folding>
             <element signature="e#629#771#0" expanded="false" />
             <element signature="e#789#993#0" expanded="false" />
@@ -849,21 +849,21 @@
             <element signature="e#9791#9811#0" expanded="false" />
             <element signature="e#9832#9897#0" expanded="false" />
             <element signature="e#9920#9946#0" expanded="false" />
-            <element signature="e#9955#10158#0" expanded="false" />
-            <element signature="e#10176#10337#0" expanded="false" />
-            <element signature="e#10362#10481#0" expanded="false" />
-            <element signature="e#10499#10636#0" expanded="false" />
-            <element signature="e#10661#10706#0" expanded="false" />
-            <element signature="e#10744#10884#0" expanded="false" />
-            <element signature="e#10910#10988#0" expanded="false" />
-            <element signature="e#11005#11050#0" expanded="false" />
-            <element signature="e#11063#11236#0" expanded="false" />
-            <element signature="e#11256#11361#0" expanded="false" />
-            <element signature="e#11396#11432#0" expanded="false" />
-            <element signature="e#11469#11504#0" expanded="false" />
-            <element signature="e#11541#11576#0" expanded="false" />
-            <element signature="e#11613#11649#0" expanded="false" />
-            <element signature="e#11802#11894#0" expanded="false" />
+            <element signature="e#10153#10314#0" expanded="false" />
+            <element signature="e#10339#10458#0" expanded="false" />
+            <element signature="e#10476#10613#0" expanded="false" />
+            <element signature="e#10638#10683#0" expanded="false" />
+            <element signature="e#10721#10861#0" expanded="false" />
+            <element signature="e#10887#10965#0" expanded="false" />
+            <element signature="e#10982#11027#0" expanded="false" />
+            <element signature="e#11040#11213#0" expanded="false" />
+            <element signature="e#11233#11338#0" expanded="false" />
+            <element signature="e#11372#11408#0" expanded="false" />
+            <element signature="e#11444#11479#0" expanded="false" />
+            <element signature="e#11515#11550#0" expanded="false" />
+            <element signature="e#11586#11622#0" expanded="false" />
+            <element signature="e#11645#11773#0" expanded="false" />
+            <element signature="e#11775#11867#0" expanded="false" />
           </folding>
         </state>
       </provider>

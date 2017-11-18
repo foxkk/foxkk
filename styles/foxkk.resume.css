@@ -325,7 +325,6 @@
     width:100%;
     font-size:1.2rem;
     text-align:center;
-    margin-top:0.5rem;
     line-height:2rem;
     background: rgb(35,33,29);
     border: 0.09rem solid rgb(25,19,22);
@@ -393,16 +392,16 @@
     width:15%;
     text-align: center;
 }
-.num_list  li:nth-child(4n) > .num{
+.num_list li:nth-child(4n) > .num{
     background: rgb(230,111,27);
 }
-.num_list  li:nth-child(4n+1) > .num{
+.num_list li:nth-child(4n+1) > .num{
     background:rgb(72,192,234);
 }
-.num_list  li:nth-child(4n+2) > .num{
+.num_list li:nth-child(4n+2) > .num{
     background: rgb(211,73,50);
 }
-.num_list  li:nth-child(4n+3) > .num{
+.num_list li:nth-child(4n+3) > .num{
     background: rgb(189,214,57);
 }
 .num_list li >.content{
