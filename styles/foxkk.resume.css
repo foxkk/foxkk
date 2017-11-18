@@ -33,6 +33,13 @@
 }
 .container > div > .header {
     margin-top: 0.5rem;
+    font-size: 1.2rem;
+    width:100%;
+    height:3rem;
+    line-height:4.4rem;
+    font-weight:bolder;
+    border-bottom:0.09rem solid rgb(72,192,234);
+    background:rgb(35,33,29);
 }
 .resume {
     width:100%;
@@ -226,15 +233,6 @@
     font-weight:700;
     color:rgb(189,214,57);
 }
-.container > div > .header {
-    font-size: 1.2rem;
-    width:100%;
-    height:3rem;
-    line-height:4.4rem;
-    font-weight:bolder;
-    border-bottom:0.09rem solid rgb(72,192,234);
-    background:rgb(35,33,29);
-}
 .container > div > .header > p {
     display:inline-block;
     width:2rem;
@@ -392,7 +390,7 @@
     left:0;
     top:0;
     z-index:99;
-    width:10%;
+    width:15%;
     text-align: center;
 }
 .num_list  li:nth-child(4n) > .num{
@@ -409,7 +407,7 @@
 }
 .num_list li >.content{
     position: absolute;
-    left:11%;
+    left:15%;
     top:0;
     width:89%;
     line-height:2rem;
