@@ -16,7 +16,8 @@
     margin:0 auto;
     max-width:960px;
     min-width:320px;
-    border:1px solid rgb(0,0,0);
+    border:0.09rem solid rgb(4,0,0);
+    background:rgb(4,0,0);
     overflow: hidden;
 }
 .container > div {
@@ -39,12 +40,12 @@
     line-height:4.4rem;
     font-weight:bolder;
     border-bottom:0.09rem solid rgb(72,192,234);
-    background:rgb(35,33,29);
+    background:rgb(5,2,4);
 }
 .resume {
     width:100%;
     height:30rem;
-    background:rgb(35,33,15);
+    background:rgb(5,2,4);
     margin-bottom:0.5rem;
 }
 .container > .resume > .content {
@@ -62,52 +63,61 @@
     border-radius: 50%;
     border:0.5rem solid white;
     text-align: center;
-    -webkit-animation: resume 6.18s linear 0.5s infinite alternate;
-    -moz-animation: resume 6.18s linear 0.5s infinite alternate;
-    animation: resume 6.18s linear 0.5s infinite alternate;
+    transform: scale(0.3) rotate(0deg);
+    -webkit-transform: scale(0.3) rotate(0deg);
+    -moz-transform: scale(0.3) rotate(0deg);
+    -webkit-animation: resume 6.18s linear 0.5s 1 forwards;
+    -moz-animation: resume 6.18s linear 0.5s 1 forwards;
+    animation: resume 6.18s linear 0.5s 1 forwards;
 }
-@-moz-keyframes resume {
+@keyframes resume {
     0%{
-        -webkit-box-shadow:
+        box-shadow:
                 0.1rem 0.1rem 0.2rem 0.2rem rgb(211,73,50),
                 -0.1rem -0.1rem 0.2rem 0.2rem rgb(240,135,29),
                 -0.1rem 0.1rem 0.2rem 0.2rem rgb(72,192,234),
                 0.1rem -0.1rem 0.2rem 0.2rem rgb(189,214,57);
+        transform: scale(0.3) rotate(0deg);
     }
     20%{
-        -webkit-box-shadow:
+        box-shadow:
                 0.2rem 0.2rem 0.16rem 0.2rem rgb(211,73,50),
                 -0.2rem -0.2rem 0.16rem 0.2rem rgb(240,135,29),
                 -0.2rem 0.2rem 0.16rem 0.2rem rgb(72,192,234),
                 0.2rem -0.2rem 0.16rem 0.2rem rgb(189,214,57);
+        transform: scale(0.5) rotate(72deg);
     }
     40%{
-        -webkit-box-shadow:
+        box-shadow:
                 0.4rem 0.4rem 0.12rem 0.2rem rgb(211,73,50),
                 -0.4rem -0.4rem 0.12rem 0.2rem rgb(240,135,29),
                 -0.4rem 0.4rem 0.12rem 0.2rem rgb(72,192,234),
                 0.4rem -0.4rem 0.12rem 0.2rem rgb(189,214,57);
+        transform: scale(0.7) rotate(120deg);
     }
     60%{
-        -webkit-box-shadow:
+        box-shadow:
                 0.6rem 0.6rem 0.09rem 0.2rem rgb(211,73,50),
                 -0.6rem -0.6rem 0.09rem 0.2rem rgb(240,135,29),
                 -0.6rem 0.6rem 0.09rem 0.2rem rgb(72,192,234),
                 0.6rem -0.6rem 0.09rem 0.2rem rgb(189,214,57);
+        transform: scale(0.9) rotate(180deg);
     }
     80%{
-        -webkit-box-shadow:
+        box-shadow:
                 0.8rem 0.8rem 0px 0.2rem rgb(211,73,50),
                 -0.8rem -0.8rem 0px 0.2rem rgb(240,135,29),
                 -0.8rem 0.8rem 0px 0.2rem rgb(72,192,234),
                 0.8rem -0.8rem 0px 0.2rem rgb(189,214,57);
+        transform: scale(1.1) rotate(240deg);
     }
     100%{
-        -webkit-box-shadow:
+        box-shadow:
                 1rem 1rem 0px 0.2rem rgb(211,73,50),
                 -1rem -1rem 0px 0.2rem rgb(240,135,29),
                 -1rem 1rem 0px 0.2rem rgb(72,192,234),
                 1rem -1rem 0px 0.2rem rgb(189,214,57);
+        transform: scale(1.2) rotate(360deg);
     }
 }
 @-webkit-keyframes resume {
@@ -117,6 +127,7 @@
                 -0.1rem -0.1rem 0.2rem 0.2rem rgb(240,135,29),
                 -0.1rem 0.1rem 0.2rem 0.2rem rgb(72,192,234),
                 0.1rem -0.1rem 0.2rem 0.2rem rgb(189,214,57);
+        -webkit-transform: scale(0.3) rotate(0deg);
     }
     20%{
         -webkit-box-shadow:
@@ -124,6 +135,7 @@
                 -0.2rem -0.2rem 0.16rem 0.2rem rgb(240,135,29),
                 -0.2rem 0.2rem 0.16rem 0.2rem rgb(72,192,234),
                 0.2rem -0.2rem 0.16rem 0.2rem rgb(189,214,57);
+        -webkit-transform: scale(0.5) rotate(72deg);
     }
     40%{
         -webkit-box-shadow:
@@ -131,6 +143,7 @@
                 -0.4rem -0.4rem 0.12rem 0.2rem rgb(240,135,29),
                 -0.4rem 0.4rem 0.12rem 0.2rem rgb(72,192,234),
                 0.4rem -0.4rem 0.12rem 0.2rem rgb(189,214,57);
+        -webkit-transform: scale(0.7) rotate(120deg);
     }
     60%{
         -webkit-box-shadow:
@@ -138,6 +151,7 @@
                 -0.6rem -0.6rem 0.09rem 0.2rem rgb(240,135,29),
                 -0.6rem 0.6rem 0.09rem 0.2rem rgb(72,192,234),
                 0.6rem -0.6rem 0.09rem 0.2rem rgb(189,214,57);
+        -webkit-transform: scale(0.9) rotate(180deg);
     }
     80%{
         -webkit-box-shadow:
@@ -145,6 +159,7 @@
                 -0.8rem -0.8rem 0px 0.2rem rgb(240,135,29),
                 -0.8rem 0.8rem 0px 0.2rem rgb(72,192,234),
                 0.8rem -0.8rem 0px 0.2rem rgb(189,214,57);
+        -webkit-transform: scale(1.1) rotate(240deg);
     }
     100%{
         -webkit-box-shadow:
@@ -152,50 +167,57 @@
                 -1rem -1rem 0px 0.2rem rgb(240,135,29),
                 -1rem 1rem 0px 0.2rem rgb(72,192,234),
                 1rem -1rem 0px 0.2rem rgb(189,214,57);
+        -webkit-transform: scale(1.2) rotate(360deg);
     }
 }
-@keyframes resume {
+@-moz-keyframes resume {
     0%{
-        -webkit-box-shadow:
+        -moz-box-shadow:
                 0.1rem 0.1rem 0.2rem 0.2rem rgb(211,73,50),
                 -0.1rem -0.1rem 0.2rem 0.2rem rgb(240,135,29),
                 -0.1rem 0.1rem 0.2rem 0.2rem rgb(72,192,234),
                 0.1rem -0.1rem 0.2rem 0.2rem rgb(189,214,57);
+        -moz-transform: scale(0.3) rotate(0deg);
     }
     20%{
-        -webkit-box-shadow:
+        -moz-box-shadow:
                 0.2rem 0.2rem 0.16rem 0.2rem rgb(211,73,50),
                 -0.2rem -0.2rem 0.16rem 0.2rem rgb(240,135,29),
                 -0.2rem 0.2rem 0.16rem 0.2rem rgb(72,192,234),
                 0.2rem -0.2rem 0.16rem 0.2rem rgb(189,214,57);
+        -moz-transform: scale(0.5) rotate(72deg);
     }
     40%{
-        -webkit-box-shadow:
+        -moz-box-shadow:
                 0.4rem 0.4rem 0.12rem 0.2rem rgb(211,73,50),
                 -0.4rem -0.4rem 0.12rem 0.2rem rgb(240,135,29),
                 -0.4rem 0.4rem 0.12rem 0.2rem rgb(72,192,234),
                 0.4rem -0.4rem 0.12rem 0.2rem rgb(189,214,57);
+        -moz-transform: scale(0.7) rotate(120deg);
     }
     60%{
-        -webkit-box-shadow:
+        -moz-box-shadow:
                 0.6rem 0.6rem 0.09rem 0.2rem rgb(211,73,50),
                 -0.6rem -0.6rem 0.09rem 0.2rem rgb(240,135,29),
                 -0.6rem 0.6rem 0.09rem 0.2rem rgb(72,192,234),
                 0.6rem -0.6rem 0.09rem 0.2rem rgb(189,214,57);
+        -moz-transform: scale(0.9) rotate(180deg);
     }
     80%{
-        -webkit-box-shadow:
+        -moz-box-shadow:
                 0.8rem 0.8rem 0px 0.2rem rgb(211,73,50),
                 -0.8rem -0.8rem 0px 0.2rem rgb(240,135,29),
                 -0.8rem 0.8rem 0px 0.2rem rgb(72,192,234),
                 0.8rem -0.8rem 0px 0.2rem rgb(189,214,57);
+        -moz-transform: scale(1.1) rotate(240deg);
     }
     100%{
-        -webkit-box-shadow:
+        -moz-box-shadow:
                 1rem 1rem 0px 0.2rem rgb(211,73,50),
                 -1rem -1rem 0px 0.2rem rgb(240,135,29),
                 -1rem 1rem 0px 0.2rem rgb(72,192,234),
                 1rem -1rem 0px 0.2rem rgb(189,214,57);
+        -moz-transform: scale(1.2) rotate(360deg);
     }
 }
 .resume > .content > div {
@@ -251,28 +273,10 @@
 .base_info > .header {
     color:rgb(211,73,50);
 }
-.base_info > .content > .avatar{
-    position:relative;
-    margin-top:0.5rem;
-    margin-bottom:0.15rem;
-    overflow:hidden;
+.swiper-slide > img {
+    width:100%;
+}
 
-}
-.base_info > .content > .avatar > .mask {
-    position:absolute;
-    z-index:99;
-    top:0.5rem;
-    left:0.4rem;
-    width:2rem;
-    height:2rem;
-    background:orangered;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    line-height:2rem;
-}
 .row_list  li {
     width:100%;
     min-height: 3rem;
@@ -323,6 +327,7 @@
 }
 .school {
     width:100%;
+    margin-top:0.3rem;
     font-size:1.2rem;
     text-align:center;
     line-height:2rem;
@@ -348,7 +353,8 @@
     display:inline-block;
 }
 .school > .major {
-    height:2rem;
+    height:3rem;
+    line-height:3rem;
     width:100%;
     background: rgb(35,33,29);
     border-bottom: 0.09rem solid rgb(25,19,22);
@@ -408,7 +414,7 @@
     position: absolute;
     left:15%;
     top:0;
-    width:89%;
+    width:84%;
     line-height:2rem;
     height:4rem;
     padding:0 0.2rem;
