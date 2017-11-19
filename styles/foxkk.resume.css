@@ -392,8 +392,8 @@
 }
 .school:nth-child(4n+3) > .title > span:nth-child(1) {
     color:rgb(72,192,234);
-    border-top:0.1rem solid rgb(189,214,57);
-    border-bottom:0.1rem solid rgb(189,214,57);
+    border-top:0.1rem solid rgb(240,135,29);
+    border-bottom:0.1rem solid rgb(240,135,29);
 }
 .school:nth-child(4n+3) > .title > .line {
     background:rgb(211,73,50);
@@ -417,6 +417,7 @@
     top:0;
     z-index:99;
     width:15%;
+    font-size:2rem;
     text-align: center;
 }
 .num_list li:nth-child(4n) > .num{

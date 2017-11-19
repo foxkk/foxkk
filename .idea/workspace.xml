@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/foxkk.resume.js" afterPath="$PROJECT_DIR$/scripts/foxkk.resume.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.resume.css" afterPath="$PROJECT_DIR$/styles/foxkk.resume.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +52,8 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="274" column="1" lean-forward="true" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
+                <state relative-caret-position="1616">
+                  <caret line="419" column="19" lean-forward="true" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="19" />
                   <folding>
                     <element signature="e#629#802#0" expanded="false" />
                     <element signature="e#820#1024#0" expanded="false" />
@@ -101,13 +99,12 @@
                     <element signature="e#12159#12193#0" expanded="false" />
                     <element signature="e#12210#12255#0" expanded="false" />
                     <element signature="e#12268#12441#0" expanded="false" />
-                    <element signature="e#12461#12566#0" expanded="false" />
-                    <element signature="e#12600#12636#0" expanded="false" />
-                    <element signature="e#12672#12707#0" expanded="false" />
-                    <element signature="e#12743#12778#0" expanded="false" />
-                    <element signature="e#12814#12850#0" expanded="false" />
-                    <element signature="e#12873#13001#0" expanded="false" />
-                    <element signature="e#13003#13095#0" expanded="false" />
+                    <element signature="e#12620#12656#0" expanded="false" />
+                    <element signature="e#12692#12727#0" expanded="false" />
+                    <element signature="e#12763#12798#0" expanded="false" />
+                    <element signature="e#12834#12870#0" expanded="false" />
+                    <element signature="e#12893#13021#0" expanded="false" />
+                    <element signature="e#13023#13115#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -213,7 +210,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="691" />
     <option name="y" value="259" />
     <option name="width" value="2532" />
@@ -325,7 +322,7 @@
       <workItem from="1510963938925" duration="3021000" />
       <workItem from="1510981064705" duration="18562000" />
       <workItem from="1511066176133" duration="7686000" />
-      <workItem from="1511096652373" duration="2810000" />
+      <workItem from="1511096652373" duration="3368000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -345,10 +342,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167586000" />
+    <option name="totallyTimeSpent" value="168144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3856" height="2138" extended-state="7" />
+    <frame x="-8" y="-8" width="3856" height="2138" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08033827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -451,13 +448,12 @@
             <element signature="e#12159#12193#0" expanded="false" />
             <element signature="e#12210#12255#0" expanded="false" />
             <element signature="e#12268#12441#0" expanded="false" />
-            <element signature="e#12461#12566#0" expanded="false" />
-            <element signature="e#12600#12636#0" expanded="false" />
-            <element signature="e#12672#12707#0" expanded="false" />
-            <element signature="e#12743#12778#0" expanded="false" />
-            <element signature="e#12814#12850#0" expanded="false" />
-            <element signature="e#12873#13001#0" expanded="false" />
-            <element signature="e#13003#13095#0" expanded="false" />
+            <element signature="e#12620#12656#0" expanded="false" />
+            <element signature="e#12692#12727#0" expanded="false" />
+            <element signature="e#12763#12798#0" expanded="false" />
+            <element signature="e#12834#12870#0" expanded="false" />
+            <element signature="e#12893#13021#0" expanded="false" />
+            <element signature="e#13023#13115#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -740,10 +736,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="274" column="1" lean-forward="true" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
+        <state relative-caret-position="1616">
+          <caret line="419" column="19" lean-forward="true" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="19" />
           <folding>
             <element signature="e#629#802#0" expanded="false" />
             <element signature="e#820#1024#0" expanded="false" />
@@ -789,36 +808,12 @@
             <element signature="e#12159#12193#0" expanded="false" />
             <element signature="e#12210#12255#0" expanded="false" />
             <element signature="e#12268#12441#0" expanded="false" />
-            <element signature="e#12461#12566#0" expanded="false" />
-            <element signature="e#12600#12636#0" expanded="false" />
-            <element signature="e#12672#12707#0" expanded="false" />
-            <element signature="e#12743#12778#0" expanded="false" />
-            <element signature="e#12814#12850#0" expanded="false" />
-            <element signature="e#12873#13001#0" expanded="false" />
-            <element signature="e#13003#13095#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/swiper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1006">
-          <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#12620#12656#0" expanded="false" />
+            <element signature="e#12692#12727#0" expanded="false" />
+            <element signature="e#12763#12798#0" expanded="false" />
+            <element signature="e#12834#12870#0" expanded="false" />
+            <element signature="e#12893#13021#0" expanded="false" />
+            <element signature="e#13023#13115#0" expanded="false" />
           </folding>
         </state>
       </provider>
