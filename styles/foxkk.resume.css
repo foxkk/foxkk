@@ -276,7 +276,6 @@
 .swiper-slide > img {
     width:100%;
 }
-
 .row_list  li {
     width:100%;
     min-height: 3rem;
@@ -367,15 +366,37 @@
 .school > .title > span:nth-child(1) {
     width:30%;
     z-index:99;
+    font-weight:700;
     background: rgb(35,33,29);
-    border-top:0.1rem solid orange;
-    border-bottom:0.1rem solid orange;
 }
 .school > .title > .line {
     width:60%;
     height:0.09rem;
-    background:orangered;
     border:0;
+}
+.school:nth-child(4n+1) > .title > span:nth-child(1) {
+    color:rgb(211,73,50);
+    border-top:0.1rem solid rgb(72,192,234);
+    border-bottom:0.1rem solid rgb(72,192,234);
+}
+.school:nth-child(4n+1) > .title > .line {
+    background:rgb(189,214,57);
+}
+.school:nth-child(4n+2) > .title > span:nth-child(1) {
+    color:rgb(240,135,29);
+    border-top:0.1rem solid rgb(189,214,57);
+    border-bottom:0.1rem solid rgb(189,214,57);
+}
+.school:nth-child(4n+2) > .title > .line {
+    background:rgb(72,192,234);
+}
+.school:nth-child(4n+3) > .title > span:nth-child(1) {
+    color:rgb(72,192,234);
+    border-top:0.1rem solid rgb(189,214,57);
+    border-bottom:0.1rem solid rgb(189,214,57);
+}
+.school:nth-child(4n+3) > .title > .line {
+    background:rgb(211,73,50);
 }
 .school > .main {
     text-align: left;

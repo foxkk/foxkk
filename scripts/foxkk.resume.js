@@ -16,7 +16,7 @@ k(document).ready(function(){
     foxkk.init().initResume().initRem().initContainer('.resume1').initResize('.resume1');
     var swiper = new Swiper('.swiper-container', {
         autoHeight: true, //enable auto height
-        spaceBetween: 20,
+        spaceBetween: 0,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
