@@ -288,6 +288,7 @@
     line-height:2.3rem;
     text-align: center;
     font-size:0.9rem;
+    font-weight:500;
 }
 .base_info .swiper-slide:nth-child(3n) > .tip {
     background: rgb(72,192,234);
