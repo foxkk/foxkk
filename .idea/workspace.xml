@@ -75,8 +75,8 @@
           <file leaf-file-name="foxkk.resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="478" column="38" lean-forward="true" selection-start-line="478" selection-start-column="38" selection-end-line="478" selection-end-column="38" />
+                <state relative-caret-position="318">
+                  <caret line="473" column="16" lean-forward="true" selection-start-line="473" selection-start-column="16" selection-end-line="473" selection-end-column="16" />
                   <folding>
                     <element signature="e#629#802#0" expanded="false" />
                     <element signature="e#820#1024#0" expanded="false" />
@@ -380,7 +380,7 @@
       <workItem from="1511066176133" duration="7686000" />
       <workItem from="1511096652373" duration="4056000" />
       <workItem from="1511149727120" duration="3148000" />
-      <workItem from="1511179750121" duration="6504000" />
+      <workItem from="1511179750121" duration="6802000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -400,7 +400,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178484000" />
+    <option name="totallyTimeSpent" value="178782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="371" y="202" width="3221" height="1391" extended-state="0" />
@@ -830,8 +830,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="478" column="38" lean-forward="true" selection-start-line="478" selection-start-column="38" selection-end-line="478" selection-end-column="38" />
+        <state relative-caret-position="318">
+          <caret line="473" column="16" lean-forward="true" selection-start-line="473" selection-start-column="16" selection-end-line="473" selection-end-column="16" />
           <folding>
             <element signature="e#629#802#0" expanded="false" />
             <element signature="e#820#1024#0" expanded="false" />
