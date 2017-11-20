@@ -273,7 +273,31 @@
 .base_info > .header {
     color:rgb(211,73,50);
 }
-.swiper-slide > img {
+.base_info .swiper-slide {
+    overflow: hidden;
+}
+.base_info .swiper-slide > .tip {
+    position: absolute;
+    -webkit-transform: translate(-35%,0) rotate(-45deg);
+    -moz-transform: translate(-35%,0) rotate(-45deg);
+    -ms-transform: translate(-35%,0) rotate(-45deg);
+    -o-transform: translate(-35%,0) rotate(-45deg);
+    transform: translate(-35%,0) rotate(-45deg);
+    width:20%;
+    height:2rem;
+    line-height:2rem;
+    text-align: center;
+}
+.base_info .swiper-slide:nth-child(3n) > .tip {
+    background: rgb(72,192,234);
+}
+.base_info .swiper-slide:nth-child(3n+1) > .tip {
+    background: rgb(189,214,57);
+}
+.base_info .swiper-slide:nth-child(3n+2) > .tip {
+    background: rgb(240,135,29);
+}
+.base_info .swiper-slide > img {
     width:100%;
 }
 .row_list  li {
