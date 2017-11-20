@@ -278,12 +278,12 @@
 }
 .base_info .swiper-slide > .tip {
     position: absolute;
-    -webkit-transform: translate(-35%,-10%) rotate(-45deg);
-    -moz-transform: translate(-35%,-10%) rotate(-45deg);
-    -ms-transform: translate(-35%,-10%) rotate(-45deg);
-    -o-transform: translate(-35%,-10%) rotate(-45deg);
-    transform: translate(-35%,-10%) rotate(-45deg);
-    width:20%;
+    -webkit-transform: translate(-35%,0) rotate(-45deg);
+    -moz-transform: translate(-35%,0) rotate(-45deg);
+    -ms-transform: translate(-35%,0) rotate(-45deg);
+    -o-transform: translate(-35%,0) rotate(-45deg);
+    transform: translate(-35%,0) rotate(-45deg);
+    width:30%;
     height:2rem;
     line-height:2.3rem;
     text-align: center;
