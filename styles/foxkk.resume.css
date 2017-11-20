@@ -372,6 +372,9 @@
 .school > .title > .line {
     width:60%;
     height:0.09rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     border:0;
 }
 .school:nth-child(4n+1) > .title > span:nth-child(1) {
