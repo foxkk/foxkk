@@ -39,13 +39,52 @@
     height:3rem;
     line-height:4.4rem;
     font-weight:bolder;
-    border-bottom:0.09rem solid rgb(72,192,234);
     background:rgb(5,2,4);
+}
+.container > div > .header > p {
+    display:inline-block;
+    width:2rem;
+    height:2rem;
+    line-height:2rem;
+    font-size:1.8rem;
+    text-align: center; /*rgb(203,75,108)*/
+}
+.container > div:nth-child(4n) > .header {
+    border-bottom:0.09rem solid rgb(211,73,50);
+    color:rgb(189,214,57);
+}
+.container > div:nth-child(4n) > .header > p {
+    color: rgb(211,73,50);
+    border-bottom:0.2rem solid rgb(189,214,57);
+}
+.container > div:nth-child(4n+1) > .header {
+    border-bottom:0.09rem solid rgb(189,214,57);
+    color:rgb(72,192,234);
+}
+.container > div:nth-child(4n+1) > .header > p {
+    color: rgb(211,73,50);
+    border-bottom:0.2rem solid rgb(72,192,234);
+}
+.container > div:nth-child(4n+2) > .header {
+    border-bottom:0.09rem solid rgb(72,192,234);
+    color:rgb(240,135,29);
+}
+.container > div:nth-child(4n+2) > .header > p {
+    color: rgb(72,192,234);
+    border-bottom:0.2rem solid rgb(240,135,29);
+}
+.container > div:nth-child(4n+3) > .header {
+    border-bottom:0.09rem solid rgb(240,135,29);
+    color:rgb(211,73,50);
+}
+.container > div:nth-child(4n+3) > .header > p {
+    color: rgb(240,135,29);
+    border-bottom:0.2rem solid rgb(211,73,50);
 }
 .resume {
     width:100%;
     height:30rem;
-    background:rgb(5,2,4);
+    background:rgb(35,33,29);
     margin-bottom:0.5rem;
 }
 .container > .resume > .content {
@@ -254,16 +293,6 @@
     line-height:1.8rem;
     font-weight:700;
     color:rgb(189,214,57);
-}
-.container > div > .header > p {
-    display:inline-block;
-    width:2rem;
-    height:2rem;
-    line-height:2rem;
-    font-size:1.8rem;
-    text-align: center;
-    color: rgb(72,192,234);
-    border-bottom:0.2rem solid rgb(240,135,29);/*rgb(203,75,108)*/
 }
 .base_info {
     height:auto;
