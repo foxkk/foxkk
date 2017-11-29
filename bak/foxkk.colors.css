@@ -22,9 +22,8 @@ html{
     background: rgb(58,10,8);
     background: rgb(27,3,3);
     background: rgb(77,31,35);
-    -webkit-box-shadow:
-            0.8rem 0.8rem 0px 0.2rem rgb(211,73,50),
-            -0.8rem -0.8rem 0px 0.2rem rgb(240,135,29),
-            -0.8rem 0.8rem 0px 0.2rem rgb(72,192,234),
-            0.8rem -0.8rem 0px 0.2rem rgb(189,214,57);
+    background: rgb(211,73,50);
+    background: rgb(240,135,29);
+    background: rgb(72,192,234);
+    background: rgb(189,214,57);
 }
