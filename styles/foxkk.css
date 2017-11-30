@@ -28,14 +28,21 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border:1px solid orangered;
     height:2000px;
 }
-.square_items,.mask {
+.mask {
     position:absolute;
-    z-index:2;
+    z-index:888;
     width:100%;
     height:100%;
-    border:1px solid chartreuse;
     transform-style: preserve-3d;
     perspective: 75px;
+}
+.mask > .item{
+    display: inline-block;
+    position: absolute;
+    z-index:999;
+    color: white;
+    text-align: center;
+    font-size:0.6rem;
 }
 .cover {
     position:relative;
