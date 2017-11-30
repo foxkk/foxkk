@@ -13,15 +13,13 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().initResume().fullScreen('.cover').initMask('.mask',8);
+    foxkk.init().initResume().initMask('.mask',8);
 });
 window.foxkk = {
     'prefix':'items',
-    'top' : 0,
-    'left': 0,
     'rem' : 0,
     'elements' : [],
-    'duration' : 3,
+    'duration' : 2,
     'base_width' : 320,
     'valid_width' : 0,
     'doc_height':0,
@@ -31,7 +29,7 @@ window.foxkk = {
     'min_width' : 320,
     'min_height' : 480,
     'device_width' : 0,
-    'device_height' : 0,
+    'device_height': 0,
     'words':[
         '自信','乐观','细心','善良','诚信',
         '谈定','创新','责任','风度','帅气',
@@ -58,7 +56,6 @@ window.foxkk = {
         this.rem = Math.ceil( this.valid_width*this.base_font_size/this.base_width);
         this.rem = this.rem % 2 == 0 ? this.rem : this.rem + 1;
         html.style.fontSize = this.rem + 'px';
-        this.top = k(document).scrollTop();
 
         return this;
     },
@@ -228,12 +225,14 @@ window.foxkk = {
                 });
                 p_item.append(temp);
                 temp.click(function(){
-                     console.log('row : '+k(this).attr('row')+'  column : '+k(this).attr('column'));
+                     //console.log('row : '+k(this).attr('row')+'  column : '+k(this).attr('column'));
                      foxkk.fadeOut(parent,k(this).attr('row'),k(this).attr('column'),0);
                 });
                 items[r][c] = {
-                    'item':temp,'color':color_index,
-                    'word':word_index,'visible':1, //1 :可见 2 : 隐藏
+                    'item':temp,
+                    'color':color_index,
+                    'word':word_index,
+                    'visible':1, //1 :可见 2 : 隐藏
                     'position':{'top':top,'left':left}
                 };
             }
@@ -241,20 +240,23 @@ window.foxkk = {
         this.elements[this.prefix+parent] = items;
     },
     'fadeOut' : function(parent,row,column,time){
-        if(row < 0 || row >= foxkk.mask.rows || column <0 || column >= foxkk.mask.columns) return this;
+        var top =  k(window).scrollTop();
+        //console.log('parent : ' + parent +' row : '+row + ' column : '+column);
+        if(row < 0 || row >= foxkk.mask.rows || column <0 || column >= foxkk.mask.columns) {return this};
         var element = foxkk.elements[this.prefix+parent][row][column];
         if(
-            element.item.visible == 2 ||
-            ((parseFloat(element.position.top) + parseFloat(foxkk.mask.item.width)) <= parseFloat(foxkk.top)) ||
-            (parseFloat(element.position.top) >= parseFloat(foxkk.top) + parseFloat(foxkk.device_height))
-        )return this;
-        element.item.animate({'opacity':0},(foxkk.duration+time)*1000);
-        time = time + 0.5;
-        element.item.visible =2;
-        foxkk.fadeOut(parent,row-1,column,time);/*上*/
+            element.visible == 2 ||
+            ((parseFloat(element.position.top) + parseFloat(foxkk.mask.item.width)) <= parseFloat(top)) ||
+            (parseFloat(element.position.top) >= parseFloat(top) + parseFloat(foxkk.device_height))
+        ){return this};
+        element.item.animate({'opacity':0},(foxkk.duration+time)*200);
+        time = time + 0.2;
+        element.visible =2;
         foxkk.fadeOut(parent,row,column-1,time);/*左*/
-        foxkk.fadeOut(parent,row,column+1,time);/*右*/
-        foxkk.fadeOut(parent,row+1,column,time);/*下*/
+        foxkk.fadeOut(parent,row-1,column,time);/*上*/
+        foxkk.fadeOut(parent,row,parseInt(column)+1,time);/*右*/
+        foxkk.fadeOut(parent,parseInt(row)+1,column,time);/*下*/
+
         return this;
     },
     'fadeIn' : function(){
@@ -269,10 +271,4 @@ window.foxkk = {
     'keys' : function(object){
 
     },
-    'initScroll' : function(){
-       k(document).scroll(function(){
-           this.top = k(document).scrollTop();
-           this.left =  k(document).scrollLeft();
-       });
-    }
 };

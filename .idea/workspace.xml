@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/foxkk.object.js" afterPath="$PROJECT_DIR$/bak/foxkk.object.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/foxkk.js" afterPath="$PROJECT_DIR$/scripts/foxkk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.css" afterPath="$PROJECT_DIR$/styles/foxkk.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,17 +56,17 @@
           <file leaf-file-name="foxkk.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1121">
-                  <caret line="250" column="71" lean-forward="true" selection-start-line="250" selection-start-column="71" selection-end-line="250" selection-end-column="71" />
+                <state relative-caret-position="-825">
+                  <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
                   <folding>
-                    <element signature="e#1144#1320#0" expanded="false" />
-                    <element signature="e#1335#1715#0" expanded="false" />
-                    <element signature="e#2363#2819#0" expanded="false" />
-                    <element signature="e#2857#2939#0" expanded="false" />
-                    <element signature="e#2978#3268#0" expanded="false" />
-                    <element signature="e#3303#6671#0" expanded="false" />
-                    <element signature="e#7378#8072#0" expanded="false" />
-                    <element signature="e#8129#8814#0" expanded="false" />
+                    <element signature="e#1092#1268#0" expanded="false" />
+                    <element signature="e#1283#1663#0" expanded="false" />
+                    <element signature="e#2267#2723#0" expanded="false" />
+                    <element signature="e#2761#2843#0" expanded="false" />
+                    <element signature="e#2882#3172#0" expanded="false" />
+                    <element signature="e#3207#6575#0" expanded="false" />
+                    <element signature="e#7282#7976#0" expanded="false" />
+                    <element signature="e#8033#8718#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -167,6 +164,8 @@
       <find>rotateY(-60deg)</find>
       <find>item01</find>
       <find>true_width</find>
+      <find>foxkk.top</find>
+      <find>this.top</find>
     </findStrings>
     <replaceStrings>
       <replace>kk</replace>
@@ -225,7 +224,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="705" />
     <option name="y" value="292" />
     <option name="width" value="2415" />
@@ -351,7 +350,7 @@
       <workItem from="1511922445421" duration="21344000" />
       <workItem from="1512005032023" duration="18124000" />
       <workItem from="1512034415836" duration="8029000" />
-      <workItem from="1512043605926" duration="6041000" />
+      <workItem from="1512043605926" duration="9347000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -371,10 +370,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259498000" />
+    <option name="totallyTimeSpent" value="262804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3856" height="2138" extended-state="7" />
+    <frame x="-8" y="-8" width="3856" height="2138" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.088794924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -732,17 +731,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="250" column="71" lean-forward="true" selection-start-line="250" selection-start-column="71" selection-end-line="250" selection-end-column="71" />
+        <state relative-caret-position="-825">
+          <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding>
-            <element signature="e#1144#1320#0" expanded="false" />
-            <element signature="e#1335#1715#0" expanded="false" />
-            <element signature="e#2363#2819#0" expanded="false" />
-            <element signature="e#2857#2939#0" expanded="false" />
-            <element signature="e#2978#3268#0" expanded="false" />
-            <element signature="e#3303#6671#0" expanded="false" />
-            <element signature="e#7378#8072#0" expanded="false" />
-            <element signature="e#8129#8814#0" expanded="false" />
+            <element signature="e#1092#1268#0" expanded="false" />
+            <element signature="e#1283#1663#0" expanded="false" />
+            <element signature="e#2267#2723#0" expanded="false" />
+            <element signature="e#2761#2843#0" expanded="false" />
+            <element signature="e#2882#3172#0" expanded="false" />
+            <element signature="e#3207#6575#0" expanded="false" />
+            <element signature="e#7282#7976#0" expanded="false" />
+            <element signature="e#8033#8718#0" expanded="false" />
           </folding>
         </state>
       </provider>
