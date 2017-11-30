@@ -225,11 +225,6 @@ window.foxkk = {
                     'background':this.colors[color_index]
                 });
                 p_item.append(temp);
-                temp.click(function(){
-                     //console.log('row : '+k(this).attr('row')+'  column : '+k(this).attr('column'));
-                    var top =  k(window).scrollTop();
-                     foxkk.fadeOut(parent,k(this).attr('row'),k(this).attr('column'),top,0);
-                });
                 items[r][c] = {
                     'item':temp,
                     'color':color_index,
