@@ -40,9 +40,12 @@ window.foxkk = {
     ],
     'colors':[
         'rgb(27,3,3)','rgb(211,73,50)','rgb(240,135,29)',
-        'rgb(72,192,234)','rgb(189,214,57)','rgb(5,0,0)',
+        'rgb(72,192,234)','rgb(5,0,0)','rgb(40,6,12)',
         'rgb(94,49,143)','rgb(69,43,31)','rgb(52,6,8)',
-        'rgb(57,39,38)','rgb(205,184,206)','rgb(205,39,206)'
+        'rgb(57,39,38)','rgb(219,84,37)','rgb(205,39,206)',
+        'rgb(203,75,108)','rgb(107,34,91)','rgb(230,111,27)',
+        'rgb(3,50,60)','rgb(72,37,43)','rgb(189,214,57)',
+        'rgb(9,74,110)'
     ],
     'init' : function(){
         var html = document.documentElement;
@@ -175,7 +178,23 @@ window.foxkk = {
         for(var r = 0; r < rows; r++){
             for(var c = 0; c < columns; c++){
                 var word_index = Math.floor(Math.random()*this.words.length);
-                var color_index = Math.floor(Math.random()*this.colors.length);
+                var color_index = 0;
+                while(true){
+                    color_index = Math.floor(Math.random()*this.colors.length)
+                    if(r-1 >= 0 && c-1 >=0 ){
+                       if(items[r-1][c-1].color == color_index) continue;
+                    }
+                    if(r-1 >= 0 && c >=0 ){
+                        if(items[r-1][c].color == color_index) continue;
+                    }
+                    if(r >= 0 && c-1 >=0 ){
+                        if(items[r][c-1].color == color_index) continue;
+                    }
+                    if(r-1 >= 0 && c+1 < columns ){
+                        if(items[r-1][c+1].color == color_index)continue;
+                    }
+                    break;
+                }
                 var item = "<span class='item'>"+this.words[word_index]+"</span>"
                 var temp = k(item);
                 var top = r*item_width;
@@ -189,7 +208,7 @@ window.foxkk = {
                     'background':this.colors[color_index]
                 });
                 p_item.append(temp);
-                items[r][c] = {'items':temp,'visible':1,'position':{'top':top,'left':left}};
+                items[r][c] = {'items':temp,'color':color_index,'visible':1,'position':{'top':top,'left':left}};
             }
         }
         this.elements[this.prefix+parent] = items;
