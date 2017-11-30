@@ -69,9 +69,6 @@ window.foxkk = {
         return this;
     },
     'initResize' : function(element){
-        if(!foxkk.elements[element]){
-            window.foxkk.elements[element] = k(element);
-        }
         k(window).resize(function(){
             foxkk.init();
         });
@@ -212,6 +209,9 @@ window.foxkk = {
             }
         }
         this.elements[this.prefix+parent] = items;
+    },
+    'initLoad' : function(container){
+
     },
     'keys' : function(object){
 
