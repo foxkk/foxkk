@@ -174,10 +174,11 @@ window.foxkk = {
         }
         for(var r = 0; r < rows; r++){
             for(var c = 0; c < columns; c++){
-                var word_index = Math.floor(Math.random()*this.words.length);
+                var word_index = 0;
                 var color_index = 0;
+                /*相邻颜色各不相同*/
                 while(true){
-                    color_index = Math.floor(Math.random()*this.colors.length)
+                    color_index = Math.floor(Math.random()*this.colors.length);
                     if(r-1 >= 0 && c-1 >=0 ){
                        if(items[r-1][c-1].color == color_index) continue;
                     }
@@ -192,7 +193,24 @@ window.foxkk = {
                     }
                     break;
                 }
-                var item = "<span class='item'>"+this.words[word_index]+"</span>"
+                /*相邻文字各不相同*/
+                while(true){
+                    word_index = Math.floor(Math.random()*this.words.length);
+                    if(r-1 >= 0 && c-1 >=0 ){
+                        if(items[r-1][c-1].word == word_index) continue;
+                    }
+                    if(r-1 >= 0 && c >=0 ){
+                        if(items[r-1][c].word == word_index) continue;
+                    }
+                    if(r >= 0 && c-1 >=0 ){
+                        if(items[r][c-1].word == word_index) continue;
+                    }
+                    if(r-1 >= 0 && c+1 < columns ){
+                        if(items[r-1][c+1].word == word_index)continue;
+                    }
+                    break;
+                }
+                var item = "<span class='item' row='"+r+"' column='"+c+"'>"+this.words[word_index]+"</span>"
                 var temp = k(item);
                 var top = r*item_width;
                 var left = c*item_width;
@@ -205,7 +223,10 @@ window.foxkk = {
                     'background':this.colors[color_index]
                 });
                 p_item.append(temp);
-                items[r][c] = {'items':temp,'color':color_index,'visible':1,'position':{'top':top,'left':left}};
+                temp.click(function(){
+                    alert(k(this).attr('row')+' : ' +k(this).attr('column'));
+                });
+                items[r][c] = {'item':temp,'color':color_index,'word':word_index,'visible':1,'position':{'top':top,'left':left}};
             }
         }
         this.elements[this.prefix+parent] = items;
