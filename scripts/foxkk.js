@@ -13,7 +13,7 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().initResume().fullScreen('.cover').initMask('.mask',10);
+    foxkk.init().initResume().fullScreen('.cover').initMask('.mask',8);
 });
 window.foxkk = {
     'prefix':'items',
