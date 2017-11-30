@@ -13,9 +13,10 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().initResume().initMask('.mask',8);
+    foxkk.init().initScroll().initResume().initMask('.mask',8);
 });
 window.foxkk = {
+    'top':0,
     'prefix':'items',
     'rem' : 0,
     'elements' : [],
@@ -226,7 +227,8 @@ window.foxkk = {
                 p_item.append(temp);
                 temp.click(function(){
                      //console.log('row : '+k(this).attr('row')+'  column : '+k(this).attr('column'));
-                     foxkk.fadeOut(parent,k(this).attr('row'),k(this).attr('column'),0);
+                    var top =  k(window).scrollTop();
+                     foxkk.fadeOut(parent,k(this).attr('row'),k(this).attr('column'),top,0);
                 });
                 items[r][c] = {
                     'item':temp,
@@ -239,8 +241,7 @@ window.foxkk = {
         }
         this.elements[this.prefix+parent] = items;
     },
-    'fadeOut' : function(parent,row,column,time){
-        var top =  k(window).scrollTop();
+    'fadeOut' : function(parent,row,column,top,time){
         //console.log('parent : ' + parent +' row : '+row + ' column : '+column);
         if(row < 0 || row >= foxkk.mask.rows || column <0 || column >= foxkk.mask.columns) {return this};
         var element = foxkk.elements[this.prefix+parent][row][column];
@@ -249,18 +250,62 @@ window.foxkk = {
             ((parseFloat(element.position.top) + parseFloat(foxkk.mask.item.width)) <= parseFloat(top)) ||
             (parseFloat(element.position.top) >= parseFloat(top) + parseFloat(foxkk.device_height))
         ){return this};
-        element.item.animate({'opacity':0},(foxkk.duration+time)*200);
+        element.visible = 2;
+        element.item.animate({'opacity':0},(foxkk.duration+time)*500);
         time = time + 0.2;
-        element.visible =2;
-        foxkk.fadeOut(parent,row,column-1,time);/*左*/
-        foxkk.fadeOut(parent,row-1,column,time);/*上*/
-        foxkk.fadeOut(parent,row,parseInt(column)+1,time);/*右*/
-        foxkk.fadeOut(parent,parseInt(row)+1,column,time);/*下*/
-
+        foxkk.fadeOut(parent,row,column-1,top,time);/*左*/
+        foxkk.fadeOut(parent,row-1,column,top,time);/*上*/
+        foxkk.fadeOut(parent,row,parseInt(column)+1,top,time);/*右*/
+        foxkk.fadeOut(parent,parseInt(row)+1,column,top,time);/*下*/
         return this;
     },
-    'fadeIn' : function(){
-
+    'fadeIn' : function(element,top){
+        var  temp = null;
+        for (var i = 0; i < foxkk.mask.rows;i++){
+            for(var j = 0; j < foxkk.mask.columns; j++){
+                temp = foxkk.elements[this.prefix+element][i][j];
+                if(
+                    temp.visible == 2 && (
+                    ((parseFloat(temp.position.top) + parseFloat(foxkk.mask.item.width)) <= parseFloat(top)) ||
+                    (parseFloat(temp.position.top) >= parseFloat(top) + parseFloat(foxkk.device_height)))
+                ){
+                    temp.visible =1;
+                    temp.item.animate({'opacity':1},foxkk.duration*1000);
+                }
+            }
+        }
+    },
+    'initScroll':function(){
+        k(window).scroll(function(){
+            var position = foxkk.getFirstValidItem('.mask');
+            if(position.row != -1 ){
+                var top = k(window).scrollTop();
+                foxkk.fadeOut('.mask',position.row,position.column,top,0);
+            }
+            foxkk.fadeIn('.mask',top);
+        });
+        return this;
+    },
+    'getFirstValidItem':function(element){
+        var top = k(document).scrollTop();
+        var position ={'row' : -1,'column':-1};
+        var rows = Math.floor(parseFloat(top)/parseFloat(foxkk.mask.item.height));
+        var temp = null;
+        var flag = false;
+        for(var i = rows;i < foxkk.mask.rows;i++){
+            for(var j = 0;j < foxkk.mask.columns; j++){
+                temp = foxkk.elements[this.prefix+element][i][j];
+                if(temp.visible == 1) {
+                    flag =true;
+                    position.row = k(temp.item).attr('row');
+                    position.column = k(temp.item).attr('column');
+                    break
+                };
+            }
+            if(flag)break;
+        }
+        console.log(position);
+        return position;
     },
     'initLoad' : function(container){
 
