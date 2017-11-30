@@ -21,6 +21,7 @@ window.foxkk = {
     'left': 0,
     'rem' : 0,
     'elements' : [],
+    'duration' : 3,
     'base_width' : 320,
     'valid_width' : 0,
     'doc_height':0,
@@ -47,6 +48,7 @@ window.foxkk = {
         'rgb(3,50,60)','rgb(72,37,43)','rgb(189,214,57)',
         'rgb(9,74,110)'
     ],
+    'items' : [],
     'init' : function(){
         var html = document.documentElement;
         this.device_height = k(window).innerHeight();
@@ -56,6 +58,7 @@ window.foxkk = {
         this.rem = Math.ceil( this.valid_width*this.base_font_size/this.base_width);
         this.rem = this.rem % 2 == 0 ? this.rem : this.rem + 1;
         html.style.fontSize = this.rem + 'px';
+        this.top = k(document).scrollTop();
 
         return this;
     },
@@ -82,7 +85,6 @@ window.foxkk = {
         this.position = k(element).position();
         return this;
     },
-    'citem':null,
     'initCover':function(element){
         /*15--8*/
         var columns = 8;
@@ -163,17 +165,19 @@ window.foxkk = {
             }
     },
     'initMask' : function(parent,columns){
-        columns = columns || 8;
-        var p_item = k(parent);
-        var item_width = (this.valid_width/columns).toFixed(6);
-        var rows = Math.ceil(this.doc_height/item_width);
+        foxkk.mask = {};
+        foxkk.mask.item={};
+        foxkk.mask.columns = columns || 8;
+        foxkk.mask.item.width = foxkk.mask.item.height = (this.valid_width/columns).toFixed(6);
+        foxkk.mask.rows = Math.ceil(this.doc_height/foxkk.mask.item.width);
 
+        var p_item = k(parent);
         var items = new Array();
-        for(var i = 0;i<rows;i++){
+        for(var i = 0;i<foxkk.mask.rows;i++){
             items[i] = new Array();
         }
-        for(var r = 0; r < rows; r++){
-            for(var c = 0; c < columns; c++){
+        for(var r = 0; r < foxkk.mask.rows; r++){
+            for(var c = 0; c < foxkk.mask.columns; c++){
                 var word_index = 0;
                 var color_index = 0;
                 /*相邻颜色各不相同*/
@@ -210,28 +214,56 @@ window.foxkk = {
                     }
                     break;
                 }
-                var item = "<span class='item' row='"+r+"' column='"+c+"'>"+this.words[word_index]+"</span>"
+                var item = "<span class='item' row='"+r+"' column='"+c+"'>"+this.words[word_index]+"</span>";
                 var temp = k(item);
-                var top = r*item_width;
-                var left = c*item_width;
+                var top = r*foxkk.mask.item.width;
+                var left = c*foxkk.mask.item.width;
                 temp.css({
-                    'width':item_width+'px',
-                    'height':item_width+'px',
-                    'line-height':item_width+'px',
+                    'width':foxkk.mask.item.width+'px',
+                    'height':foxkk.mask.item.width+'px',
+                    'line-height':foxkk.mask.item.width+'px',
                     'left':left+'px',
                     'top':top+'px',
                     'background':this.colors[color_index]
                 });
                 p_item.append(temp);
                 temp.click(function(){
-                    alert(k(this).attr('row')+' : ' +k(this).attr('column'));
+                     console.log('row : '+k(this).attr('row')+'  column : '+k(this).attr('column'));
+                     foxkk.fadeOut(parent,k(this).attr('row'),k(this).attr('column'),0);
                 });
-                items[r][c] = {'item':temp,'color':color_index,'word':word_index,'visible':1,'position':{'top':top,'left':left}};
+                items[r][c] = {
+                    'item':temp,'color':color_index,
+                    'word':word_index,'visible':1, //1 :可见 2 : 隐藏
+                    'position':{'top':top,'left':left}
+                };
             }
         }
         this.elements[this.prefix+parent] = items;
     },
+    'fadeOut' : function(parent,row,column,time){
+        if(row < 0 || row >= foxkk.mask.rows || column <0 || column >= foxkk.mask.columns) return this;
+        var element = foxkk.elements[this.prefix+parent][row][column];
+        if(
+            element.item.visible == 2 ||
+            ((parseFloat(element.position.top) + parseFloat(foxkk.mask.item.width)) <= parseFloat(foxkk.top)) ||
+            (parseFloat(element.position.top) >= parseFloat(foxkk.top) + parseFloat(foxkk.device_height))
+        )return this;
+        element.item.animate({'opacity':0},(foxkk.duration+time)*1000);
+        time = time + 0.5;
+        element.item.visible =2;
+        foxkk.fadeOut(parent,row-1,column,time);/*上*/
+        foxkk.fadeOut(parent,row,column-1,time);/*左*/
+        foxkk.fadeOut(parent,row,column+1,time);/*右*/
+        foxkk.fadeOut(parent,row+1,column,time);/*下*/
+        return this;
+    },
+    'fadeIn' : function(){
+
+    },
     'initLoad' : function(container){
+
+    },
+    '' : function(){
 
     },
     'keys' : function(object){

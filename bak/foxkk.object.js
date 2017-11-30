@@ -39,3 +39,35 @@ console.log('range01 count : '+range01.__proto__.count);
 console.log('range02 count : '+range02.__proto__.count);
 var range03 = new Range(1,5);
 console.log('range03 count : '+range03.__proto__.count);
+/*
+*
+* if(element.visible == 2 || row < 0 ||column  < 0 || column >=foxkk.mask.columns || row >=foxkk.mask.rows ) return ;
+        element.item.animate({'opacity' : 0},(foxkk.duration+time)*1000);
+        element.item.visible =2;
+
+if(row-1 >=0 && column >=0){
+    var temp = foxkk.elements[this.prefix+parent][row-1][column];
+    //console.log('item_top : ' +temp.position.top + ' width : '+ foxkk.mask.item.width + ' sum : '+(temp.position.top+foxkk.mask.item.width)+' doc_top : '+foxkk.top);
+    if(temp.visible == 1 && ))
+
+}
+
+if(row >=0 && column-1 >=0){
+    var temp = foxkk.elements[this.prefix+parent][row][column-1];
+    if(temp.visible == 1)
+
+}
+
+if(row >=0 && column+1 < foxkk.mask.columns){
+    var temp = foxkk.elements[this.prefix+parent][row][column+1];
+    if(temp.visible == 1)
+
+}
+
+if(row + 1 < foxkk.mask.rows && column >=0){
+    var temp = foxkk.elements[this.prefix+parent][row+1][column];
+    console.log('item_top : ' +temp.position.top + ' width : '+ foxkk.mask.item.width + ' sum : '+(temp.position.top+foxkk.mask.item.width)+' doc_top : '+foxkk.top);
+    if(temp.visible == 1 && )
+
+}
+* */

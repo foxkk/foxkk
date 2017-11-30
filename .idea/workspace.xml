@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bak/foxkk.object.js" afterPath="$PROJECT_DIR$/bak/foxkk.object.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/foxkk.js" afterPath="$PROJECT_DIR$/scripts/foxkk.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.css" afterPath="$PROJECT_DIR$/styles/foxkk.css" />
     </list>
@@ -28,13 +29,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.89724016">
+    <splitter split-orientation="horizontal" split-proportion="0.79611367">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="foxkk.colors.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bak/foxkk.colors.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="924">
+                <state relative-caret-position="890">
                   <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
                   <folding />
                 </state>
@@ -44,12 +45,12 @@
           <file leaf-file-name="foxkk.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+                <state relative-caret-position="1418">
+                  <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
                   <folding>
-                    <element signature="e#1719#1769#0" expanded="false" />
-                    <element signature="e#1770#1959#0" expanded="false" />
-                    <element signature="e#1960#2168#0" expanded="false" />
+                    <element signature="e#1742#1792#0" expanded="false" />
+                    <element signature="e#1793#1982#0" expanded="false" />
+                    <element signature="e#1983#2191#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -58,19 +59,28 @@
           <file leaf-file-name="foxkk.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="891">
-                  <caret line="226" column="77" lean-forward="true" selection-start-line="226" selection-start-column="77" selection-end-line="226" selection-end-column="77" />
+                <state relative-caret-position="1121">
+                  <caret line="250" column="71" lean-forward="true" selection-start-line="250" selection-start-column="71" selection-end-line="250" selection-end-column="71" />
                   <folding>
-                    <element signature="e#1124#1300#0" expanded="false" />
-                    <element signature="e#1315#1695#0" expanded="false" />
-                    <element signature="e#1720#2250#0" expanded="false" />
-                    <element signature="e#2281#2737#0" expanded="false" />
-                    <element signature="e#2775#2857#0" expanded="false" />
-                    <element signature="e#2896#3186#0" expanded="false" />
-                    <element signature="e#3239#6607#0" expanded="false" />
-                    <element signature="e#7167#7861#0" expanded="false" />
-                    <element signature="e#7918#8603#0" expanded="false" />
+                    <element signature="e#1144#1320#0" expanded="false" />
+                    <element signature="e#1335#1715#0" expanded="false" />
+                    <element signature="e#2363#2819#0" expanded="false" />
+                    <element signature="e#2857#2939#0" expanded="false" />
+                    <element signature="e#2978#3268#0" expanded="false" />
+                    <element signature="e#3303#6671#0" expanded="false" />
+                    <element signature="e#7378#8072#0" expanded="false" />
+                    <element signature="e#8129#8814#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="foxkk.object.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bak/foxkk.object.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1447">
+                  <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -90,16 +100,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1056">
                   <caret line="32" column="71" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="71" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="foxkk.object.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bak/foxkk.object.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -132,8 +132,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+                <state relative-caret-position="33">
+                  <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -211,6 +211,7 @@
         <option value="$PROJECT_DIR$/default.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/bak/foxkk.colors.css" />
+        <option value="$PROJECT_DIR$/bak/foxkk.object.js" />
         <option value="$PROJECT_DIR$/styles/foxkk.css" />
         <option value="$PROJECT_DIR$/scripts/foxkk.js" />
       </list>
@@ -224,11 +225,11 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="y" value="213" />
-    <option name="width" value="2671" />
-    <option name="height" value="1597" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="705" />
+    <option name="y" value="292" />
+    <option name="width" value="2415" />
+    <option name="height" value="1311" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -249,6 +250,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,7 +277,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,7 +350,8 @@
       <workItem from="1511866763060" duration="8778000" />
       <workItem from="1511922445421" duration="21344000" />
       <workItem from="1512005032023" duration="18124000" />
-      <workItem from="1512034415836" duration="1692000" />
+      <workItem from="1512034415836" duration="8029000" />
+      <workItem from="1512043605926" duration="6041000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -369,13 +371,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247120000" />
+    <option name="totallyTimeSpent" value="259498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="489" y="213" width="2671" height="1597" extended-state="0" />
+    <frame x="-8" y="-8" width="3856" height="2138" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1281262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.088794924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5010604" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,7 +409,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -419,6 +421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -476,6 +479,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bak/foxkk.object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bak/foxkk.resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -700,46 +696,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="33">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bak/foxkk.colors.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
+        <state relative-caret-position="890">
           <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bak/foxkk.object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1447">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="1418">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
-            <element signature="e#1719#1769#0" expanded="false" />
-            <element signature="e#1770#1959#0" expanded="false" />
-            <element signature="e#1960#2168#0" expanded="false" />
+            <element signature="e#1742#1792#0" expanded="false" />
+            <element signature="e#1793#1982#0" expanded="false" />
+            <element signature="e#1983#2191#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="226" column="77" lean-forward="true" selection-start-line="226" selection-start-column="77" selection-end-line="226" selection-end-column="77" />
+        <state relative-caret-position="1121">
+          <caret line="250" column="71" lean-forward="true" selection-start-line="250" selection-start-column="71" selection-end-line="250" selection-end-column="71" />
           <folding>
-            <element signature="e#1124#1300#0" expanded="false" />
-            <element signature="e#1315#1695#0" expanded="false" />
-            <element signature="e#1720#2250#0" expanded="false" />
-            <element signature="e#2281#2737#0" expanded="false" />
-            <element signature="e#2775#2857#0" expanded="false" />
-            <element signature="e#2896#3186#0" expanded="false" />
-            <element signature="e#3239#6607#0" expanded="false" />
-            <element signature="e#7167#7861#0" expanded="false" />
-            <element signature="e#7918#8603#0" expanded="false" />
+            <element signature="e#1144#1320#0" expanded="false" />
+            <element signature="e#1335#1715#0" expanded="false" />
+            <element signature="e#2363#2819#0" expanded="false" />
+            <element signature="e#2857#2939#0" expanded="false" />
+            <element signature="e#2978#3268#0" expanded="false" />
+            <element signature="e#3303#6671#0" expanded="false" />
+            <element signature="e#7378#8072#0" expanded="false" />
+            <element signature="e#8129#8814#0" expanded="false" />
           </folding>
         </state>
       </provider>
