@@ -13,7 +13,7 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().initScroll().initResume().initMask('.mask',8);
+    foxkk.init().initScroll().initResize().initResume().initMask('.mask',8).fullScreen('.cover').initCover('.cover');//
 });
 window.foxkk = {
     'top':0,
@@ -23,6 +23,7 @@ window.foxkk = {
     'duration' : 2,
     'base_width' : 320,
     'valid_width' : 0,
+    'valid_height':0,
     'doc_height':0,
     'base_font_size' : 12,
     'max_width':960,
@@ -54,6 +55,7 @@ window.foxkk = {
         this.device_width = k(window).innerWidth();
         this.doc_height = k(document).innerHeight();
         this.valid_width = this.device_width >= this.max_width ? this.max_width : this.device_width;
+        this.valid_height = this.device_height >= this.min_height ? this.device_height : this.min_height;
         this.rem = Math.ceil( this.valid_width*this.base_font_size/this.base_width);
         this.rem = this.rem % 2 == 0 ? this.rem : this.rem + 1;
         html.style.fontSize = this.rem + 'px';
@@ -71,8 +73,9 @@ window.foxkk = {
     },
     'initResize' : function(element){
         k(window).resize(function(){
-            foxkk.init();
+            foxkk.init().initMask('.mask',8).fullScreen('.cover').initCover('.cover');
         });
+        return this;
     },
     'fullScreen' : function(element) {
         var width = this.device_width >= this.max_width ? this.max_width : this.device_width;
@@ -84,83 +87,72 @@ window.foxkk = {
         return this;
     },
     'initCover':function(element){
-        /*15--8*/
+
+        /*valid row=9 column=4*/
+        /*15 - 8*/
+        var rows = 12;
         var columns = 8;
-        var animations = ['animation01','animation02'];
-
-        var datas = new Array();
+        var parent = k(element);
+            parent.html('');
+        var colors = ['rgb(35,33,29)','rgb(5,2,4)'];
+        var item_width = (this.valid_width/columns).toFixed(6);
+        var item_height = (this.valid_height/rows).toFixed(6);
+        var valid_width = parseFloat(item_width) > parseFloat(item_height) ? item_height : item_width;
+        var offset = Math.ceil((rows - 8)/2);
+        //console.log('item_width : '+item_width +' item_height: '+item_height+' valid_width : '+valid_width);
+        var items = new Array();
             for(var i = 0;i<rows;i++){
-                datas[i] = new Array();
+                items[i] = new Array();
             }
-            datas[3][5] = {'text':'求'};
-            datas[4][5] = {'text':'职'};
-            datas[5][5] = {'text':'简'};
-            datas[6][5] = {'text':'历'};
+        var classes = new Array();
+            classes[5] = 'resume';
+            classes[4] = 'name';
+            classes[3] = 'job';
+            classes[2] = 'date';
 
-            datas[4][4] = {'text':'姓'};
-            datas[5][4] = {'text':'名','bottom':1};
-            datas[6][4] = {'text':'胡'};
-            datas[7][4] = {'text':'呈'};
+            items[offset][5] = {'text':'求', 'class':'resume'};
+            items[offset+1][5] = {'text':'职'};
+            items[offset+2][5] = {'text':'简'};
+            items[offset+3][5] = {'text':'历'};
 
-            datas[5][3] = {'text':'职'};
-            datas[6][3] = {'text':'位','bottom':1};
-            datas[7][3] = {'text':'PHP'};
-            datas[8][3] = {'text':'开'};
-            datas[9][3] = {'text':'发'};
+            items[offset+1][4] = {'text':'姓'};
+            items[offset+2][4] = {'text':'名',};
+            items[offset+3][4] = {'text':'胡'};
+            items[offset+4][4] = {'text':'呈'};
 
-            datas[6][2] = {'text':'2'};
-            datas[7][2] = {'text':'0'};
-            datas[8][2] = {'text':'1'};
-            datas[9][2] = {'text':'7','bottom':1};
-            datas[10][2] = {'text':'1'};
-            datas[11][2] = {'text':'2'};
+            items[offset+2][3] = {'text':'职'};
+            items[offset+3][3] = {'text':'位',};
+            items[offset+4][3] = {'text':'PHP'};
+            items[offset+5][3] = {'text':'开'};
+            items[offset+6][3] = {'text':'发'};
 
-            var content = '';
-            var css = 'item';
-            var width = this.device_width >= this.max_width ? this.max_width : this.device_width;
-            var item_width = (width/columns).toFixed(6);
-            var item_height =  (this.device_height/rows).toFixed(6);
-            var container = k(element);
-            for(var r=0; r<15; r++){
-                for (var kk=0;kk < columns; kk++){
-                    console.log('row : '+i +" column : "+ kk);
-                    var indexcolor = Math.floor(Math.random()*6);
-                    if(!datas[r][kk]){
-                        content = '&nbsp;';
-                        css = 'item blank';
-                        var tempitem = foxkk.citem =k("<span class='"+css+"'></span>");
-                        window.setTimeout(function(){
-                            tempitem.addClass('anim_fade_out');
-                        },indexcolor*1000);
-                        tempitem.css({
-                            'width':item_width+'px',
-                            'height':item_height+'px',
-                            'line-height':item_height+'px',
-                            'left':(kk*item_width)+'px',
-                            'top':(r*item_height)+'px',
-                            'opacity':'0.2',
-                            'background':colors[indexcolor]
-                        });
-                        container.append(tempitem);
+            items[offset+3][2] = {'text':'1'};
+            items[offset+4][2] = {'text':'7'};
+            items[offset+5][2] = {'text':'年'};
+            items[offset+6][2] = {'text':'1',};
+            items[offset+7][2] = {'text':'2'};
+            for(var i = 0; i < rows ; i++){
+                for(var j = 0 ; j< columns; j++){
+                    var temp = null;
+                    var css= {
+                        'width': item_width + 'px',
+                        'height':item_height +'px',
+                        'top':i*item_height+'px',
+                        'left':j*item_width+'px',
+                    };
+                    if(!items[i][j]) {
+                        temp = k("<div class='item'></div>");
                     }else{
-                        content = datas[r][kk].text;
-                        css = 'item text';
-                        var tempitem =k("<span class='"+css+"'>"+content+"</span>");
-                        var border =  content = datas[r][kk].bottom ==1 ? '' :'';
-                        tempitem.css({
-                            'width':item_width+'px',
-                            'height':item_height+'px',
-                            'line-height':item_height+'px',
-                            'left':(kk*item_width)+'px',
-                            'top':(r*item_height)+'px',
-                            'border-right':'1px solid white',
-                            'color':'white',
-                            'background':colors[indexcolor]
-                        });
-                        container.append(tempitem);
+                        temp = k("<div class='item "+classes[j]+"'> <span style='width: "+valid_width +"px; height: "
+                            +valid_width+"px; line-height: "+valid_width+"px;'>"+items[i][j].text+"</span></div>");
                     }
+                    css['background'] = colors[(i+j)%2];
+                    css['line-height'] =item_height +'px';
+                    temp.css(css);
+                    parent.append(temp);
                 }
             }
+            return this;
     },
     'initMask' : function(parent,columns){
         foxkk.mask = {};
@@ -235,6 +227,7 @@ window.foxkk = {
             }
         }
         this.elements[this.prefix+parent] = items;
+        return this;
     },
     'fadeOut' : function(parent,row,column,top,time){
         //console.log('parent : ' + parent +' row : '+row + ' column : '+column);
@@ -243,10 +236,10 @@ window.foxkk = {
         if(
             element.visible == 2 ||
             ((parseFloat(element.position.top) + parseFloat(foxkk.mask.item.width)) <= parseFloat(top)) ||
-            (parseFloat(element.position.top) >= parseFloat(top) + parseFloat(foxkk.device_height))
+            (parseFloat(element.position.top) > parseFloat(top) + parseFloat(foxkk.device_height))
         ){return this};
         element.visible = 2;
-        element.item.animate({'opacity':0},(foxkk.duration+time)*500);
+        element.item.animate({'opacity':0},(foxkk.duration+time)*300);
         time = time + 0.2;
         foxkk.fadeOut(parent,row,column-1,top,time);/*左*/
         foxkk.fadeOut(parent,row-1,column,top,time);/*上*/
@@ -299,7 +292,6 @@ window.foxkk = {
             }
             if(flag)break;
         }
-        console.log(position);
         return position;
     },
     'initLoad' : function(container){

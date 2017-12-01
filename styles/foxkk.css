@@ -26,8 +26,9 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     min-width:320px;
     max-width:960px;
     height:20000px;
-    background:rgb(27,3,3);
+    background:rgb(5,0,0);
     overflow: hidden;
+    color:white;
 }
 .mask {
     position:absolute;
@@ -47,11 +48,18 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 }
 .cover {
     position:relative;
+    background: rgb(27,3,3);;
 }
 .cover > .item {
     position: absolute;
-    display: inline-block;
     text-align: center;
+}
+.cover > .item > span {
+    display:inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border:0.01rem solid rgb(240,135,29);
 }
 
 /**animation section*/
