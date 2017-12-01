@@ -162,6 +162,7 @@ window.foxkk = {
         foxkk.mask.rows = Math.ceil(this.doc_height/foxkk.mask.item.width);
 
         var p_item = k(parent);
+        p_item.html('');
         var items = new Array();
         for(var i = 0;i<foxkk.mask.rows;i++){
             items[i] = new Array();
