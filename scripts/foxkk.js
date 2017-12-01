@@ -126,11 +126,11 @@ window.foxkk = {
             items[offset+5][3] = {'text':'开'};
             items[offset+6][3] = {'text':'发'};
 
-            items[offset+3][2] = {'text':'1'};
-            items[offset+4][2] = {'text':'7'};
-            items[offset+5][2] = {'text':'年'};
-            items[offset+6][2] = {'text':'1',};
-            items[offset+7][2] = {'text':'2'};
+            items[offset+3][2] = {'text':'时'};
+            items[offset+4][2] = {'text':'间'};
+            items[offset+5][2] = {'text':'1'};
+            items[offset+6][2] = {'text':'7',};
+            items[offset+7][2] = {'text':'年'};
             for(var i = 0; i < rows ; i++){
                 for(var j = 0 ; j< columns; j++){
                     var temp = null;
