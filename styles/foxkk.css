@@ -71,11 +71,11 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-right-color:rgb(72,192,234);
     border-bottom-color:rgb(211,73,50);
     border-left-color:rgb(189,214,57);
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
     font-size:1.2rem;
 }
 /**animation section*/
