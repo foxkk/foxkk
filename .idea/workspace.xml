@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bak/test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.css" afterPath="$PROJECT_DIR$/styles/foxkk.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,22 +43,22 @@
           <file leaf-file-name="foxkk.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1208">
-                  <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+                <state relative-caret-position="1088">
+                  <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
                   <folding>
-                    <element signature="e#2430#2480#0" expanded="false" />
-                    <element signature="e#2481#2670#0" expanded="false" />
-                    <element signature="e#2671#2879#0" expanded="false" />
-                    <element signature="e#2880#3075#0" expanded="false" />
-                    <element signature="e#3076#3259#0" expanded="false" />
-                    <element signature="e#3260#3439#0" expanded="false" />
-                    <element signature="e#3440#3615#0" expanded="false" />
-                    <element signature="e#3616#3779#0" expanded="false" />
-                    <element signature="e#3781#3955#0" expanded="false" />
-                    <element signature="e#3956#4121#0" expanded="false" />
-                    <element signature="e#4122#4288#0" expanded="false" />
-                    <element signature="e#4289#4448#0" expanded="false" />
-                    <element signature="e#4449#4599#0" expanded="false" />
+                    <element signature="e#2926#2976#0" expanded="false" />
+                    <element signature="e#2977#3166#0" expanded="false" />
+                    <element signature="e#3167#3375#0" expanded="false" />
+                    <element signature="e#3376#3571#0" expanded="false" />
+                    <element signature="e#3572#3755#0" expanded="false" />
+                    <element signature="e#3756#3935#0" expanded="false" />
+                    <element signature="e#3936#4111#0" expanded="false" />
+                    <element signature="e#4112#4275#0" expanded="false" />
+                    <element signature="e#4277#4451#0" expanded="false" />
+                    <element signature="e#4452#4617#0" expanded="false" />
+                    <element signature="e#4618#4784#0" expanded="false" />
+                    <element signature="e#4785#4944#0" expanded="false" />
+                    <element signature="e#4945#5095#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -383,7 +383,7 @@
       <workItem from="1512034415836" duration="8029000" />
       <workItem from="1512043605926" duration="14369000" />
       <workItem from="1512089181811" duration="15087000" />
-      <workItem from="1512116837092" duration="8181000" />
+      <workItem from="1512116837092" duration="9169000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -403,7 +403,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291094000" />
+    <option name="totallyTimeSpent" value="292082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3856" height="2138" extended-state="6" />
@@ -783,22 +783,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1208">
-          <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+        <state relative-caret-position="1088">
+          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
           <folding>
-            <element signature="e#2430#2480#0" expanded="false" />
-            <element signature="e#2481#2670#0" expanded="false" />
-            <element signature="e#2671#2879#0" expanded="false" />
-            <element signature="e#2880#3075#0" expanded="false" />
-            <element signature="e#3076#3259#0" expanded="false" />
-            <element signature="e#3260#3439#0" expanded="false" />
-            <element signature="e#3440#3615#0" expanded="false" />
-            <element signature="e#3616#3779#0" expanded="false" />
-            <element signature="e#3781#3955#0" expanded="false" />
-            <element signature="e#3956#4121#0" expanded="false" />
-            <element signature="e#4122#4288#0" expanded="false" />
-            <element signature="e#4289#4448#0" expanded="false" />
-            <element signature="e#4449#4599#0" expanded="false" />
+            <element signature="e#2926#2976#0" expanded="false" />
+            <element signature="e#2977#3166#0" expanded="false" />
+            <element signature="e#3167#3375#0" expanded="false" />
+            <element signature="e#3376#3571#0" expanded="false" />
+            <element signature="e#3572#3755#0" expanded="false" />
+            <element signature="e#3756#3935#0" expanded="false" />
+            <element signature="e#3936#4111#0" expanded="false" />
+            <element signature="e#4112#4275#0" expanded="false" />
+            <element signature="e#4277#4451#0" expanded="false" />
+            <element signature="e#4452#4617#0" expanded="false" />
+            <element signature="e#4618#4784#0" expanded="false" />
+            <element signature="e#4785#4944#0" expanded="false" />
+            <element signature="e#4945#5095#0" expanded="false" />
           </folding>
         </state>
       </provider>

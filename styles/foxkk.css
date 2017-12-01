@@ -74,9 +74,17 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 }
 /**animation section*/
 .cover > .jump_up > span {
+    -webkit-animation: jump_up linear 2s  infinite alternate ;
+    -moz-animation: jump_up linear 2s  infinite alternate ;
+    -ms-animation: jump_up linear 2s  infinite alternate ;
+    -o-animation: jump_up linear 2s  infinite alternate ;
     animation: jump_up linear 2s  infinite alternate ;
 }
 .cover > .jump_down > span {
+    -webkit-animation: jump_down linear 4s 4s infinite alternate ;
+    -moz-animation: jump_down linear 4s 4s infinite alternate ;
+    -ms-animation: jump_down linear 4s 4s infinite alternate ;
+    -o-animation: jump_down linear 4s 4s infinite alternate ;
     animation: jump_down linear 4s 4s infinite alternate ;
 }
 
