@@ -72,13 +72,14 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     transform: scale(0.8);
     font-size:1.2rem;
 }
-.jump_up > span {
+/**animation section*/
+.cover > .jump_up > span {
     animation: jump_up linear 2s  infinite alternate ;
 }
-.jump_down > span {
+.cover > .jump_down > span {
     animation: jump_down linear 4s 4s infinite alternate ;
 }
-/**animation section*/
+
 .anim_fade_out {
     animation:fade_out ease 2s 0.5s 1 forwards;
 }
@@ -102,6 +103,50 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
         transform: translateX(0rem)  translateZ(0rem)  scale(1);
     }
 }
+@-webkit-keyframes jump_down {
+    0% {
+        -webkit-transform: scale(0.8);
+    }
+    50%{
+        -webkit-transform: scale(0.4);
+    }
+    100%{
+        -webkit-transform: scale(0.8);
+    }
+}
+@-moz-keyframes jump_down {
+    0% {
+        -moz-transform: scale(0.8);
+    }
+    50%{
+        -moz-transform: scale(0.4);
+    }
+    100%{
+        -moz-transform: scale(0.8);
+    }
+}
+@-ms-keyframes jump_down {
+    0% {
+        -ms-transform: scale(0.8);
+    }
+    50%{
+        -ms-transform: scale(0.4);
+    }
+    100%{
+        -ms-transform: scale(0.8);
+    }
+}
+@-o-keyframes jump_down {
+    0% {
+        -o-transform: scale(0.8);
+    }
+    50%{
+        -o-transform: scale(0.4);
+    }
+    100%{
+        -o-transform: scale(0.8);
+    }
+}
 @keyframes jump_down {
     0% {
         transform: scale(0.8);
@@ -111,6 +156,39 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     }
     100%{
         transform: scale(0.8);
+    }
+}
+
+@-webkit-keyframes jump_up {
+    from {
+        -webkit-transform: scale(0.8) translateY(0rem);
+    }
+    to{
+        -webkit-transform: scale(0.8) translateY(-2rem);
+    }
+}
+@-moz-keyframes jump_up {
+    from {
+        -moz-transform: scale(0.8) translateY(0rem);
+    }
+    to{
+        -moz-transform: scale(0.8) translateY(-2rem);
+    }
+}
+@-ms-keyframes jump_up {
+    from {
+        -ms--ms-transform: scale(0.8) translateY(0rem);
+    }
+    to{
+        -ms-transform: scale(0.8) translateY(-2rem);
+    }
+}
+@-o-keyframes jump_up {
+    from {
+        -o-transform: scale(0.8) translateY(0rem);
+    }
+    to{
+        -o-transform: scale(0.8) translateY(-2rem);
     }
 }
 @keyframes jump_up {
