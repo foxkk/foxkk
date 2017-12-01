@@ -73,7 +73,7 @@ window.foxkk = {
     },
     'initResize' : function(element){
         k(window).resize(function(){
-            foxkk.init().initMask('.mask',8).fullScreen('.cover').initCover('.cover');
+            foxkk.init().fullScreen('.cover').initCover('.cover');
         });
         return this;
     },
