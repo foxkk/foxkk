@@ -94,7 +94,7 @@ window.foxkk = {
         var columns = 8;
         var parent = k(element);
             parent.html('');
-        var colors = ['rgb(35,33,29)','rgb(5,2,4)'];
+        var colors = ['rgb(35,33,29)','rgb(5,2,4)','rgb(189,214,57)','rgb(72,192,234)', 'rgb(52,12,3)'];
         var item_width = (this.valid_width/columns).toFixed(6);
         var item_height = (this.valid_height/rows).toFixed(6);
         var valid_width = parseFloat(item_width) > parseFloat(item_height) ? item_height : item_width;
@@ -104,33 +104,33 @@ window.foxkk = {
             for(var i = 0;i<rows;i++){
                 items[i] = new Array();
             }
-        var classes = new Array();
-            classes[5] = 'resume';
-            classes[4] = 'name';
-            classes[3] = 'job';
-            classes[2] = 'date';
+        var anims = new Array();
+            anims[5] = 'resume';
+            anims[4] = 'name';
+            anims[3] = 'job';
+            anims[2] = 'date';
 
-            items[offset][5] = {'text':'求', 'class':'resume'};
-            items[offset+1][5] = {'text':'职'};
-            items[offset+2][5] = {'text':'简'};
-            items[offset+3][5] = {'text':'历'};
+            items[offset][5]   = {'text':'求','color':4,'bcolor':2,'anim':1};
+            items[offset+1][5] = {'text':'职','color':4,'bcolor':2};
+            items[offset+2][5] = {'text':'简','color':4,'bcolor':3};
+            items[offset+3][5] = {'text':'历','color':4,'bcolor':3};
 
-            items[offset+1][4] = {'text':'姓'};
-            items[offset+2][4] = {'text':'名',};
-            items[offset+3][4] = {'text':'胡'};
-            items[offset+4][4] = {'text':'呈'};
+            items[offset+1][4] = {'text':'姓','color':4,'bcolor':2};
+            items[offset+2][4] = {'text':'名','color':4,'bcolor':2};
+            items[offset+3][4] = {'text':'胡','color':4,'bcolor':3};
+            items[offset+4][4] = {'text':'呈','color':4,'bcolor':3};
 
-            items[offset+2][3] = {'text':'职'};
-            items[offset+3][3] = {'text':'位',};
-            items[offset+4][3] = {'text':'PHP'};
-            items[offset+5][3] = {'text':'开'};
-            items[offset+6][3] = {'text':'发'};
+            items[offset+2][3] = {'text':'职','color':4,'bcolor':2};
+            items[offset+3][3] = {'text':'位','color':4,'bcolor':2};
+            items[offset+4][3] = {'text':'PHP','color':4,'bcolor':3};
+            items[offset+5][3] = {'text':'开','color':4,'bcolor':3};
+            items[offset+6][3] = {'text':'发','color':4,'bcolor':3};
 
-            items[offset+3][2] = {'text':'时'};
-            items[offset+4][2] = {'text':'间'};
-            items[offset+5][2] = {'text':'1'};
-            items[offset+6][2] = {'text':'7',};
-            items[offset+7][2] = {'text':'年'};
+            items[offset+3][2] = {'text':'日','color':4,'bcolor':2};
+            items[offset+4][2] = {'text':'期','color':4,'bcolor':2};
+            items[offset+5][2] = {'text':'20','color':4,'bcolor':3};
+            items[offset+6][2] = {'text':'17','color':4,'bcolor':3};
+            items[offset+7][2] = {'text':'年','color':4,'bcolor':3};
             for(var i = 0; i < rows ; i++){
                 for(var j = 0 ; j< columns; j++){
                     var temp = null;
@@ -142,12 +142,14 @@ window.foxkk = {
                     };
                     if(!items[i][j]) {
                         temp = k("<div class='item'></div>");
+
                     }else{
-                        temp = k("<div class='item "+classes[j]+"'> <span style='width: "+valid_width +"px; height: "
+                        temp = k("<div class='item "+anims[j]+"'> <span style='width: "+valid_width +"px; height: "
                             +valid_width+"px; line-height: "+valid_width+"px;'>"+items[i][j].text+"</span></div>");
+                        css['border-right'] = '0.09rem solid '+colors[items[i][j].bcolor];
+                        css['line-height'] =item_height +'px';
                     }
-                    css['background'] = colors[(i+j)%2];
-                    css['line-height'] =item_height +'px';
+                    css['background'] =''+ colors[(i+j)%2];
                     temp.css(css);
                     parent.append(temp);
                 }

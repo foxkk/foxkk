@@ -56,13 +56,21 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 }
 .cover > .item > span {
     display:inline-block;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    border:0.01rem solid rgb(240,135,29);
     font-size:1.2rem;
 }
-
+.resume > span {
+     border-radius: 50%;
+    border:0.09rem solid white;
+    border-top-color:rgb(240,135,29);
+    border-right-color:rgb(72,192,234);
+    border-bottom-color:rgb(211,73,50);
+    border-left-color:rgb(189,214,57);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
 /**animation section*/
 .anim_fade_out {
     animation:fade_out ease 2s 0.5s 1 forwards;
