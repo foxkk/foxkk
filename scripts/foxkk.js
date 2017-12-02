@@ -142,11 +142,10 @@ window.foxkk = {
                     };
                     if(!items[i][j]) {
                         temp = k("<div class='item'></div>");
-
                     }else{
                         if(!items[i][j].anim) items[i][j].anim ='';
                         temp = k("<div class='item "+items[i][j].anim+"'> <span style='color:"+colors[items[i][j].color]+";width: "+valid_width +"px; height: "
-                            +valid_width+"px; line-height: "+valid_width*0.95+"px;'>"+items[i][j].text+"</span></div>");
+                            +valid_width+"px; line-height: "+valid_width+"px;'>"+items[i][j].text+"</span></div>");
                         css['border-right'] = '0.09rem solid '+colors[items[i][j].bcolor];
                         css['line-height'] =item_height +'px';
                     }

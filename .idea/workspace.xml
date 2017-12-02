@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82d4a3f1-9deb-4398-b2b4-11d78cb74486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/foxkk.js" afterPath="$PROJECT_DIR$/scripts/foxkk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/foxkk.css" afterPath="$PROJECT_DIR$/styles/foxkk.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,10 +55,9 @@
           <file leaf-file-name="foxkk.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+                <state relative-caret-position="1197">
+                  <caret line="142" column="38" lean-forward="true" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
                   <folding>
-                    <element signature="e#907#14300#0" expanded="false" />
                     <element signature="e#1268#1468#0" expanded="false" />
                     <element signature="e#1483#1863#0" expanded="false" />
                     <element signature="e#1920#2556#0" expanded="false" />
@@ -69,19 +65,19 @@
                     <element signature="e#3081#3225#0" expanded="false" />
                     <element signature="e#3264#3554#0" expanded="false" />
                     <element signature="e#3383#3478#0" expanded="false" />
-                    <element signature="e#3589#7206#0" expanded="false" />
                     <element signature="e#4406#4461#0" expanded="false" />
-                    <element signature="e#7249#10549#0" expanded="false" />
-                    <element signature="e#10603#11956#0" expanded="false" />
-                    <element signature="e#11200#11236#0" expanded="false" />
-                    <element signature="e#11994#12653#0" expanded="false" />
-                    <element signature="e#12696#13422#0" expanded="false" />
-                    <element signature="e#13460#13468#0" expanded="false" />
-                    <element signature="e#13829#14297#0" expanded="false" />
-                    <marker date="1512226240947" expanded="true" signature="6638:6644" ph="..." />
-                    <marker date="1512226240947" expanded="true" signature="6638:6793" ph="..." />
-                    <marker date="1512226240947" expanded="true" signature="6638:6828" ph="..." />
-                    <marker date="1512226240947" expanded="true" signature="6674:6793" ph="..." />
+                    <element signature="e#7243#10543#0" expanded="false" />
+                    <element signature="e#10597#11950#0" expanded="false" />
+                    <element signature="e#11194#11230#0" expanded="false" />
+                    <element signature="e#11988#12647#0" expanded="false" />
+                    <element signature="e#12690#13416#0" expanded="false" />
+                    <element signature="e#13454#13462#0" expanded="false" />
+                    <element signature="e#13494#13779#0" expanded="false" />
+                    <element signature="e#13823#14291#0" expanded="false" />
+                    <marker date="1512226497260" expanded="true" signature="6637:6643" ph="..." />
+                    <marker date="1512226497260" expanded="true" signature="6637:6787" ph="..." />
+                    <marker date="1512226497260" expanded="true" signature="6637:6822" ph="..." />
+                    <marker date="1512226497260" expanded="true" signature="6673:6787" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -382,7 +378,7 @@
       <workItem from="1512089181811" duration="15087000" />
       <workItem from="1512116837092" duration="10666000" />
       <workItem from="1512131644380" duration="635000" />
-      <workItem from="1512202782744" duration="16991000" />
+      <workItem from="1512202782744" duration="17246000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -402,7 +398,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311205000" />
+    <option name="totallyTimeSpent" value="311460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="3858" height="2140" extended-state="6" />
@@ -812,10 +808,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="1197">
+          <caret line="142" column="38" lean-forward="true" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
           <folding>
-            <element signature="e#907#14300#0" expanded="false" />
             <element signature="e#1268#1468#0" expanded="false" />
             <element signature="e#1483#1863#0" expanded="false" />
             <element signature="e#1920#2556#0" expanded="false" />
@@ -823,19 +818,19 @@
             <element signature="e#3081#3225#0" expanded="false" />
             <element signature="e#3264#3554#0" expanded="false" />
             <element signature="e#3383#3478#0" expanded="false" />
-            <element signature="e#3589#7206#0" expanded="false" />
             <element signature="e#4406#4461#0" expanded="false" />
-            <element signature="e#7249#10549#0" expanded="false" />
-            <element signature="e#10603#11956#0" expanded="false" />
-            <element signature="e#11200#11236#0" expanded="false" />
-            <element signature="e#11994#12653#0" expanded="false" />
-            <element signature="e#12696#13422#0" expanded="false" />
-            <element signature="e#13460#13468#0" expanded="false" />
-            <element signature="e#13829#14297#0" expanded="false" />
-            <marker date="1512226240947" expanded="true" signature="6638:6644" ph="..." />
-            <marker date="1512226240947" expanded="true" signature="6638:6793" ph="..." />
-            <marker date="1512226240947" expanded="true" signature="6638:6828" ph="..." />
-            <marker date="1512226240947" expanded="true" signature="6674:6793" ph="..." />
+            <element signature="e#7243#10543#0" expanded="false" />
+            <element signature="e#10597#11950#0" expanded="false" />
+            <element signature="e#11194#11230#0" expanded="false" />
+            <element signature="e#11988#12647#0" expanded="false" />
+            <element signature="e#12690#13416#0" expanded="false" />
+            <element signature="e#13454#13462#0" expanded="false" />
+            <element signature="e#13494#13779#0" expanded="false" />
+            <element signature="e#13823#14291#0" expanded="false" />
+            <marker date="1512226497260" expanded="true" signature="6637:6643" ph="..." />
+            <marker date="1512226497260" expanded="true" signature="6637:6787" ph="..." />
+            <marker date="1512226497260" expanded="true" signature="6637:6822" ph="..." />
+            <marker date="1512226497260" expanded="true" signature="6673:6787" ph="..." />
           </folding>
         </state>
       </provider>
