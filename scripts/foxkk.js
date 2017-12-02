@@ -92,7 +92,7 @@ window.foxkk = {
 
         /*valid row=9 column=4*/
         /*15 - 8*/
-        var rows = 12;
+        var rows = 10;
         var columns = 6;
         var parent = k(element);
             parent.html('');
