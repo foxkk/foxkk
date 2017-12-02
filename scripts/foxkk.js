@@ -143,7 +143,7 @@ window.foxkk = {
                     }else{
                         if(!items[i][j].anim) items[i][j].anim ='';
                         temp = k("<div class='item "+items[i][j].anim+"'> <span style='color:"+colors[items[i][j].color]+";width: "+valid_width +"px; height: "
-                            +valid_width+"px; line-height: "+valid_width*0.81+"px;'>"+items[i][j].text+"</span></div>");
+                            +valid_width+"px; line-height: "+valid_width*0.95+"px;'>"+items[i][j].text+"</span></div>");
                         css['border-right'] = '0.09rem solid '+colors[items[i][j].bcolor];
                         css['line-height'] =item_height +'px';
                     }
@@ -242,7 +242,7 @@ window.foxkk = {
         element.visible = 2;
         element.item.animate({
             'opacity':0,
-        },(foxkk.duration+time)*300);
+        },(foxkk.duration+time)*250);
         time = time + 0.2;
         foxkk.fadeOut(parent,row,column-1,top,time);/*左*/
         foxkk.fadeOut(parent,row-1,column,top,time);/*上*/
@@ -323,6 +323,10 @@ window.foxkk = {
             autoplay: {
                 delay: interval,
                 disableOnInteraction: false,
+            },
+            pagination: {
+                el: nav,
+                clickable: false,
             }
         });
         return this;
