@@ -55,6 +55,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .cover {
     position:relative;
     background: rgb(27,3,3);;
+    border-bottom: 1rem solid rgb(35,33,29);
 }
 .cover > .item {
     position: absolute;
@@ -112,10 +113,10 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 }
 .container > div > .header > span {
     display:inline-block;
-    width:30%;
+    width:22%;
     height:3rem;
     line-height:3rem;
-    font-size:1.5rem;
+    font-size:1.2rem;
     font-weight:700;
     text-align: center; /*rgb(203,75,108)*/
     color: rgb(52,12,3);
