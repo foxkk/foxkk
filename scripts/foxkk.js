@@ -13,7 +13,7 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().initScroll().initResize().initResume().initMask('.mask',8).fullScreen('.cover').initCover('.cover').delay(3);//
+    foxkk.init().swiper('.swiper-container','.swiper-pagination').initScroll().initResize().initResume().initMask('.mask',8).fullScreen('.cover').initCover('.cover').delay(3);//
 });
 window.foxkk = {
     'top':0,
@@ -310,6 +310,17 @@ window.foxkk = {
             foxkk.flag = true;
             window.clearTimeout(hander);
         },interval*1000);
+        return this;
+    },
+    'swiper':function(swiper,nav){
+        var swiper = new Swiper(swiper, {
+            autoHeight: true, //enable auto height
+            spaceBetween: 0,
+            pagination: {
+                el:nav,
+                clickable: true,
+            }
+        });
         return this;
     },
     '' : function(){

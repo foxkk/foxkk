@@ -12,7 +12,13 @@
  * +----------------------------------------------------------------------
  **/
 /*basic reset css*/
-*, html, body, div, span {  margin:0; padding:0; box-sizing: border-box; }
+*, html, body, div, span {
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 html {  font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif; }
 img { display:block; border:0; }
 ul,ol,li{ list-style: none; margin:0; padding:0; }
@@ -93,7 +99,124 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     -o-animation: jump_down linear 4s 4s infinite alternate ;
     animation: jump_down linear 4s 4s infinite alternate ;
 }
-
+.container > div > .header {
+    font-size: 1.1rem;
+    width:100%;
+    height:3rem;
+    line-height:4.2rem;
+    font-weight:600;
+    background:rgb(5,2,4);
+}
+.container > div > .content {
+    margin-top: 0.5rem;
+}
+.container > div > .header > p {
+    display:inline-block;
+    width:2rem;
+    height:2rem;
+    line-height:1.8rem;
+    font-size:1.5rem;
+    font-weight:700;
+    text-align: center; /*rgb(203,75,108)*/
+}
+.container > div:nth-child(4n) > .header {
+    border-bottom:0.09rem solid rgb(211,73,50);
+    color:rgb(189,214,57);
+}
+.container > div:nth-child(4n) > .header > p {
+    color: rgb(211,73,50);
+    border-bottom:0.2rem solid rgb(189,214,57);
+}
+.container > div:nth-child(4n+1) > .header {
+    border-bottom:0.09rem solid rgb(189,214,57);
+    color:rgb(72,192,234);
+}
+.container > div:nth-child(4n+1) > .header > p {
+    color: rgb(211,73,50);
+    border-bottom:0.2rem solid rgb(72,192,234);
+}
+.container > div:nth-child(4n+2) > .header {
+    border-bottom:0.09rem solid rgb(72,192,234);
+    color:rgb(240,135,29);
+}
+.container > div:nth-child(4n+2) > .header > p {
+    color: rgb(72,192,234);
+    border-bottom:0.2rem solid rgb(240,135,29);
+}
+.container > div:nth-child(4n+3) > .header {
+    border-bottom:0.09rem solid rgb(240,135,29);
+    color:rgb(211,73,50);
+}
+.container > div:nth-child(4n+3) > .header > p {
+    color: rgb(240,135,29);
+    border-bottom:0.2rem solid rgb(211,73,50);
+}
+.profile .swiper-slide {
+    overflow: hidden;
+}
+.profile .swiper-slide > .tip {
+    position: absolute;
+    -webkit-transform: translate(-35%,0) rotate(-45deg);
+    -moz-transform: translate(-35%,0) rotate(-45deg);
+    -ms-transform: translate(-35%,0) rotate(-45deg);
+    -o-transform: translate(-35%,0) rotate(-45deg);
+    transform: translate(-35%,0) rotate(-45deg);
+    width:30%;
+    height:2rem;
+    line-height:2.3rem;
+    text-align: center;
+    font-size:0.9rem;
+    font-weight:500;
+    color: rgb(52,12,3);
+}
+.profile .swiper-slide:nth-child(3n) > .tip {
+    background: rgb(72,192,234);
+}
+.profile .swiper-slide:nth-child(3n+1) > .tip {
+    background: rgb(189,214,57);
+}
+.profile .swiper-slide:nth-child(3n+2) > .tip {
+    background: rgb(240,135,29);
+}
+.row_list  li {
+    width:100%;
+    min-height: 2rem;
+    line-height:2rem;
+    font-size:1rem;
+    background:rgb(35,33,29);
+    border:0.09rem solid rgb(25,19,22);
+    overflow: hidden;
+}
+.row_list  li > span {
+    display:inline-block;
+    background:rgb(35,33,29);
+}
+.row_list  li > span:nth-child(1) {
+    height:100%;
+    width:18%;
+    text-align: center;
+}
+.row_list  li > span:nth-child(2){
+    padding-left:1%;
+    width:80%;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    border-bottom-left-radius: 0.15rem;
+    border-top-left-radius:  0.15rem;
+}
+.row_list  li:nth-child(4n) > span:nth-child(2){
+    border-left:0.15rem solid rgb(230,111,27);
+}
+.row_list  li:nth-child(4n+1) > span:nth-child(2){
+    border-left:0.15rem solid rgb(72,192,234);
+}
+.row_list  li:nth-child(4n+2) > span:nth-child(2){
+    border-left:0.15rem solid rgb(211,73,50);
+}
+.row_list  li:nth-child(4n+3) > span:nth-child(2){
+    border-left:0.15rem solid rgb(189,214,57);
+}
 @-webkit-keyframes jump_down {
     0% {
         -webkit-transform: scale(0.9);
