@@ -67,7 +67,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     left:0;
     margin:auto;
     display:inline-block;
-    font-size:1rem;
+    font-size:1.2rem;
 }
 .cover > .item.resume > span {
     border-radius: 50%;
@@ -81,7 +81,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     -ms-transform: scale(0.9);
     -o-transform: scale(0.9);
     transform: scale(0.9);
-    font-size:1.2rem;
+    font-size:1.5rem;
 }
 /**animation section*/
 .cover > .jump_up > span {
@@ -152,6 +152,9 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 }
 .profile .swiper-slide {
     overflow: hidden;
+}
+.profile .swiper-slide > img {
+    width:100%;
 }
 .profile .swiper-slide > .tip {
     position: absolute;
