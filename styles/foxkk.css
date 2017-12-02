@@ -111,7 +111,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .container > div > .content {
     margin-top: 0.5rem;
 }
-.container > div > .header > p {
+.container > div > .header > span {
     display:inline-block;
     width:2rem;
     height:2rem;
@@ -124,7 +124,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-bottom:0.09rem solid rgb(211,73,50);
     color:rgb(189,214,57);
 }
-.container > div:nth-child(4n) > .header > p {
+.container > div:nth-child(4n) > .header > span {
     color: rgb(211,73,50);
     border-bottom:0.2rem solid rgb(189,214,57);
 }
@@ -132,7 +132,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-bottom:0.09rem solid rgb(189,214,57);
     color:rgb(72,192,234);
 }
-.container > div:nth-child(4n+1) > .header > p {
+.container > div:nth-child(4n+1) > .header > span {
     color: rgb(211,73,50);
     border-bottom:0.2rem solid rgb(72,192,234);
 }
@@ -140,7 +140,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-bottom:0.09rem solid rgb(72,192,234);
     color:rgb(240,135,29);
 }
-.container > div:nth-child(4n+2) > .header > p {
+.container > div:nth-child(4n+2) > .header > span {
     color: rgb(72,192,234);
     border-bottom:0.2rem solid rgb(240,135,29);
 }
@@ -148,7 +148,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-bottom:0.09rem solid rgb(240,135,29);
     color:rgb(211,73,50);
 }
-.container > div:nth-child(4n+3) > .header > p {
+.container > div:nth-child(4n+3) > .header > span {
     color: rgb(240,135,29);
     border-bottom:0.2rem solid rgb(211,73,50);
 }

@@ -13,7 +13,10 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().swiper('.swiper-container','.swiper-pagination').initScroll().initResize().initResume().initMask('.mask',8).fullScreen('.cover').initCover('.cover').delay(3);//
+    foxkk.init().swiper('.swiper-container','.swiper-pagination')
+        .initResize().initResume()
+        .initMask('.mask',8).fullScreen('.cover')
+        .initCover('.cover').delay(3);//
 });
 window.foxkk = {
     'top':0,
@@ -32,7 +35,6 @@ window.foxkk = {
     'min_height' : 480,
     'device_width' : 0,
     'device_height': 0,
-    'flag':false,
     'words':[
         '自信','乐观','细心','善良','诚信',
         '谈定','创新','责任','风度','帅气',
@@ -51,6 +53,7 @@ window.foxkk = {
         'rgb(9,74,110)'
     ],
     'items' : [],
+    'flag':0,
     'init' : function(){
         var html = document.documentElement;
         this.device_height = k(window).innerHeight();
@@ -159,9 +162,13 @@ window.foxkk = {
         foxkk.mask.item={};
         foxkk.mask.columns = columns || 8;
         foxkk.mask.item.width = foxkk.mask.item.height = (this.valid_width/columns).toFixed(6);
-        foxkk.mask.rows = Math.ceil(this.doc_height/foxkk.mask.item.width);
-
+        foxkk.mask.rows = Math.ceil(this.device_height/foxkk.mask.item.width);
         var p_item = k(parent);
+        k('.container').css({
+            'width':foxkk.valid_width+'px',
+            'height':foxkk.valid_height+'px',
+            'overflow':'hidden'
+        });
         p_item.html('');
         var items = new Array();
         for(var i = 0;i<foxkk.mask.rows;i++){
@@ -242,7 +249,18 @@ window.foxkk = {
         element.visible = 2;
         element.item.animate({
             'opacity':0,
-        },(foxkk.duration+time)*250);
+        },(foxkk.duration+time)*250,
+            function(){
+                foxkk.flag++;
+                if(foxkk.flag == foxkk.mask.rows * foxkk.mask.columns){
+                k('.container').css({
+                    'width':'100%',
+                    'height':'100%',
+                    'overflow':'auto'
+                });
+                k(element.item).parent().css({'display':'none'});
+            }
+        });
         time = time + 0.2;
         foxkk.fadeOut(parent,row,column-1,top,time);/*左*/
         foxkk.fadeOut(parent,row-1,column,top,time);/*上*/
@@ -265,18 +283,6 @@ window.foxkk = {
                 }
             }
         }
-    },
-    'initScroll':function(){
-        k(window).scroll(function(){
-            if(!foxkk.flag) return foxkk;
-            var position = foxkk.getFirstValidItem('.mask');
-            if(position.row != -1 ){
-                var top = k(window).scrollTop();
-                foxkk.fadeOut('.mask',position.row,position.column,top,0);
-            }
-            foxkk.fadeIn('.mask',top);
-        });
-        return this;
     },
     'getFirstValidItem':function(element){
         var top = k(document).scrollTop();
@@ -304,12 +310,7 @@ window.foxkk = {
     'delay':function(interval){
         interval = interval || 2;
         var hander = window.setTimeout(function(){
-            var position = foxkk.getFirstValidItem('.mask');
-            if(position.row != -1 ){
-                var top = k(window).scrollTop();
-                foxkk.fadeOut('.mask',position.row,position.column,top,0);
-            }
-            foxkk.flag = true;
+            foxkk.fadeOut('.mask',Math.floor(foxkk.mask.rows/2),Math.floor(foxkk.mask.columns/2),top,0);
             window.clearTimeout(hander);
         },interval*1000);
         return this;
@@ -318,23 +319,18 @@ window.foxkk = {
         interval = interval || 3000;
         var swiper = new Swiper(swiper, {
             slidesPerView: 1,
+            autoHeight: true, //enable auto height
             spaceBetween: 0,
-            centeredSlides: true,
+            loop: true,
             autoplay: {
                 delay: interval,
                 disableOnInteraction: false,
             },
             pagination: {
                 el: nav,
-                clickable: false,
+                clickable: true,
             }
         });
         return this;
-    },
-    '' : function(){
-
-    },
-    'keys' : function(object){
-
     },
 };
