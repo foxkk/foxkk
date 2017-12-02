@@ -309,7 +309,7 @@ window.foxkk = {
     'delay':function(interval){
         interval = interval || 2;
         var hander = window.setTimeout(function(){
-            foxkk.fadeOut('.mask',Math.floor(foxkk.mask.rows/2),Math.floor(foxkk.mask.columns/2),top,0);
+            foxkk.fadeOut('.mask',0,0,top,0);
             window.clearTimeout(hander);
         },interval*1000);
         return this;
