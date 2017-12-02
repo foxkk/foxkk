@@ -13,7 +13,7 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().initScroll().initResize().initResume().initMask('.mask',8).fullScreen('.cover').initCover('.cover');//
+    foxkk.init().initScroll().initResize().initResume().initMask('.mask',8).fullScreen('.cover').initCover('.cover').delay(3);//
 });
 window.foxkk = {
     'top':0,
@@ -32,6 +32,7 @@ window.foxkk = {
     'min_height' : 480,
     'device_width' : 0,
     'device_height': 0,
+    'flag':false,
     'words':[
         '自信','乐观','细心','善良','诚信',
         '谈定','创新','责任','风度','帅气',
@@ -265,6 +266,7 @@ window.foxkk = {
     },
     'initScroll':function(){
         k(window).scroll(function(){
+            if(!foxkk.flag) return foxkk;
             var position = foxkk.getFirstValidItem('.mask');
             if(position.row != -1 ){
                 var top = k(window).scrollTop();
@@ -296,6 +298,19 @@ window.foxkk = {
     },
     'initLoad' : function(container){
 
+    },
+    'delay':function(interval){
+        interval = interval || 2;
+        var hander = window.setTimeout(function(){
+            var position = foxkk.getFirstValidItem('.mask');
+            if(position.row != -1 ){
+                var top = k(window).scrollTop();
+                foxkk.fadeOut('.mask',position.row,position.column,top,0);
+            }
+            foxkk.flag = true;
+            window.clearTimeout(hander);
+        },interval*1000);
+        return this;
     },
     '' : function(){
 
