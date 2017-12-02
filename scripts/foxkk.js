@@ -240,7 +240,9 @@ window.foxkk = {
             (parseFloat(element.position.top) > parseFloat(top) + parseFloat(foxkk.device_height))
         ){return this};
         element.visible = 2;
-        element.item.animate({'opacity':0},(foxkk.duration+time)*300);
+        element.item.animate({
+            'opacity':0,
+        },(foxkk.duration+time)*300);
         time = time + 0.2;
         foxkk.fadeOut(parent,row,column-1,top,time);/*左*/
         foxkk.fadeOut(parent,row-1,column,top,time);/*上*/
