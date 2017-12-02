@@ -143,7 +143,7 @@ window.foxkk = {
                     }else{
                         if(!items[i][j].anim) items[i][j].anim ='';
                         temp = k("<div class='item "+items[i][j].anim+"'> <span style='color:"+colors[items[i][j].color]+";width: "+valid_width +"px; height: "
-                            +valid_width+"px; line-height: "+valid_width+"px;'>"+items[i][j].text+"</span></div>");
+                            +valid_width+"px; line-height: "+valid_width*0.85+"px;'>"+items[i][j].text+"</span></div>");
                         css['border-right'] = '0.09rem solid '+colors[items[i][j].bcolor];
                         css['line-height'] =item_height +'px';
                     }
@@ -314,13 +314,15 @@ window.foxkk = {
         },interval*1000);
         return this;
     },
-    'swiper':function(swiper,nav){
+    'swiper':function(swiper,nav,interval){
+        interval = interval || 3000;
         var swiper = new Swiper(swiper, {
-            autoHeight: true, //enable auto height
+            slidesPerView: 1,
             spaceBetween: 0,
-            pagination: {
-                el:nav,
-                clickable: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: interval,
+                disableOnInteraction: false,
             }
         });
         return this;

@@ -42,6 +42,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     height:100%;
     transform-style: preserve-3d;
     perspective: 75px;
+    z-index:999;
 }
 .mask > .item{
     display: inline-block;
@@ -68,6 +69,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     margin:auto;
     display:inline-block;
     font-size:1.2rem;
+    line-height:80%;
 }
 .cover > .item.resume > span {
     border-radius: 50%;
