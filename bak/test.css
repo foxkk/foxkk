@@ -13,16 +13,16 @@
  **/
 
 @-webkit-keyframes jump_down {
-    0% {
-        -webkit-transform: scale(0.9);
-    }
-    50%{
-        -webkit-transform: scale(0.6);
-    }
-    100%{
-        -webkit-transform: scale(0.9);
-    }
-}
+     0% {
+         -webkit-transform: scale(0.9);
+     }
+     50%{
+         -webkit-transform: scale(0.6);
+     }
+     100%{
+         -webkit-transform: scale(0.9);
+     }
+ }
 @-moz-keyframes jump_down {
     0% {
         -moz-transform: scale(0.9);

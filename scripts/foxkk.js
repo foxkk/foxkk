@@ -91,7 +91,7 @@ window.foxkk = {
         /*valid row=9 column=4*/
         /*15 - 8*/
         var rows = 12;
-        var columns = 8;
+        var columns = 6;
         var parent = k(element);
             parent.html('');
         var colors = ['rgb(35,33,29)','rgb(5,2,4)','rgb(205,184,206)','rgb(240,135,29)','rgb(72,192,234)','rgb(189,214,57)','rgb(255,255,255)'];
@@ -99,32 +99,33 @@ window.foxkk = {
         var item_height = (this.valid_height/rows).toFixed(6);
         var valid_width = parseFloat(item_width) > parseFloat(item_height) ? item_height : item_width;
         var offset = Math.ceil((rows - 8)/2);
+        var offsetrow = Math.ceil((columns-4)/2);
         //console.log('item_width : '+item_width +' item_height: '+item_height+' valid_width : '+valid_width);
         var items = new Array();
             for(var i = 0;i<rows;i++){
                 items[i] = new Array();
             }
-            items[offset][5]   = {'text':'求','color':6,'bcolor':2,'anim':'jump_up resume'};
-            items[offset+1][5] = {'text':'职','color':6,'bcolor':2,'anim':'resume jump_down'};
-            items[offset+2][5] = {'text':'简','color':6,'bcolor':3,'anim':'resume jump_down'};
-            items[offset+3][5] = {'text':'历','color':6,'bcolor':3,'anim':'jump_down resume'};
+            items[offset][offsetrow+3]   = {'text':'求','color':6,'bcolor':2,'anim':'jump_up resume'};
+            items[offset+1][offsetrow+3] = {'text':'职','color':6,'bcolor':2,'anim':'resume jump_down'};
+            items[offset+2][offsetrow+3] = {'text':'简','color':6,'bcolor':3,'anim':'resume jump_down'};
+            items[offset+3][offsetrow+3] = {'text':'历','color':6,'bcolor':3,'anim':'jump_down resume'};
 
-            items[offset+1][4] = {'text':'姓','color':4,'bcolor':2};
-            items[offset+2][4] = {'text':'名','color':4,'bcolor':2};
-            items[offset+3][4] = {'text':'胡','color':5,'bcolor':3};
-            items[offset+4][4] = {'text':'呈','color':5,'bcolor':3};
+            items[offset+1][offsetrow+2] = {'text':'姓','color':4,'bcolor':2};
+            items[offset+2][offsetrow+2] = {'text':'名','color':4,'bcolor':2};
+            items[offset+3][offsetrow+2] = {'text':'胡','color':5,'bcolor':3};
+            items[offset+4][offsetrow+2] = {'text':'呈','color':5,'bcolor':3};
 
-            items[offset+2][3] = {'text':'职','color':4,'bcolor':2};
-            items[offset+3][3] = {'text':'位','color':4,'bcolor':2};
-            items[offset+4][3] = {'text':'PHP','color':5,'bcolor':3};
-            items[offset+5][3] = {'text':'开','color':5,'bcolor':3};
-            items[offset+6][3] = {'text':'发','color':5,'bcolor':3};
+            items[offset+2][offsetrow+1] = {'text':'职','color':4,'bcolor':2};
+            items[offset+3][offsetrow+1] = {'text':'位','color':4,'bcolor':2};
+            items[offset+4][offsetrow+1] = {'text':'PHP','color':5,'bcolor':3};
+            items[offset+5][offsetrow+1] = {'text':'开','color':5,'bcolor':3};
+            items[offset+6][offsetrow+1] = {'text':'发','color':5,'bcolor':3};
 
-            items[offset+3][2] = {'text':'日','color':4,'bcolor':2};
-            items[offset+4][2] = {'text':'期','color':4,'bcolor':2};
-            items[offset+5][2] = {'text':'20','color':5,'bcolor':3};
-            items[offset+6][2] = {'text':'17','color':5,'bcolor':3};
-            items[offset+7][2] = {'text':'年','color':5,'bcolor':3};
+            items[offset+3][offsetrow] = {'text':'日','color':4,'bcolor':2};
+            items[offset+4][offsetrow] = {'text':'期','color':4,'bcolor':2};
+            items[offset+5][offsetrow] = {'text':'20','color':5,'bcolor':3};
+            items[offset+6][offsetrow] = {'text':'17','color':5,'bcolor':3};
+            items[offset+7][offsetrow] = {'text':'年','color':5,'bcolor':3};
             for(var i = 0; i < rows ; i++){
                 for(var j = 0 ; j< columns; j++){
                     var temp = null;
