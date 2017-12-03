@@ -146,6 +146,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .container > div:nth-child(4n+3) > .header > span {
     background: rgb(72,192,234);
 }
+
 .profile .swiper-slide {
     overflow: hidden;
 }
@@ -176,8 +177,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .profile .swiper-slide:nth-child(3n+2) > .tip {
     background: rgb(240,135,29);
 }
-
-.profile .row_list  li {
+.row_list  li {
     width:100%;
     min-height: 3rem;
     line-height:3rem;
@@ -348,6 +348,103 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     line-height:2rem;
     height:4rem;
     padding:0 0.2rem;
+}
+
+.project_item {
+    margin-bottom:0.3rem;
+    border:0.09rem solid rgb(5,0,0);
+    overflow: hidden;
+}
+.project_item > ul > li {
+    width: 100%;
+    min-height: 3rem;
+    line-height: 3rem;
+    font-size: 1rem;
+    background: rgb(35,33,29);
+    border: 0.09rem solid rgb(25,19,22);
+    overflow: hidden;
+}
+.project_item  li > span {
+    display:inline-block;
+    background:rgb(35,33,29);
+}
+.project_item  li > span:nth-child(1) {
+    height:100%;
+    width:18%;
+    text-align: center;
+}
+.project_item  li > span:nth-child(2){
+    padding-left:1%;
+    width:80%;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+.project_item  li:nth-child(4n) > span:nth-child(2){
+    border-left:0.1rem solid rgb(230,111,27);
+}
+.project_item  li:nth-child(4n+1) > span:nth-child(2){
+    border-left:0.1rem solid rgb(72,192,234);
+}
+.project_item  li:nth-child(4n+2) > span:nth-child(2){
+    border-left:0.1rem solid rgb(211,73,50);
+}
+.project_item  li:nth-child(4n+3) > span:nth-child(2){
+    border-left:0.1rem solid rgb(189,214,57);
+}
+.project_item  li:nth-child(4n) > span:nth-child(1){
+    border-right:0.1rem solid rgb(230,111,27);
+
+}
+.project_item  li:nth-child(4n+1) > span:nth-child(1){
+    border-right:0.1rem solid rgb(72,192,234);
+
+}
+.project_item  li:nth-child(4n+2) > span:nth-child(1){
+    border-right:0.1rem solid rgb(211,73,50);
+
+}
+.project_item  li:nth-child(4n+3) > span:nth-child(1){
+    border-right:0.1rem solid rgb(189,214,57);
+}
+.project_item .detail {}
+.hobby_items > li {
+    height:3rem;
+    line-height:3rem;
+    text-align: center;
+    background:rgb(35,33,29);
+    border:0.1rem solid rgb(35,33,29);
+    overflow: hidden;
+}
+.hobby_items > li > span {
+    width:30%;
+    border:0.1rem solid rgb(4,0,0);
+    display: inline-block;
+    font-weight:600;
+    color:rgb(52,12,3);
+}
+.hobby_items > li > span:nth-child(3n) {
+    background:rgb(240,135,29);
+}
+.hobby_items > li > span:nth-child(3n+1) {
+    background:rgb(72,192,234);
+}
+.hobby_items > li > span:nth-child(3n+2) {
+    background:rgb(189,214,57);
+}
+.hobby_items > li:nth-child(2n) > span{
+    -webkit-transform: skew(30deg,0);
+    -moz-transform: skew(30deg,0);
+    -ms-transform: skew(30deg,0);
+    -o-transform: skew(30deg,0);
+    transform: skew(30deg,0);
+}
+.hobby_items > li:nth-child(2n+1) > span{
+    -webkit-transform: skew(-30deg,0);
+    -moz-transform: skew(-30deg,0);
+    -ms-transform: skew(-30deg,0);
+    -o-transform: skew(-30deg,0);
+    transform: skew(-30deg,0);
 }
 
 @-webkit-keyframes jump_down {
