@@ -352,7 +352,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 
 .project_item {
     margin-bottom:0.3rem;
-    border:0.09rem solid rgb(5,0,0);
+    border:0.09rem solid rgb(35,33,29);
     overflow: hidden;
 }
 .project_item > ul > li {
