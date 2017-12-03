@@ -120,6 +120,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     font-weight:700;
     text-align: center; /*rgb(203,75,108)*/
     color: rgb(52,12,3);
+    border-bottom-right-radius:0.3rem;
 }
 .container > div:nth-child(4n) > .header {
     border-bottom:0.2rem solid rgb(189,214,57);
@@ -175,7 +176,8 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .profile .swiper-slide:nth-child(3n+2) > .tip {
     background: rgb(240,135,29);
 }
-.row_list  li {
+
+.profile .row_list  li {
     width:100%;
     min-height: 3rem;
     line-height:3rem;
@@ -214,7 +216,101 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .row_list  li:nth-child(4n+3) > span:nth-child(2){
     border-left:0.15rem solid rgb(189,214,57);
 }
-.num_list li{
+
+.education {
+    height:auto;
+}
+.education > .header{
+    margin-top:0.5rem;
+    background: rgb(5,0,0) !important;
+}
+.education > .content {
+    margin-top:0.5rem;
+}
+.school {
+    width:100%;
+    margin-top:0.3rem;
+    font-size:1.2rem;
+    text-align:center;
+    line-height:2rem;
+    background: rgb(35,33,29);
+    border: 0.09rem solid rgb(25,19,22);
+    overflow: hidden;
+}
+.school > .title {
+    position: relative;
+    width:100%;
+    line-height:3rem;
+    height:3rem;
+    background: rgb(35,33,29);
+    border-bottom: 0.09rem solid rgb(25,19,22);
+}
+.school > .title > span {
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    display:inline-block;
+}
+.school > .major {
+    height:3rem;
+    line-height:3rem;
+    width:100%;
+    background: rgb(35,33,29);
+    border-bottom: 0.09rem solid rgb(25,19,22);
+    overflow: hidden;
+}
+.school > .major > span {
+    display: inline-block;
+    width:48%;
+}
+.school > .title > span:nth-child(1) {
+    width:30%;
+    z-index:99;
+    font-weight:700;
+    background: rgb(35,33,29);
+}
+.school > .title > .line {
+    width:60%;
+    height:0.09rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border:0;
+}
+.school:nth-child(4n+1) > .title > span:nth-child(1) {
+    color:rgb(211,73,50);
+    border-top:0.1rem solid rgb(72,192,234);
+    border-bottom:0.1rem solid rgb(72,192,234);
+}
+.school:nth-child(4n+1) > .title > .line {
+    background:rgb(189,214,57);
+}
+.school:nth-child(4n+2) > .title > span:nth-child(1) {
+    color:rgb(240,135,29);
+    border-top:0.1rem solid rgb(189,214,57);
+    border-bottom:0.1rem solid rgb(189,214,57);
+}
+.school:nth-child(4n+2) > .title > .line {
+    background:rgb(72,192,234);
+}
+.school:nth-child(4n+3) > .title > span:nth-child(1) {
+    color:rgb(72,192,234);
+    border-top:0.1rem solid rgb(240,135,29);
+    border-bottom:0.1rem solid rgb(240,135,29);
+}
+.school:nth-child(4n+3) > .title > .line {
+    background:rgb(211,73,50);
+}
+.school > .main {
+    text-align: left;
+    font-size: 1.0rem;
+    padding:0.5rem;
+}
+
+.skill .num_list li{
     position:relative;
     width:100%;
     height:4rem;
