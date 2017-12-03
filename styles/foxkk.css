@@ -214,6 +214,46 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .row_list  li:nth-child(4n+3) > span:nth-child(2){
     border-left:0.15rem solid rgb(189,214,57);
 }
+.num_list li{
+    position:relative;
+    width:100%;
+    height:4rem;
+    line-height:4rem;
+    background:rgb(35,33,29);
+    border:0.09rem solid rgb(25,19,22);
+    overflow: hidden;
+}
+.num_list li >.num {
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:99;
+    width:15%;
+    font-size:1.5rem;
+    text-align: center;
+}
+.num_list li:nth-child(4n) > .num{
+    background: rgb(230,111,27);
+}
+.num_list li:nth-child(4n+1) > .num{
+    background:rgb(72,192,234);
+}
+.num_list li:nth-child(4n+2) > .num{
+    background: rgb(211,73,50);
+}
+.num_list li:nth-child(4n+3) > .num{
+    background: rgb(189,214,57);
+}
+.num_list li >.content{
+    position: absolute;
+    left:15%;
+    top:0;
+    width:84%;
+    line-height:2rem;
+    height:4rem;
+    padding:0 0.2rem;
+}
+
 @-webkit-keyframes jump_down {
     0% {
         -webkit-transform: scale(0.9);
