@@ -349,6 +349,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     line-height:2rem;
     height:4rem;
     padding:0 0.2rem;
+    word-break: break-all;
 }
 
 .project_item {
