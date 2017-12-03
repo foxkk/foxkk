@@ -311,7 +311,6 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     word-break: break-all;
 }
 
-
 .num_list li{
     position:relative;
     width:100%;
@@ -353,12 +352,12 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     word-break: break-all;
 }
 
-.project_item {
+.project_item ,.company_item{
     margin-bottom:0.3rem;
     border:0.09rem solid rgb(5,0,0);
     overflow: hidden;
 }
-.project_item > ul > li {
+.com_item > ul > li {
     width: 100%;
     min-height: 3rem;
     line-height: 3rem;
@@ -369,48 +368,56 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-right-width:0;
     overflow: hidden;
 }
-.project_item  li > span {
+.com_item  li > span {
     display:inline-block;
     background:rgb(35,33,29);
 }
-.project_item  li > span:nth-child(1) {
+.com_item  li > span:nth-child(1) {
     height:100%;
     width:18%;
     text-align: center;
 }
-.project_item  li > span:nth-child(2){
+.com_item  li > span:nth-child(2){
     padding-left:1%;
     width:80%;
     white-space: nowrap;
     word-break: keep-all;
     text-overflow: ellipsis;
 }
-.project_item  li:nth-child(4n) > span:nth-child(2){
+.com_item  li:nth-child(4n) > span:nth-child(2){
     border-left:0.1rem solid rgb(189,214,57);
 }
-.project_item  li:nth-child(4n+1) > span:nth-child(1){
+.com_item  li:nth-child(4n+1) > span:nth-child(1){
     border-right:0.1rem solid rgb(72,192,234);
 }
-.project_item  li:nth-child(4n+1) > span:nth-child(2){
+.com_item  li:nth-child(4n+1) > span:nth-child(2){
     border-left:0.1rem solid rgb(189,214,57);
 }
-.project_item  li:nth-child(4n+2) > span:nth-child(1){
+.com_item  li:nth-child(4n+2) > span:nth-child(1){
     border-right:0.1rem solid rgb(189,214,57);
 }
-.project_item  li:nth-child(4n+2) > span:nth-child(2){
+.com_item  li:nth-child(4n+2) > span:nth-child(2){
     border-left:0.1rem solid rgb(230,111,27);
 }
-.project_item  li:nth-child(4n+3) > span:nth-child(1){
+.com_item  li:nth-child(4n+3) > span:nth-child(1){
     border-right:0.1rem solid rgb(230,111,27);
 }
-.project_item  li:nth-child(4n+3) > span:nth-child(2){
+.com_item  li:nth-child(4n+3) > span:nth-child(2){
     border-left:0.1rem solid rgb(72,192,234);
 }
-.project_item  li:nth-child(4n) > span:nth-child(1){
+.com_item  li:nth-child(4n) > span:nth-child(1){
     border-right:0.1rem solid rgb(230,111,27);
 }
-.project_item  li:nth-child(4){
+.com_item  li:nth-child(4){
     height:auto;
+}
+.company_item.com_item  li:last-child > span{
+    border-width:0;
+    width:100%;
+    padding: 0.5rem;
+    text-align: left;
+    word-break: break-all;
+    line-height:2rem;
 }
 
 .hobby_items > li {
