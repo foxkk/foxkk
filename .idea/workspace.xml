@@ -112,8 +112,8 @@
           <file leaf-file-name="foxkk.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/foxkk.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="359">
-                  <caret line="312" column="0" lean-forward="true" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+                <state relative-caret-position="392">
+                  <caret line="412" column="0" lean-forward="true" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
                   <folding>
                     <element signature="e#667#796#0" expanded="false" />
                     <element signature="e#1324#1457#0" expanded="false" />
@@ -186,27 +186,22 @@
                     <element signature="e#10304#10353#0" expanded="false" />
                     <element signature="e#10405#10455#0" expanded="false" />
                     <element signature="e#10486#10506#0" expanded="false" />
-                    <element signature="e#10529#10565#0" expanded="false" />
-                    <element signature="e#10601#10678#0" expanded="false" />
-                    <element signature="e#10714#10749#0" expanded="false" />
-                    <element signature="e#10797#10842#0" expanded="false" />
-                    <element signature="e#10878#10913#0" expanded="false" />
-                    <element signature="e#10934#11091#0" expanded="false" />
-                    <element signature="e#11117#11243#0" expanded="false" />
-                    <element signature="e#11283#11318#0" expanded="false" />
-                    <element signature="e#11360#11395#0" expanded="false" />
-                    <element signature="e#11437#11472#0" expanded="false" />
-                    <element signature="e#11511#11684#0" expanded="false" />
-                    <element signature="e#11725#11903#0" expanded="false" />
-                    <element signature="e#11905#12100#0" expanded="false" />
-                    <element signature="e#12101#12284#0" expanded="false" />
-                    <element signature="e#12285#12464#0" expanded="false" />
-                    <element signature="e#12465#12640#0" expanded="false" />
-                    <element signature="e#12641#12804#0" expanded="false" />
-                    <element signature="e#12806#12980#0" expanded="false" />
-                    <element signature="e#12981#13146#0" expanded="false" />
-                    <element signature="e#13147#13313#0" expanded="false" />
-                    <element signature="e#13314#13473#0" expanded="false" />
+                    <element signature="e#10526#10683#0" expanded="false" />
+                    <element signature="e#10709#10835#0" expanded="false" />
+                    <element signature="e#10875#10910#0" expanded="false" />
+                    <element signature="e#10952#10987#0" expanded="false" />
+                    <element signature="e#11029#11064#0" expanded="false" />
+                    <element signature="e#11103#11276#0" expanded="false" />
+                    <element signature="e#11317#11495#0" expanded="false" />
+                    <element signature="e#11497#11692#0" expanded="false" />
+                    <element signature="e#11693#11876#0" expanded="false" />
+                    <element signature="e#11877#12056#0" expanded="false" />
+                    <element signature="e#12057#12232#0" expanded="false" />
+                    <element signature="e#12233#12396#0" expanded="false" />
+                    <element signature="e#12398#12572#0" expanded="false" />
+                    <element signature="e#12573#12738#0" expanded="false" />
+                    <element signature="e#12739#12905#0" expanded="false" />
+                    <element signature="e#12906#13065#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -229,8 +224,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+                <state relative-caret-position="479">
+                  <caret line="172" column="27" lean-forward="true" selection-start-line="172" selection-start-column="27" selection-end-line="172" selection-end-column="27" />
                   <folding>
                     <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -335,8 +330,8 @@
         <option value="$PROJECT_DIR$/bak/foxkk.resume.js" />
         <option value="$PROJECT_DIR$/bak/foxkk.resume.css" />
         <option value="$PROJECT_DIR$/scripts/foxkk.js" />
-        <option value="$PROJECT_DIR$/styles/foxkk.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/foxkk.css" />
       </list>
     </option>
   </component>
@@ -480,7 +475,7 @@
       <workItem from="1512131644380" duration="635000" />
       <workItem from="1512202782744" duration="25876000" />
       <workItem from="1512265037964" duration="5982000" />
-      <workItem from="1512290231141" duration="7061000" />
+      <workItem from="1512290231141" duration="7343000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -500,7 +495,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333133000" />
+    <option name="totallyTimeSpent" value="333415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="712" y="248" width="2546" height="1311" extended-state="0" />
@@ -890,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/foxkk.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="312" column="0" lean-forward="true" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        <state relative-caret-position="392">
+          <caret line="412" column="0" lean-forward="true" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
           <folding>
             <element signature="e#667#796#0" expanded="false" />
             <element signature="e#1324#1457#0" expanded="false" />
@@ -964,35 +959,30 @@
             <element signature="e#10304#10353#0" expanded="false" />
             <element signature="e#10405#10455#0" expanded="false" />
             <element signature="e#10486#10506#0" expanded="false" />
-            <element signature="e#10529#10565#0" expanded="false" />
-            <element signature="e#10601#10678#0" expanded="false" />
-            <element signature="e#10714#10749#0" expanded="false" />
-            <element signature="e#10797#10842#0" expanded="false" />
-            <element signature="e#10878#10913#0" expanded="false" />
-            <element signature="e#10934#11091#0" expanded="false" />
-            <element signature="e#11117#11243#0" expanded="false" />
-            <element signature="e#11283#11318#0" expanded="false" />
-            <element signature="e#11360#11395#0" expanded="false" />
-            <element signature="e#11437#11472#0" expanded="false" />
-            <element signature="e#11511#11684#0" expanded="false" />
-            <element signature="e#11725#11903#0" expanded="false" />
-            <element signature="e#11905#12100#0" expanded="false" />
-            <element signature="e#12101#12284#0" expanded="false" />
-            <element signature="e#12285#12464#0" expanded="false" />
-            <element signature="e#12465#12640#0" expanded="false" />
-            <element signature="e#12641#12804#0" expanded="false" />
-            <element signature="e#12806#12980#0" expanded="false" />
-            <element signature="e#12981#13146#0" expanded="false" />
-            <element signature="e#13147#13313#0" expanded="false" />
-            <element signature="e#13314#13473#0" expanded="false" />
+            <element signature="e#10526#10683#0" expanded="false" />
+            <element signature="e#10709#10835#0" expanded="false" />
+            <element signature="e#10875#10910#0" expanded="false" />
+            <element signature="e#10952#10987#0" expanded="false" />
+            <element signature="e#11029#11064#0" expanded="false" />
+            <element signature="e#11103#11276#0" expanded="false" />
+            <element signature="e#11317#11495#0" expanded="false" />
+            <element signature="e#11497#11692#0" expanded="false" />
+            <element signature="e#11693#11876#0" expanded="false" />
+            <element signature="e#11877#12056#0" expanded="false" />
+            <element signature="e#12057#12232#0" expanded="false" />
+            <element signature="e#12233#12396#0" expanded="false" />
+            <element signature="e#12398#12572#0" expanded="false" />
+            <element signature="e#12573#12738#0" expanded="false" />
+            <element signature="e#12739#12905#0" expanded="false" />
+            <element signature="e#12906#13065#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+        <state relative-caret-position="479">
+          <caret line="172" column="27" lean-forward="true" selection-start-line="172" selection-start-column="27" selection-end-line="172" selection-end-column="27" />
           <folding>
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
