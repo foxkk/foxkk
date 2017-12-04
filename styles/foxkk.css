@@ -388,25 +388,26 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-left:0.1rem solid rgb(189,214,57);
 }
 .com_item  li:nth-child(4n+1) > span:nth-child(1){
-    border-right:0.1rem solid rgb(72,192,234);
+    border-left:0.1rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n+1) > span:nth-child(2){
-    border-left:0.1rem solid rgb(189,214,57);
+    /*border-left:0.1rem solid rgb(189,214,57);*/
+    border-left:0.1rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n+2) > span:nth-child(1){
-    border-right:0.1rem solid rgb(189,214,57);
+    border-left:0.1rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n+2) > span:nth-child(2){
-    border-left:0.1rem solid rgb(230,111,27);
+    border-left:0.1rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n+3) > span:nth-child(1){
-    border-right:0.1rem solid rgb(230,111,27);
+    border-left:0.1rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n+3) > span:nth-child(2){
-    border-left:0.1rem solid rgb(72,192,234);
+    border-left:0.1rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n) > span:nth-child(1){
-    border-right:0.1rem solid rgb(230,111,27);
+    border-left:0.1rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4){
     height:auto;
