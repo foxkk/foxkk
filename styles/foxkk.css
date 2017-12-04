@@ -368,6 +368,14 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border-right-width:0;
     overflow: hidden;
 }
+.com_item:nth-child(even) {
+    border-left:0.18rem solid rgb(205,39,206);
+    border-right:0.18rem solid rgb(205,39,206);
+}
+.com_item:nth-child(odd) {
+    border-left:0.18rem solid rgb(203,75,108);
+    border-right:0.18rem solid rgb(203,75,108);
+}
 .com_item  li > span {
     display:inline-block;
     background:rgb(35,33,29);
@@ -384,30 +392,17 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     word-break: keep-all;
     text-overflow: ellipsis;
 }
-.com_item  li:nth-child(4n) > span:nth-child(2){
-    border-left:0.1rem solid rgb(189,214,57);
-}
 .com_item  li:nth-child(4n+1) > span:nth-child(1){
-    border-left:0.1rem solid rgb(25,19,22);
-}
-.com_item  li:nth-child(4n+1) > span:nth-child(2){
-    /*border-left:0.1rem solid rgb(189,214,57);*/
-    border-left:0.1rem solid rgb(25,19,22);
+    border-right:0.18rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n+2) > span:nth-child(1){
-    border-left:0.1rem solid rgb(25,19,22);
-}
-.com_item  li:nth-child(4n+2) > span:nth-child(2){
-    border-left:0.1rem solid rgb(25,19,22);
+    border-right:0.18rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n+3) > span:nth-child(1){
-    border-left:0.1rem solid rgb(25,19,22);
-}
-.com_item  li:nth-child(4n+3) > span:nth-child(2){
-    border-left:0.1rem solid rgb(25,19,22);
+    border-right:0.18rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4n) > span:nth-child(1){
-    border-left:0.1rem solid rgb(25,19,22);
+    border-right:0.18rem solid rgb(25,19,22);
 }
 .com_item  li:nth-child(4){
     height:auto;
