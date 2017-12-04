@@ -369,12 +369,12 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     overflow: hidden;
 }
 .com_item:nth-child(even) {
-    border-left:0.18rem solid rgb(205,39,206);
-    border-right:0.18rem solid rgb(205,39,206);
+    border-left:0.18rem solid rgb(217,62,93);
+    border-right:0.18rem solid rgb(217,62,93);
 }
 .com_item:nth-child(odd) {
-    border-left:0.18rem solid rgb(203,75,108);
-    border-right:0.18rem solid rgb(203,75,108);
+    border-left:0.18rem solid rgb(240,135,29);
+    border-right:0.18rem solid rgb(240,135,29);
 }
 .com_item  li > span {
     display:inline-block;
