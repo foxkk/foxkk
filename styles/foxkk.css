@@ -187,7 +187,7 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     border:0.09rem solid rgb(25,19,22);
     overflow: hidden;
 }
-.com_item > ul > li:last-child,.num_list li:last-child{
+.num_list li:last-child{
     border-bottom-width:0rem;
 }
 .row_list  li > span {
