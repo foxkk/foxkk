@@ -34,10 +34,55 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     overflow: hidden;
     color:white;
 }
-.container > div> .content{
+.container > div > .header {
+    font-size: 1.1rem;
+    width:100%;
+    height:3rem;
+    font-weight:600;
+    background:rgb(5,2,4);
+    margin-top:0.5rem;
+}
+.container > div > .content {
+    margin-top: 0.3rem;
     border-top:0.18rem solid rgb(35,33,29);
     border-bottom:0.18rem solid rgb(35,33,29);
 }
+.container > div > .header > span {
+    display:inline-block;
+    width:22%;
+    height:3rem;
+    line-height:3rem;
+    font-size:1.2rem;
+    font-weight:700;
+    text-align: center; /*rgb(203,75,108)*/
+    color: rgb(52,12,3);
+    border-bottom-right-radius:0.3rem;
+}
+.container > div:nth-child(4n) > .header {
+    border-bottom:0.2rem solid rgb(189,214,57);
+}
+.container > div:nth-child(4n) > .header > span {
+    background:rgb(189,214,57);
+}
+.container > div:nth-child(4n+1) > .header {
+    border-bottom:0.2rem solid rgb(240,135,29);
+}
+.container > div:nth-child(4n+1) > .header > span {
+    background:rgb(240,135,29);
+}
+.container > div:nth-child(4n+2) > .header {
+    border-bottom:0.2rem solid rgb(217,62,93);
+}
+.container > div:nth-child(4n+2) > .header > span {
+    background:rgb(217,62,93);
+}
+.container > div:nth-child(4n+3) > .header {
+    border-bottom:0.2rem solid rgb(72,192,234);
+}
+.container > div:nth-child(4n+3) > .header > span {
+    background: rgb(72,192,234);
+}
+
 .mask {
     position:absolute;
     width:100%;
@@ -103,52 +148,6 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     -o-animation: jump_down linear 4s 4s infinite alternate ;
     animation: jump_down linear 4s 4s infinite alternate ;
 }
-.container > div > .header {
-    font-size: 1.1rem;
-    width:100%;
-    height:3rem;
-    font-weight:600;
-    background:rgb(5,2,4);
-}
-.container > div > .content {
-    margin-top: 0.5rem;
-}
-.container > div > .header > span {
-    display:inline-block;
-    width:22%;
-    height:3rem;
-    line-height:3rem;
-    font-size:1.2rem;
-    font-weight:700;
-    text-align: center; /*rgb(203,75,108)*/
-    color: rgb(52,12,3);
-    border-bottom-right-radius:0.3rem;
-}
-.container > div:nth-child(4n) > .header {
-    border-bottom:0.2rem solid rgb(189,214,57);
-}
-.container > div:nth-child(4n) > .header > span {
-    background:rgb(189,214,57);
-}
-.container > div:nth-child(4n+1) > .header {
-    border-bottom:0.2rem solid rgb(240,135,29);
-}
-.container > div:nth-child(4n+1) > .header > span {
-    background:rgb(240,135,29);
-}
-.container > div:nth-child(4n+2) > .header {
-    border-bottom:0.2rem solid rgb(217,62,93);
-}
-.container > div:nth-child(4n+2) > .header > span {
-    background:rgb(217,62,93);
-}
-.container > div:nth-child(4n+3) > .header {
-    border-bottom:0.2rem solid rgb(72,192,234);
-}
-.container > div:nth-child(4n+3) > .header > span {
-    background: rgb(72,192,234);
-}
-
 .profile .swiper-slide {
     overflow: hidden;
 }
@@ -187,6 +186,9 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     background:rgb(35,33,29);
     border:0.09rem solid rgb(25,19,22);
     overflow: hidden;
+}
+.com_item > ul > li:last-child,.num_list li:last-child{
+    border-bottom-width:0rem;
 }
 .row_list  li > span {
     display:inline-block;
