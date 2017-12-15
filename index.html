@@ -9,9 +9,28 @@
     <meta name="format-detection" content="telephone-no"/>
     <meta name="format-detection" content="email-no"/>
     <link rel="stylesheet" type="text/css" href="./styles/foxkk.css"/>
+    <link rel="stylesheet/less" type="text/css" href="./styles/test.less" />
     <link rel="stylesheet" type="text/css" href="./styles/swiper.min.css"/>
     <script src="./scripts/jquery-1.11.3.js"></script>
     <script src="./scripts/swiper.min.js"></script>
+    <script type="text/javascript">
+        window.less = {
+            env: "development",
+            logLevel: 2,
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false,
+            globalVars: {
+                var1: '"string value"',
+                var2: 'regular value'
+            },
+           // rootpath: ":/a.com/"
+        };
+    </script>
+    <script src="./scripts/less.js"></script>
     <script src="./scripts/foxkk.js"></script>
     <meta name="viewport"
           content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>

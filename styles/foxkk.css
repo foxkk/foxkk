@@ -34,6 +34,10 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     overflow: hidden;
     color:white;
 }
+.container > div> .content{
+    border-top:0.18rem solid rgb(35,33,29);
+    border-bottom:0.18rem solid rgb(35,33,29);
+}
 .mask {
     position:absolute;
     width:100%;
@@ -218,16 +222,12 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
 .education {
     height:auto;
 }
-.education > .header{
-    margin-top:0.5rem;
-    background: rgb(5,0,0) !important;
-}
 .education > .content {
     margin-top:0.5rem;
 }
 .school {
     width:100%;
-    margin-top:0.3rem;
+    margin-bottom:0.3rem;
     font-size:1.2rem;
     text-align:center;
     line-height:2rem;
@@ -354,6 +354,10 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     margin-bottom:0.3rem;
     border:0.09rem solid rgb(5,0,0);
     overflow: hidden;
+    border:0.18rem solid rgb(35,33,29);
+}
+.project_item:last-child,.company_item:last-child,.school:last-child{
+    margin-bottom:0rem;
 }
 .com_item > ul > li {
     width: 100%;
@@ -412,6 +416,10 @@ a:link,a:visited,a:hover,a:active { text-decoration:none; display:inline-block; 
     text-align: left;
     word-break: break-all;
     line-height:2rem;
+}
+.project_item .num_list li>.num{
+    background: rgb(35,33,29);
+    border-right:0.09rem solid rgb(5,0,0);
 }
 
 .hobby_items > li {
