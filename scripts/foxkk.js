@@ -92,7 +92,7 @@ window.foxkk = {
         return this;
     },
     'initCover':function(element){
-
+        this.elements[this.prefix+element] =[];
         /*valid row=9 column=4*/
         /*15 - 8*/
         var rows = 10;
@@ -110,10 +110,10 @@ window.foxkk = {
             for(var i = 0;i<rows;i++){
                 items[i] = new Array();
             }
-            items[offset][offsetrow+3]   = {'text':'求','color':6,'bcolor':2,'anim':'jump_up resume'};
-            items[offset+1][offsetrow+3] = {'text':'职','color':6,'bcolor':2,'anim':'resume jump_down'};
-            items[offset+2][offsetrow+3] = {'text':'简','color':6,'bcolor':3,'anim':'resume jump_down'};
-            items[offset+3][offsetrow+3] = {'text':'历','color':6,'bcolor':3,'anim':'jump_down resume'};
+            items[offset][offsetrow+3]   = {'text':'求','color':6,'bcolor':2,};
+            items[offset+1][offsetrow+3] = {'text':'职','color':6,'bcolor':2,};
+            items[offset+2][offsetrow+3] = {'text':'简','color':6,'bcolor':3,};
+            items[offset+3][offsetrow+3] = {'text':'历','color':6,'bcolor':3,};
 
             items[offset+1][offsetrow+2] = {'text':'姓','color':4,'bcolor':2};
             items[offset+2][offsetrow+2] = {'text':'名','color':4,'bcolor':2};
