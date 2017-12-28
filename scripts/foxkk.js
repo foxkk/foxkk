@@ -20,6 +20,12 @@ k(document).ready(function(){
         .fullScreen('.cover')
         .swiper('.swiper-container','.swiper-pagination')
         .initCover('.cover').delay(3);//
+=======
+        .initResize().initResume()
+        .initMask('.mask',8).fullScreen('.cover')
+        .initCover('.cover').delay(3)
+        .swiper('.swiper-container','.swiper-pagination');//
+>>>>>>> d6c739965dd080bda8c7936e4ad92667e69df569
 });
 window.foxkk = {
     'top':0,
