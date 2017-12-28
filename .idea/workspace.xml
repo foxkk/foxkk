@@ -50,23 +50,23 @@
           <file leaf-file-name="foxkk.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="633">
-                  <caret line="331" column="26" lean-forward="true" selection-start-line="331" selection-start-column="26" selection-end-line="331" selection-end-column="26" />
+                <state relative-caret-position="224">
+                  <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
                   <folding>
-                    <element signature="e#1295#1495#0" expanded="false" />
-                    <element signature="e#1510#1890#0" expanded="false" />
-                    <element signature="e#1947#2583#0" expanded="false" />
-                    <element signature="e#2614#3070#0" expanded="false" />
-                    <element signature="e#3108#3252#0" expanded="false" />
-                    <element signature="e#3291#3581#0" expanded="false" />
-                    <element signature="e#3410#3505#0" expanded="false" />
-                    <element signature="e#3616#7176#0" expanded="false" />
-                    <element signature="e#4480#4535#0" expanded="false" />
-                    <element signature="e#7219#10519#0" expanded="false" />
-                    <element signature="e#12666#13392#0" expanded="false" />
-                    <element signature="e#13430#13438#0" expanded="false" />
-                    <element signature="e#13470#13696#0" expanded="false" />
-                    <marker date="1514467305412" expanded="true" signature="6613:6763" ph="..." />
+                    <marker date="1514467460035" expanded="false" signature="1299:1499" ph="[...]" />
+                    <marker date="1514467460035" expanded="false" signature="1514:1894" ph="[...]" />
+                    <marker date="1514467460035" expanded="false" signature="1951:2587" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="2618:3074" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="3112:3256" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="3295:3585" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="3414:3509" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="3620:7180" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="4484:4539" ph="{...}" />
+                    <marker date="1514467460035" expanded="true" signature="6617:6767" ph="..." />
+                    <marker date="1514467460035" expanded="false" signature="7223:10523" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="12670:13396" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="13434:13442" ph="{...}" />
+                    <marker date="1514467460035" expanded="false" signature="13474:13700" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -261,7 +261,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="469" />
     <option name="y" value="443" />
     <option name="width" value="1942" />
@@ -395,7 +395,7 @@
       <workItem from="1513140918964" duration="697000" />
       <workItem from="1513315497162" duration="2029000" />
       <workItem from="1513329576622" duration="10001000" />
-      <workItem from="1514467188105" duration="123000" />
+      <workItem from="1514467188105" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="jiben xinxninx">
       <created>1510216335283</created>
@@ -415,10 +415,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365741000" />
+    <option name="totallyTimeSpent" value="365893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -848,23 +848,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/foxkk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="331" column="26" lean-forward="true" selection-start-line="331" selection-start-column="26" selection-end-line="331" selection-end-column="26" />
+        <state relative-caret-position="224">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="e#1295#1495#0" expanded="false" />
-            <element signature="e#1510#1890#0" expanded="false" />
-            <element signature="e#1947#2583#0" expanded="false" />
-            <element signature="e#2614#3070#0" expanded="false" />
-            <element signature="e#3108#3252#0" expanded="false" />
-            <element signature="e#3291#3581#0" expanded="false" />
-            <element signature="e#3410#3505#0" expanded="false" />
-            <element signature="e#3616#7176#0" expanded="false" />
-            <element signature="e#4480#4535#0" expanded="false" />
-            <element signature="e#7219#10519#0" expanded="false" />
-            <element signature="e#12666#13392#0" expanded="false" />
-            <element signature="e#13430#13438#0" expanded="false" />
-            <element signature="e#13470#13696#0" expanded="false" />
-            <marker date="1514467305412" expanded="true" signature="6613:6763" ph="..." />
+            <marker date="1514467460035" expanded="false" signature="1299:1499" ph="[...]" />
+            <marker date="1514467460035" expanded="false" signature="1514:1894" ph="[...]" />
+            <marker date="1514467460035" expanded="false" signature="1951:2587" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="2618:3074" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="3112:3256" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="3295:3585" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="3414:3509" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="3620:7180" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="4484:4539" ph="{...}" />
+            <marker date="1514467460035" expanded="true" signature="6617:6767" ph="..." />
+            <marker date="1514467460035" expanded="false" signature="7223:10523" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="12670:13396" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="13434:13442" ph="{...}" />
+            <marker date="1514467460035" expanded="false" signature="13474:13700" ph="{...}" />
           </folding>
         </state>
       </provider>
