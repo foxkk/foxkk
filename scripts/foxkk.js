@@ -13,9 +13,12 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().swiper('.swiper-container','.swiper-pagination')
-        .initResize().initResume()
-        .initMask('.mask',8).fullScreen('.cover')
+    foxkk.init()
+        .initResize()
+        .initResume()
+        .initMask('.mask',8)
+        .fullScreen('.cover')
+        .swiper('.swiper-container','.swiper-pagination')
         .initCover('.cover').delay(3);//
 });
 window.foxkk = {
@@ -314,9 +317,9 @@ window.foxkk = {
         },interval*1000);
         return this;
     },
-    'swiper':function(swiper,nav,interval){
+    'initSwiper':function(swiper01,nav01,interval){
         interval = interval || 3000;
-        var swiper = new Swiper(swiper, {
+        var swiper = new Swiper(swiper01, {
             slidesPerView: 1,
             autoHeight: true, //enable auto height
             spaceBetween: 0,
@@ -326,7 +329,7 @@ window.foxkk = {
                 disableOnInteraction: false,
             },
             pagination: {
-                el: nav,
+                el: nav01,
                 clickable: true,
             }
         });
