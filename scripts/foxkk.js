@@ -13,10 +13,11 @@
  **/
 k = jQuery.noConflict();
 k(document).ready(function(){
-    foxkk.init().swiper('.swiper-container','.swiper-pagination')
+    foxkk.init()
         .initResize().initResume()
         .initMask('.mask',8).fullScreen('.cover')
-        .initCover('.cover').delay(3);//
+        .initCover('.cover').delay(3)
+        .swiper('.swiper-container','.swiper-pagination');//
 });
 window.foxkk = {
     'top':0,
