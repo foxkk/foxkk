@@ -18,7 +18,6 @@ k(document).ready(function(){
         .initResume()
         .initMask('.mask',8)
         .fullScreen('.cover')
-        .swiper('.swiper-container','.swiper-pagination')
         .initCover('.cover').delay(3)
         .initSwiper('.swiper-container','.swiper-pagination');//
 });
